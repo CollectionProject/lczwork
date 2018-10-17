@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AC521x" />
+		<Option pch_mode="2" />
+		<Option compiler="pi32v2_lto_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="cpu/AC521x/tools/main.or32" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="pi32v2_lto_compiler" />
+				<Option projectIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-target pi32v2 -Oz -mllvm -pi32v2-merge-max-offset=4096" />
+					<Add option="-flto" />
+					<Add option="-mllvm -pi32v2-large-program" />
+					<Add option="-Wuninitialized" />
+					<Add option="-Wno-invalid-noreturn" />
+					<Add option="-DUSE_RTOS" />
+					<Add option="-D_POSIX_SOURCE" />
+					<Add option="-DCONFIG_USE_RTOS" />
+					<Add option="-DCONFIG_CHRDEV" />
+					<Add option="-DCONFIG_DEBUG" />
+					<Add option="-DCONFIG_VFS" />
+					<Add option="-DCONFIG_FREE_RTOS_ENABLE" />
+					<Add option="-DFS_VERSION=0x020001" />
+					<Add option="-DFATFS_VERSION=0x020101" />
+					<Add option="-DSDFILE_VERSION=0x020000" />
+					<Add option="-DDEVFS_VERSION=0x020000" />
+					<Add option="-DRAMFS_VERSION=0x010000" />
+					<Add option="-DAUDIO_SERVER_VERSION=0x020000" />
+					<Add option="-DSERVER_CORE_VERSION=0x020000" />
+					<Add option="-DUI_SERVER_VERSION=0x020002" />
+					<Add option="-DUSB_SERVER_VERSION=0x030200" />
+					<Add option="-DVIDEO_DEC_SERVER_VERSION=0x020001" />
+					<Add option="-DVIDEO_REC_SERVER_VERSION=0x020102" />
+					<Add option="-DVIDEO_UNPKG_SERVER_VERSION=0x020000" />
+					<Add option="-DVIDEO_ENGINE_SERVER_VERSION=0x020001" />
+					<Add option="-DVIDEO_PKG_SERVER_VERSION=0x020000" />
+					<Add option="-DCPU_VERSION=0x030200" />
+					<Add option="-DDEV_ISP_VERSION=0x030000" />
+					<Add option="-DDEV_AUDIO_VERSION=0x020000" />
+					<Add option="-DDEV_VIDEO_ENGINE_VERSION=0x020000" />
+					<Add option="-DDEV_SD0_VERSION=0x020000" />
+					<Add option="-DDEV_SD1_VERSION=0x020000" />
+					<Add option="-DDEV_SD2_VERSION=0x020000" />
+					<Add option="-DDEV_USB_VERSION=0x040000" />
+					<Add option="-DDEV_VIDEO_VERSION=0x020100" />
+					<Add option="-DMALLOC_VERSION=0x020000" />
+					<Add option="-DRTOS_VERSION=0x020000" />
+					<Add option="-DSYS_VERSION=0x020001" />
+					<Add option="-DUPGRADE_VERSION=0x030100" />
+					<Add option="-DMP3_DEC_VERSION=0x010000" />
+					<Add option="-DMP3_ENC_VERSION=0x010000" />
+					<Add option="-DWMA_DEC_VERSION=0x010000" />
+					<Add option="-DWMA_ENC_VERSION=0x010000" />
+					<Add option="-DM4A_DEC_VERSION=0x010000" />
+					<Add option="-DM4A_ENC_VERSION=0x010000" />
+					<Add option="-DWAV_DEC_VERSION=0x010000" />
+					<Add option="-DWAV_ENC_VERSION=0x010000" />
+					<Add option="-DAAC_DEC_VERSION=0x010000" />
+					<Add option="-DAAC_ENC_VERSION=0x010000" />
+					<Add option="-DDUER_SDK_VERSION=0x030000" />
+					<Add option="-DSPEEX_ENC_VERSION=0x010000" />
+					<Add option="-DAMR_DEC_VERSION=0x010000" />
+					<Add option="-DAMR_ENC_VERSION=0x010000" />
+					<Add option="-DLED_UI_SERVER_VERSION=0x010000" />
+					<Add option="-DUPGRADE_SERVER_VERSION=0x010000" />
+					<Add option="-DWECHAT_SDK_VERSION=0x030000" />
+					<Add option="-DWECHAT_SERVER_VERSION=0x30000" />
+					<Add option="-DTURING_WECHAT_SDK_VERSION=0x030000" />
+					<Add option="-DTURING_WECHAT_SERVER_VERSION=0x30000" />
+					<Add option="-DTURING_SDK_VERSION=0x30000" />
+					<Add directory="app" />
+					<Add directory="app/wifi_story_machine/include" />
+					<Add directory="app/net/include" />
+					<Add directory="include_lib" />
+					<Add directory="include_lib/ui" />
+					<Add directory="include_lib/system" />
+					<Add directory="include_lib/system/generic" />
+					<Add directory="include_lib/system/device" />
+					<Add directory="include_lib/system/fs" />
+					<Add directory="include_lib/system/cpu/AC521x" />
+					<Add directory="include_lib/net" />
+					<Add directory="include_lib/net/server" />
+					<Add directory="include_lib/net/wifi_module" />
+					<Add directory="include_lib/net/device" />
+					<Add directory="include_lib/net/device/eth" />
+					<Add directory="include_lib/net/hostapdandwpa_supplicant" />
+					<Add directory="include_lib/net/lwip/src/include" />
+					<Add directory="include_lib/net/lwip/port" />
+					<Add directory="include_lib/net/lwip/app" />
+					<Add directory="include_lib/net/lwip/app/ctp" />
+					<Add directory="include_lib/net/lwip/app/cdp" />
+					<Add directory="/opt/pi32v2/include" />
+				</Compiler>
+				<Linker>
+					<Add option="--start-group" />
+					<Add option="include_lib/liba/AC521x/rtos.a" />
+					<Add option="include_lib/liba/AC521x/sd1.a" />
+					<Add option="include_lib/liba/AC521x/ascii.a" />
+					<Add option="include_lib/liba/AC521x/res.a" />
+					<Add option="include_lib/liba/AC521x/fs.a" />
+					<Add option="include_lib/liba/AC521x/upgrade.a" />
+					<Add option="include_lib/liba/AC521x/rs_ecc.a" />
+					<Add option="include_lib/liba/AC521x/server.a" />
+					<Add option="include_lib/liba/AC521x/led_ui_server.a" />
+					<Add option="include_lib/liba/AC521x/vm.a" />
+					<Add option="include_lib/liba/AC521x/audio_server.a" />
+					<Add option="include_lib/liba/AC521x/mp3_dec_lib.a" />
+					<Add option="include_lib/liba/AC521x/m4a_dec_lib.a" />
+					<Add option="include_lib/liba/AC521x/wav_dec_lib.a" />
+					<Add option="include_lib/liba/AC521x/wma_dec_lib.a" />
+					<Add option="include_lib/liba/AC521x/amr_dec_lib.a" />
+					<Add option="include_lib/liba/AC521x/amr_enc_lib.a" />
+					<Add option="include_lib/liba/AC521x/speex_enc_lib.a" />
+					<Add option="include_lib/liba/AC521x/cpu_vm_icache.a" />
+					<Add option="--whole-archive" />
+					<Add option="include_lib/liba/AC521x/cpu.a" />
+					<Add option="include_lib/liba/AC521x/dev.a" />
+					<Add option="include_lib/liba/AC521x/audio_dev.a" />
+					<Add option="include_lib/liba/AC521x/sys.a" />
+					<Add option="include_lib/liba/AC521x/mm.a" />
+					<Add option="include_lib/liba/AC521x/wifi_dev.a" />
+					<Add option="--no-whole-archive" />
+					<Add option="include_lib/liba/AC521x/printf.a" />
+					<Add option="include_lib/liba/AC521x/lbuf.a" />
+					<Add option="include_lib/liba/AC521x/cbuf.a" />
+					<Add option="include_lib/liba/AC521x/mbedtls.a" />
+					<Add option="include_lib/liba/AC521x/iperf.a" />
+					<Add option="include_lib/liba/AC521x/lwip.a" />
+					<Add option="include_lib/liba/AC521x/common_lib.a" />
+					<Add option="include_lib/liba/AC521x/sdio_card.a" />
+					<Add option="include_lib/liba/AC521x/hostapd_and_wpasupplicant.a" />
+					<Add option="include_lib/liba/AC521x/rtl8189e.a" />
+					<Add option="include_lib/liba/AC521x/hsm.a" />
+					<Add option="include_lib/liba/AC521x/http_cli.a" />
+					<Add option="include_lib/liba/AC521x/http_server.a" />
+					<Add option="include_lib/liba/AC521x/json.a" />
+					<Add option="include_lib/liba/AC521x/lib_mqtt.a" />
+					<Add option="include_lib/liba/AC521x/libduer-device.a" />
+					<Add option="include_lib/liba/AC521x/network_download.a" />
+					<Add option="include_lib/liba/AC521x/jieli_net.a" />
+					<Add option="include_lib/liba/AC521x/libturing.a" />
+					<Add option="include_lib/liba/AC521x/libmpeg.a" />
+					<Add option="include_lib/liba/AC521x/libMultSine_Control.a" />
+					<Add option="include_lib/liba/AC521x/ai_server.a" />
+					<Add option="include_lib/liba/AC521x/zliblite.a" />
+					<Add option="include_lib/liba/AC521x/libc.a" />
+					<Add option="include_lib/liba/AC521x/libm.a" />
+					<Add option="--end-group" />
+					<Add option="-Map=map.txt" />
+					<Add option="--plugin-opt=-inline-threshold=10" />
+					<Add option="--plugin-opt=-enable-ipra=true" />
+					<Add option="--plugin-opt=-pi32v2-always-use-itblock" />
+					<Add option="--plugin-opt=-pi32v2-merge-max-offset=4096" />
+					<Add option="--plugin-opt=-global-merge-on-const" />
+					<Add option="--plugin-opt=-pi32v2-large-program" />
+					<Add option="--plugin-opt=-mattr=+simd" />
+					<Add option="--plugin-opt=save-temps" />
+					<Add option="-T./cpu/AC521x/ram.ld" />
+				</Linker>
+				<ExtraCommands>
+					<Add before="$compiler $includes -E -D__LD__ -P cpu/AC521x/ram.c -o cpu/AC521x/ram.ld" />
+					<Add after="下载代码.bat" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dv10_example" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="pi32v2_lto_compiler" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-g" />
+					<Add option="-Wall" />
+					<Add option="-target pi32-unkown-unkown-unkown" />
+					<Add option="-integrated-as" />
+					<Add option="-mllvm -inline-threshold=1" />
+					<Add option="-mllvm -pi32-memreg-opt" />
+					<Add directory="C:/JL/pi32/include" />
+					<Add directory="C:/JL/pi32/libc/include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="./" />
+		</Compiler>
+		<Unit filename="app/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/flash_write_protect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/net/wifi-tools/RTL_PHY_REG_PG.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/net/wifi-tools/ap_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/net/wifi-tools/iperf_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/net/wifi-tools/rtw_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/net/wifi-tools/uaputl_conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/net/wifi-tools/voiceprint_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/sd_speed_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/app_database.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/app_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/app_music.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/device_mount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/include/action.h" />
+		<Unit filename="app/wifi_story_machine/include/ani_style.h" />
+		<Unit filename="app/wifi_story_machine/include/app_config.h" />
+		<Unit filename="app/wifi_story_machine/include/app_database.h" />
+		<Unit filename="app/wifi_story_machine/include/app_music.h" />
+		<Unit filename="app/wifi_story_machine/include/board.h" />
+		<Unit filename="app/wifi_story_machine/include/cpu_config.h" />
+		<Unit filename="app/wifi_story_machine/include/key_voice.h" />
+		<Unit filename="app/wifi_story_machine/include/led_eyes.h" />
+		<Unit filename="app/wifi_story_machine/include/main.h" />
+		<Unit filename="app/wifi_story_machine/include/net_config.h" />
+		<Unit filename="app/wifi_story_machine/include/res.h" />
+		<Unit filename="app/wifi_story_machine/include/res_ver.h" />
+		<Unit filename="app/wifi_story_machine/include/storage_device.h" />
+		<Unit filename="app/wifi_story_machine/include/style.h" />
+		<Unit filename="app/wifi_story_machine/include/upgrade_style.h" />
+		<Unit filename="app/wifi_story_machine/include/video_music.h" />
+		<Unit filename="app/wifi_story_machine/led_ui/led_ui_gr202.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/mqtt_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/turing_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/turing_mqtt_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/upgrade.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="app/wifi_story_machine/wifi_app_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/adkey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/board/board_5213B_wifi_story.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/board/board_GR202.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/board/board_GR202_2M.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/iokey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/ldo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/power_inf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cpu/AC521x/setup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="0" serial_baud="115200" ip_address="127.0.0.1" ip_port="9999" />
+				</remote_debugging>
+				<remote_debugging target="Debug">
+					<options conn_type="0" serial_baud="115200" ip_address="127.0.0.1" ip_port="1234" />
+				</remote_debugging>
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

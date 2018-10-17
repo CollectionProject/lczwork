@@ -1,0 +1,1364 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+Arabic	./include_lib/ui/font/language_list.h	25;"	d	language:C++
+CTRL_TYPE_ANIMATION	./include_lib/ui/ui/control.h	21;"	d	language:C++
+CTRL_TYPE_BATTERY	./include_lib/ui/ui/control.h	17;"	d	language:C++
+CTRL_TYPE_BROWSER	./include_lib/ui/ui/control.h	42;"	d	language:C++
+CTRL_TYPE_BROWSER_ITEM	./include_lib/ui/ui/control.h	43;"	d	language:C++
+CTRL_TYPE_BUTTON	./include_lib/ui/ui/control.h	15;"	d	language:C++
+CTRL_TYPE_CAMERA_VIEW	./include_lib/ui/ui/control.h	19;"	d	language:C++
+CTRL_TYPE_FILE_ATTRS	./include_lib/ui/ui/control.h	45;"	d	language:C++
+CTRL_TYPE_FILE_CREATE_TIME	./include_lib/ui/ui/control.h	52;"	d	language:C++
+CTRL_TYPE_FILE_FILM_LEN	./include_lib/ui/ui/control.h	49;"	d	language:C++
+CTRL_TYPE_FILE_NAME	./include_lib/ui/ui/control.h	50;"	d	language:C++
+CTRL_TYPE_FILE_PREVIEW	./include_lib/ui/ui/control.h	46;"	d	language:C++
+CTRL_TYPE_FILE_RW_PIC	./include_lib/ui/ui/control.h	48;"	d	language:C++
+CTRL_TYPE_FILE_SIZE	./include_lib/ui/ui/control.h	51;"	d	language:C++
+CTRL_TYPE_FILE_TYPE_ICON	./include_lib/ui/ui/control.h	47;"	d	language:C++
+CTRL_TYPE_GRID	./include_lib/ui/ui/control.h	13;"	d	language:C++
+CTRL_TYPE_LAYER	./include_lib/ui/ui/control.h	12;"	d	language:C++
+CTRL_TYPE_LAYOUT	./include_lib/ui/ui/control.h	11;"	d	language:C++
+CTRL_TYPE_LIST	./include_lib/ui/ui/control.h	14;"	d	language:C++
+CTRL_TYPE_PIC	./include_lib/ui/ui/control.h	16;"	d	language:C++
+CTRL_TYPE_PLAYER	./include_lib/ui/ui/control.h	22;"	d	language:C++
+CTRL_TYPE_SLIDER	./include_lib/ui/ui/control.h	32;"	d	language:C++
+CTRL_TYPE_TEXT	./include_lib/ui/ui/control.h	20;"	d	language:C++
+CTRL_TYPE_TIME	./include_lib/ui/ui/control.h	18;"	d	language:C++
+CTRL_TYPE_WATCH	./include_lib/ui/ui/control.h	24;"	d	language:C++
+CTRL_TYPE_WINDOW	./include_lib/ui/ui/control.h	10;"	d	language:C++
+CTRL_WATCH_CHILD_BEGIN	./include_lib/ui/ui/control.h	25;"	d	language:C++
+CTRL_WATCH_CHILD_END	./include_lib/ui/ui/control.h	29;"	d	language:C++
+CTRL_WATCH_CHILD_HOUR	./include_lib/ui/ui/control.h	26;"	d	language:C++
+CTRL_WATCH_CHILD_MIN	./include_lib/ui/ui/control.h	27;"	d	language:C++
+CTRL_WATCH_CHILD_SEC	./include_lib/ui/ui/control.h	28;"	d	language:C++
+Chinese_Simplified	./include_lib/ui/font/language_list.h	4;"	d	language:C++
+Chinese_Traditional	./include_lib/ui/font/language_list.h	5;"	d	language:C++
+ConvertUTF16toOtherLanguage	./include_lib/ui/font/font_other_language.h	/^extern u16 ConvertUTF16toOtherLanguage(struct font_info *info, u16 utf);$/;"	p	language:C++	signature:(struct font_info *info, u16 utf)
+ConvertUTF16toSJIS	./include_lib/ui/font/font_sjis.h	/^extern u16 ConvertUTF16toSJIS(struct font_info *info, u16 utf);$/;"	p	language:C++	signature:(struct font_info *info, u16 utf)
+Czech	./include_lib/ui/font/language_list.h	16;"	d	language:C++
+DC_DATA_FORMAT_OSD16	./include_lib/ui/ui/ui_core.h	/^    DC_DATA_FORMAT_OSD16,$/;"	e	language:C++	enum:__anon13
+DC_DATA_FORMAT_OSD8	./include_lib/ui/ui/ui_core.h	/^    DC_DATA_FORMAT_OSD8,$/;"	e	language:C++	enum:__anon13
+DC_DATA_FORMAT_OSD8A	./include_lib/ui/ui/ui_core.h	/^    DC_DATA_FORMAT_OSD8A,$/;"	e	language:C++	enum:__anon13
+DC_DATA_FORMAT_YUV420	./include_lib/ui/ui/ui_core.h	/^    DC_DATA_FORMAT_YUV420,$/;"	e	language:C++	enum:__anon13
+Danish	./include_lib/ui/font/language_list.h	17;"	d	language:C++
+Dutch	./include_lib/ui/font/language_list.h	12;"	d	language:C++
+ECC_RS_API	./include_lib/upgrade/ecc_rs_api.h	/^} ECC_RS_API;$/;"	t	language:C++	typeref:struct:ecc_rs_api
+ECC_RS_STRU	./include_lib/upgrade/ecc_rs_api.h	/^} ECC_RS_STRU;$/;"	t	language:C++	typeref:struct:ecc_rs
+ELEMENT_ALIVE	./include_lib/ui/ui/ui_core.h	251;"	d	language:C++
+ELM_ACTION_HIDE	./include_lib/ui/ui/ui_core.h	/^    ELM_ACTION_HIDE = 0,$/;"	e	language:C++	enum:__anon14
+ELM_ACTION_HIGHLIGHT	./include_lib/ui/ui/ui_core.h	/^    ELM_ACTION_HIGHLIGHT,$/;"	e	language:C++	enum:__anon14
+ELM_ACTION_SHOW	./include_lib/ui/ui/ui_core.h	/^    ELM_ACTION_SHOW,$/;"	e	language:C++	enum:__anon14
+ELM_ACTION_TOGGLE	./include_lib/ui/ui/ui_core.h	/^    ELM_ACTION_TOGGLE,$/;"	e	language:C++	enum:__anon14
+ELM_CHANGE_EVENT	./include_lib/ui/ui/ui_core.h	103;"	d	language:C++
+ELM_EVENT_KEY_CLICK	./include_lib/ui/ui/ui_core.h	/^    ELM_EVENT_KEY_CLICK,$/;"	e	language:C++	enum:__anon10
+ELM_EVENT_KEY_HOLD	./include_lib/ui/ui/ui_core.h	/^    ELM_EVENT_KEY_HOLD,$/;"	e	language:C++	enum:__anon10
+ELM_EVENT_KEY_LONG	./include_lib/ui/ui/ui_core.h	/^    ELM_EVENT_KEY_LONG,$/;"	e	language:C++	enum:__anon10
+ELM_EVENT_TOUCH_DOWN	./include_lib/ui/ui/ui_core.h	/^    ELM_EVENT_TOUCH_DOWN,$/;"	e	language:C++	enum:__anon9
+ELM_EVENT_TOUCH_HOLD	./include_lib/ui/ui/ui_core.h	/^    ELM_EVENT_TOUCH_HOLD,$/;"	e	language:C++	enum:__anon9
+ELM_EVENT_TOUCH_MOVE	./include_lib/ui/ui/ui_core.h	/^    ELM_EVENT_TOUCH_MOVE,$/;"	e	language:C++	enum:__anon9
+ELM_EVENT_TOUCH_UP	./include_lib/ui/ui/ui_core.h	/^    ELM_EVENT_TOUCH_UP,$/;"	e	language:C++	enum:__anon9
+ELM_FLAG_HEAD	./include_lib/ui/ui/ui_core.h	/^    ELM_FLAG_HEAD,$/;"	e	language:C++	enum:__anon12
+ELM_FLAG_NORMAL	./include_lib/ui/ui/ui_core.h	/^    ELM_FLAG_NORMAL,$/;"	e	language:C++	enum:__anon12
+ELM_KEY_EVENT	./include_lib/ui/ui/ui_core.h	101;"	d	language:C++
+ELM_STA_HIDE	./include_lib/ui/ui/ui_core.h	/^    ELM_STA_HIDE,$/;"	e	language:C++	enum:__anon11
+ELM_STA_INITED	./include_lib/ui/ui/ui_core.h	/^    ELM_STA_INITED,$/;"	e	language:C++	enum:__anon11
+ELM_STA_PAUSE	./include_lib/ui/ui/ui_core.h	/^    ELM_STA_PAUSE,$/;"	e	language:C++	enum:__anon11
+ELM_STA_SHOW	./include_lib/ui/ui/ui_core.h	/^    ELM_STA_SHOW,$/;"	e	language:C++	enum:__anon11
+ELM_TOUCH_EVENT	./include_lib/ui/ui/ui_core.h	102;"	d	language:C++
+ENABLE_COMPRESSION	./include_lib/ui/res/quicklz.h	71;"	d	language:C++
+ENABLE_DECOMPRESSION	./include_lib/ui/res/quicklz.h	72;"	d	language:C++
+English	./include_lib/ui/font/language_list.h	8;"	d	language:C++
+FATTRS_CHILD_NUM	./include_lib/ui/ui/ui_file_attrs.h	11;"	d	language:C++
+FILE_TYPE_JPEG	./include_lib/ui/res/resfile.h	7;"	d	language:C++
+FONT_ASCII_H	./include_lib/ui/res/font_ascii.h	2;"	d	language:C++
+French	./include_lib/ui/font/language_list.h	9;"	d	language:C++
+German	./include_lib/ui/font/language_list.h	10;"	d	language:C++
+Hebrew	./include_lib/ui/font/language_list.h	21;"	d	language:C++
+Hungarian	./include_lib/ui/font/language_list.h	23;"	d	language:C++
+InitFont_OtherLanguage	./include_lib/ui/font/font_other_language.h	/^extern bool InitFont_OtherLanguage(struct font_info *info);$/;"	p	language:C++	signature:(struct font_info *info)
+InitFont_SJIS	./include_lib/ui/font/font_sjis.h	/^extern bool InitFont_SJIS(struct font_info *info);$/;"	p	language:C++	signature:(struct font_info *info)
+Italian	./include_lib/ui/font/language_list.h	11;"	d	language:C++
+Japanese	./include_lib/ui/font/language_list.h	6;"	d	language:C++
+Korean	./include_lib/ui/font/language_list.h	7;"	d	language:C++
+LAYER_H	./include_lib/ui/ui/layer.h	2;"	d	language:C++
+LAYOUT_H	./include_lib/ui/ui/layout.h	2;"	d	language:C++
+ON_CHANGE_ANIMATION_END	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_ANIMATION_END,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_FIRST_SHOW	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_FIRST_SHOW,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_HIDE	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_HIDE,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_HIGHLIGHT	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_HIGHLIGHT,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_INIT	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_INIT,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_RELEASE	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_RELEASE,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_RELEASE_PROBE	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_RELEASE_PROBE,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_SHOW	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_SHOW,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_SHOW_COMPLETED	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_SHOW_COMPLETED,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_SHOW_POST	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_SHOW_POST,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_SHOW_PROBE	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_SHOW_PROBE,$/;"	e	language:C++	enum:element_change_event
+ON_CHANGE_TRY_OPEN_DC	./include_lib/ui/ui/ui_core.h	/^    ON_CHANGE_TRY_OPEN_DC,$/;"	e	language:C++	enum:element_change_event
+PLAY_CONTROL_H	./include_lib/ui/ui/play_control.h	2;"	d	language:C++
+POSITION_ABSOLUTE	./include_lib/ui/ui/ui_core.h	/^    POSITION_ABSOLUTE = 0,$/;"	e	language:C++	enum:__anon8
+POSITION_RELATIVE	./include_lib/ui/ui/ui_core.h	/^    POSITION_RELATIVE = 1,$/;"	e	language:C++	enum:__anon8
+Polish	./include_lib/ui/font/language_list.h	18;"	d	language:C++
+Portuguese	./include_lib/ui/font/language_list.h	13;"	d	language:C++
+QLZ_COMPRESSION_LEVEL	./include_lib/ui/res/quicklz.h	27;"	d	language:C++
+QLZ_HASH_VALUES	./include_lib/ui/res/quicklz.h	58;"	d	language:C++
+QLZ_HASH_VALUES	./include_lib/ui/res/quicklz.h	61;"	d	language:C++
+QLZ_HASH_VALUES	./include_lib/ui/res/quicklz.h	64;"	d	language:C++
+QLZ_HEADER	./include_lib/ui/res/quicklz.h	2;"	d	language:C++
+QLZ_POINTERS	./include_lib/ui/res/quicklz.h	57;"	d	language:C++
+QLZ_POINTERS	./include_lib/ui/res/quicklz.h	60;"	d	language:C++
+QLZ_POINTERS	./include_lib/ui/res/quicklz.h	63;"	d	language:C++
+QLZ_PTR_64	./include_lib/ui/res/quicklz.h	69;"	d	language:C++
+QLZ_STREAMING_BUFFER	./include_lib/ui/res/quicklz.h	31;"	d	language:C++
+QLZ_VERSION_MAJOR	./include_lib/ui/res/quicklz.h	40;"	d	language:C++
+QLZ_VERSION_MINOR	./include_lib/ui/res/quicklz.h	41;"	d	language:C++
+QLZ_VERSION_REVISION	./include_lib/ui/res/quicklz.h	42;"	d	language:C++
+REGISTER_CONTROL_OPS	./include_lib/ui/ui/control.h	222;"	d	language:C++
+REGISTER_PLAY_CTRL_ON_CLICK	./include_lib/ui/ui/play_control.h	23;"	d	language:C++
+REGISTER_PLAY_CTRL_ON_HOLD	./include_lib/ui/ui/play_control.h	26;"	d	language:C++
+REGISTER_SLIDER_ON_CHANGE	./include_lib/ui/ui/slider.h	32;"	d	language:C++
+REGISTER_UI_EVENT_HANDLER	./include_lib/ui/ui/ui_core.h	346;"	d	language:C++
+REGISTER_UI_STYLE	./include_lib/ui/ui/ui_core.h	369;"	d	language:C++
+REGISTER_WINDOW_EVENT_HANDLER	./include_lib/ui/ui/window.h	30;"	d	language:C++
+RESFILE_H	./include_lib/ui/res/resfile.h	2;"	d	language:C++
+Romanian	./include_lib/ui/font/language_list.h	24;"	d	language:C++
+Russian	./include_lib/ui/font/language_list.h	19;"	d	language:C++
+SD_SEEK_CUR	./include_lib/ui/font/font_sdfs.h	12;"	d	language:C++
+SD_SEEK_SET	./include_lib/ui/font/font_sdfs.h	11;"	d	language:C++
+SLIDER_CHILD_BEGIN	./include_lib/ui/ui/control.h	34;"	d	language:C++
+SLIDER_CHILD_END	./include_lib/ui/ui/control.h	39;"	d	language:C++
+SLIDER_CHILD_NUM	./include_lib/ui/ui/ui_slider.h	11;"	d	language:C++
+SLIDER_CHILD_PERSENT_TEXT	./include_lib/ui/ui/control.h	38;"	d	language:C++
+SLIDER_CHILD_SELECTED_PIC	./include_lib/ui/ui/control.h	36;"	d	language:C++
+SLIDER_CHILD_SLIDER_PIC	./include_lib/ui/ui/control.h	37;"	d	language:C++
+SLIDER_CHILD_UNSELECT_PIC	./include_lib/ui/ui/control.h	35;"	d	language:C++
+SLIDER_H	./include_lib/ui/ui/slider.h	2;"	d	language:C++
+Spanish	./include_lib/ui/font/language_list.h	14;"	d	language:C++
+Swedish	./include_lib/ui/font/language_list.h	15;"	d	language:C++
+TextOutW_OtherLanguage	./include_lib/ui/font/font_other_language.h	/^extern u16 TextOutW_OtherLanguage(struct font_info *info, u8 *str, u16 len, u16 x, u16 y);$/;"	p	language:C++	signature:(struct font_info *info, u8 *str, u16 len, u16 x, u16 y)
+TextOutW_SJIS	./include_lib/ui/font/font_sjis.h	/^extern u16 TextOutW_SJIS(struct font_info *info, u8 *str, u16 len, u16 x, u16 y);$/;"	p	language:C++	signature:(struct font_info *info, u8 *str, u16 len, u16 x, u16 y)
+TextOut_OtherLanguage	./include_lib/ui/font/font_other_language.h	/^extern u16 TextOut_OtherLanguage(struct font_info *info, u8 *str, u16 len, u16 x, u16 y);$/;"	p	language:C++	signature:(struct font_info *info, u8 *str, u16 len, u16 x, u16 y)
+TextOut_SJIS	./include_lib/ui/font/font_sjis.h	/^extern u16 TextOut_SJIS(struct font_info *info, u8 *str, u16 len, u16 x, u16 y);$/;"	p	language:C++	signature:(struct font_info *info, u8 *str, u16 len, u16 x, u16 y)
+Thai	./include_lib/ui/font/language_list.h	22;"	d	language:C++
+Turkey	./include_lib/ui/font/language_list.h	20;"	d	language:C++
+UINT_PERSENT	./include_lib/ui/ui/slider.h	/^    UINT_PERSENT,$/;"	e	language:C++	enum:__anon7
+UI_ALIGN_CENTER	./include_lib/ui/ui/ui_core.h	/^    UI_ALIGN_CENTER,$/;"	e	language:C++	enum:ui_align
+UI_ALIGN_LEFT	./include_lib/ui/ui/ui_core.h	/^    UI_ALIGN_LEFT = 0,$/;"	e	language:C++	enum:ui_align
+UI_ALIGN_RIGHT	./include_lib/ui/ui/ui_core.h	/^    UI_ALIGN_RIGHT,$/;"	e	language:C++	enum:ui_align
+UI_BATTERY_H	./include_lib/ui/ui/ui_battery.h	2;"	d	language:C++
+UI_BROWSER_H	./include_lib/ui/ui/ui_browser.h	2;"	d	language:C++
+UI_BUTTON_H	./include_lib/ui/ui/ui_button.h	2;"	d	language:C++
+UI_CAMERA_H	./include_lib/ui/ui/ui_camera.h	2;"	d	language:C++
+UI_CONTROL_H	./include_lib/ui/ui/control.h	2;"	d	language:C++
+UI_CORE_H	./include_lib/ui/ui/ui.h	2;"	d	language:C++
+UI_CTRL_BUTTON	./include_lib/ui/ui/ui_core.h	10;"	d	language:C++
+UI_DIR_DOWN	./include_lib/ui/ui/ui_core.h	/^    UI_DIR_DOWN,$/;"	e	language:C++	enum:ui_direction
+UI_DIR_LEFT	./include_lib/ui/ui/ui_core.h	/^    UI_DIR_LEFT,$/;"	e	language:C++	enum:ui_direction
+UI_DIR_RIGHT	./include_lib/ui/ui/ui_core.h	/^    UI_DIR_RIGHT,$/;"	e	language:C++	enum:ui_direction
+UI_DIR_UP	./include_lib/ui/ui/ui_core.h	/^    UI_DIR_UP,$/;"	e	language:C++	enum:ui_direction
+UI_ELEMENT_CORE_H	./include_lib/ui/ui/ui_core.h	2;"	d	language:C++
+UI_FILE_ATTRS_H	./include_lib/ui/ui/ui_file_attrs.h	2;"	d	language:C++
+UI_FTYPE_AUDIO	./include_lib/ui/ui/ui_core.h	/^    UI_FTYPE_AUDIO,$/;"	e	language:C++	enum:__anon15
+UI_FTYPE_DIR	./include_lib/ui/ui/ui_core.h	/^    UI_FTYPE_DIR,$/;"	e	language:C++	enum:__anon15
+UI_FTYPE_IMAGE	./include_lib/ui/ui/ui_core.h	/^    UI_FTYPE_IMAGE,$/;"	e	language:C++	enum:__anon15
+UI_FTYPE_UNKNOW	./include_lib/ui/ui/ui_core.h	/^    UI_FTYPE_UNKNOW = 0xff,$/;"	e	language:C++	enum:__anon15
+UI_FTYPE_VIDEO	./include_lib/ui/ui/ui_core.h	/^    UI_FTYPE_VIDEO = 0,$/;"	e	language:C++	enum:__anon15
+UI_GRID_H	./include_lib/ui/ui/ui_grid.h	2;"	d	language:C++
+UI_IMG_H	./include_lib/ui/ui/img.h	2;"	d	language:C++
+UI_INCLUDES_H	./include_lib/ui/includes.h	2;"	d	language:C++
+UI_ONTOUCH_DEBUG	./include_lib/ui/includes.h	18;"	d	language:C++
+UI_ONTOUCH_DEBUG	./include_lib/ui/includes.h	20;"	d	language:C++
+UI_PIC_H	./include_lib/ui/ui/ui_animation.h	2;"	d	language:C++
+UI_PIC_H	./include_lib/ui/ui/ui_pic.h	2;"	d	language:C++
+UI_PLAYER_H	./include_lib/ui/ui/ui_player.h	2;"	d	language:C++
+UI_P_H	./include_lib/ui/ui/p.h	2;"	d	language:C++
+UI_SLIDER_H	./include_lib/ui/ui/ui_slider.h	2;"	d	language:C++
+UI_TEXT_H	./include_lib/ui/ui/ui_text.h	2;"	d	language:C++
+UI_TIME_H	./include_lib/ui/ui/ui_time.h	2;"	d	language:C++
+UI_TOUCH_DEBUG	./include_lib/ui/includes.h	15;"	d	language:C++
+UI_WATCH_H	./include_lib/ui/ui/ui_watch.h	2;"	d	language:C++
+UI_WINDOW_H	./include_lib/ui/ui/window.h	2;"	d	language:C++
+UNIT_TIME	./include_lib/ui/ui/slider.h	/^    UNIT_TIME,$/;"	e	language:C++	enum:__anon7
+UPGRADE_CALC_ECC	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_CALC_ECC,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_ERR_ADDR	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_ERR_ADDR,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_ERR_DEV	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_ERR_DEV,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_ERR_FAILED	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_ERR_FAILED,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_ERR_FILE	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_ERR_FILE,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_ERR_KEY	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_ERR_KEY,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_ERR_MEM	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_ERR_MEM,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_ERR_NONE	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_ERR_NONE = 0x0,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_FROM_BUFF	./include_lib/upgrade/upgrade_detect.h	14;"	d	language:C++
+UPGRADE_FROM_FILE	./include_lib/upgrade/upgrade_detect.h	13;"	d	language:C++
+UPGRADE_FROM_FLASH_FILE	./include_lib/upgrade/upgrade_detect.h	15;"	d	language:C++
+UPGRADE_START	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_START,$/;"	e	language:C++	enum:upgrade_message
+UPGRADE_SUCCESS	./include_lib/upgrade/upgrade_detect.h	/^    UPGRADE_SUCCESS,$/;"	e	language:C++	enum:upgrade_message
+Vietnam	./include_lib/ui/font/language_list.h	26;"	d	language:C++
+WATCH_CHILD_NUM	./include_lib/ui/ui/ui_watch.h	9;"	d	language:C++
+_UPGRADE_DETECT_H	./include_lib/upgrade/upgrade_detect.h	9;"	d	language:C++
+_UPGRADE_ECC_RS_API_H	./include_lib/upgrade/ecc_rs_api.h	9;"	d	language:C++
+__FONT_OTHERLANGUAGE_H__	./include_lib/ui/font/font_other_language.h	2;"	d	language:C++
+__FONT_OUT_H__	./include_lib/ui/font/font_textout.h	2;"	d	language:C++
+__FONT_SJIS_H__	./include_lib/ui/font/font_sjis.h	2;"	d	language:C++
+__LANGUAGE_LIST_H__	./include_lib/ui/font/language_list.h	2;"	d	language:C++
+__REGISTER_UI_EVENT_HANDLER	./include_lib/ui/ui/ui_core.h	343;"	d	language:C++
+__REGISTER_UI_STYLE	./include_lib/ui/ui/ui_core.h	360;"	d	language:C++
+__UI_SDFS_H__	./include_lib/ui/font/font_sdfs.h	2;"	d	language:C++
+___REGISTER_UI_EVENT_HANDLER	./include_lib/ui/ui/ui_core.h	338;"	d	language:C++
+__anon1::cache	./include_lib/ui/res/quicklz.h	/^    ui32 cache;$/;"	m	language:C++	struct:__anon1	access:public
+__anon1::offset	./include_lib/ui/res/quicklz.h	/^    const unsigned char *offset;$/;"	m	language:C++	struct:__anon1	access:public
+__anon1::offset	./include_lib/ui/res/quicklz.h	/^    unsigned int offset;$/;"	m	language:C++	struct:__anon1	access:public
+__anon2::offset	./include_lib/ui/res/quicklz.h	/^    const unsigned char *offset;$/;"	m	language:C++	struct:__anon2	access:public
+__anon3::hash	./include_lib/ui/res/quicklz.h	/^    qlz_hash_compress hash[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon3	access:public
+__anon3::hash_counter	./include_lib/ui/res/quicklz.h	/^    unsigned char hash_counter[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon3	access:public
+__anon3::stream_buffer	./include_lib/ui/res/quicklz.h	/^    unsigned char stream_buffer[QLZ_STREAMING_BUFFER];$/;"	m	language:C++	struct:__anon3	access:public
+__anon3::stream_counter	./include_lib/ui/res/quicklz.h	/^    size_t stream_counter;$/;"	m	language:C++	struct:__anon3	access:public
+__anon4::hash	./include_lib/ui/res/quicklz.h	/^    qlz_hash_decompress hash[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon4	access:public
+__anon4::hash_counter	./include_lib/ui/res/quicklz.h	/^    unsigned char hash_counter[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon4	access:public
+__anon4::stream_buffer	./include_lib/ui/res/quicklz.h	/^    unsigned char stream_buffer[QLZ_STREAMING_BUFFER];$/;"	m	language:C++	struct:__anon4	access:public
+__anon4::stream_counter	./include_lib/ui/res/quicklz.h	/^    size_t stream_counter;$/;"	m	language:C++	struct:__anon4	access:public
+__anon5::hash	./include_lib/ui/res/quicklz.h	/^    qlz_hash_decompress hash[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon5	access:public
+__anon5::stream_buffer	./include_lib/ui/res/quicklz.h	/^    unsigned char stream_buffer[QLZ_STREAMING_BUFFER];$/;"	m	language:C++	struct:__anon5	access:public
+__anon5::stream_counter	./include_lib/ui/res/quicklz.h	/^    size_t stream_counter;$/;"	m	language:C++	struct:__anon5	access:public
+__ui_grid_new	./include_lib/ui/ui/ui_grid.h	/^struct ui_grid *__ui_grid_new(struct element_css *css, int id,$/;"	p	language:C++	signature:(struct element_css *css, int id, struct ui_grid_item_info *info, struct element *parent)
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:layer_info	typeref:struct:layer_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:layout_info	typeref:struct:layout_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_animation_info	typeref:struct:ui_animation_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_battery_info	typeref:struct:ui_battery_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_browser_info	typeref:struct:ui_browser_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_button_info	typeref:struct:ui_button_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_camera_info	typeref:struct:ui_camera_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_fattrs_info	typeref:struct:ui_fattrs_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_grid_info	typeref:struct:ui_grid_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_pic_info	typeref:struct:ui_pic_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_player_info	typeref:struct:ui_player_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_slider_info	typeref:struct:ui_slider_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_text_info	typeref:struct:ui_text_info::element_event_action	access:public
+action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_time_info	typeref:struct:ui_time_info::element_event_action	access:public
+action	./include_lib/ui/ui/ui_core.h	/^    const struct element_event_action *action;$/;"	m	language:C++	struct:element	typeref:struct:element::element_event_action	access:public
+action	./include_lib/ui/ui/ui_core.h	/^    struct event_action action[0];$/;"	m	language:C++	struct:element_event_action	typeref:struct:element_event_action::event_action	access:public
+action	./include_lib/ui/ui/ui_core.h	/^    u16 action;$/;"	m	language:C++	struct:event_action	access:public
+align	./include_lib/ui/ui/ui_core.h	/^    u8  align;$/;"	m	language:C++	struct:element_css	access:public
+align	./include_lib/ui/ui/ui_core.h	/^    u8 align;$/;"	m	language:C++	struct:draw_context	access:public
+alive	./include_lib/ui/ui/ui_core.h	/^    u32 alive;$/;"	m	language:C++	struct:element	access:public
+alpha	./include_lib/ui/ui/ui_core.h	/^    u32 alpha: 8;$/;"	m	language:C++	struct:element_css	access:public
+alpha	./include_lib/ui/ui/ui_core.h	/^    u8 alpha;$/;"	m	language:C++	struct:draw_context	access:public
+argc	./include_lib/ui/ui/ui_core.h	/^    u8  argc;$/;"	m	language:C++	struct:event_action	access:public
+argv	./include_lib/ui/ui/ui_core.h	/^    char argv[];$/;"	m	language:C++	struct:event_action	access:public
+attr	./include_lib/ui/ui/ui_core.h	/^    struct vfs_attr attr;$/;"	m	language:C++	struct:ui_file_attrs	typeref:struct:ui_file_attrs::vfs_attr	access:public
+attrs	./include_lib/ui/ui/ui_file_attrs.h	/^    struct ui_file_attrs attrs;$/;"	m	language:C++	struct:ui_fattrs	typeref:struct:ui_fattrs::ui_file_attrs	access:public
+attrs	./include_lib/ui/ui/ui_text.h	/^    struct ui_text_attrs attrs;$/;"	m	language:C++	struct:ui_text	typeref:struct:ui_text::ui_text_attrs	access:public
+auto_cnt	./include_lib/ui/ui/control.h	/^    u8 auto_cnt;$/;"	m	language:C++	struct:ui_time_info	access:public
+auto_highlight	./include_lib/ui/ui/control.h	/^    u8 auto_highlight;$/;"	m	language:C++	struct:ui_browser_info	access:public
+avail_item_num	./include_lib/ui/ui/ui_grid.h	/^    u8   avail_item_num;$/;"	m	language:C++	struct:ui_grid	access:public
+background_color	./include_lib/ui/ui/ui_core.h	/^    u32 background_color: 24;$/;"	m	language:C++	struct:element_css	access:public
+background_image	./include_lib/ui/ui/ui_core.h	/^    int background_image: 24;$/;"	m	language:C++	struct:element_css	access:public
+battery	./include_lib/ui/ui/control.h	/^    struct ui_battery_info 	battery;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_battery_info	access:public
+begin	./include_lib/ui/ui/ui_core.h	/^    struct element_event_handler *begin;$/;"	m	language:C++	struct:ui_style_info	typeref:struct:ui_style_info::element_event_handler	access:public
+border	./include_lib/ui/ui/ui_core.h	/^    struct css_border border;$/;"	m	language:C++	struct:element_css	typeref:struct:element_css::css_border	access:public
+bottom	./include_lib/ui/ui/ui_core.h	/^    u8 bottom;$/;"	m	language:C++	struct:css_border	access:public
+buf	./include_lib/ui/ui/ui_time.h	/^    u16 buf[32];$/;"	m	language:C++	struct:ui_time	access:public
+buf	./include_lib/upgrade/upgrade_detect.h	/^    u8   *buf;$/;"	m	language:C++	struct:upgrade_req	access:public
+buf_num	./include_lib/ui/ui/ui_core.h	/^    u8 buf_num;$/;"	m	language:C++	struct:draw_context	access:public
+buf_size	./include_lib/upgrade/upgrade_detect.h	/^    int  buf_size;$/;"	m	language:C++	struct:upgrade_req	access:public
+busy	./include_lib/ui/ui/window.h	/^    u8 busy;$/;"	m	language:C++	struct:window	access:public
+button	./include_lib/ui/ui/control.h	/^    struct ui_button_info 	button;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_button_info	access:public
+button	./include_lib/ui/ui/ui_button.h	/^struct button {$/;"	s	language:C++
+button::elm	./include_lib/ui/ui/ui_button.h	/^    struct element elm;$/;"	m	language:C++	struct:button	typeref:struct:button::element	access:public
+button::handler	./include_lib/ui/ui/ui_button.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:button	typeref:struct:button::element_event_handler	access:public
+button::image_index	./include_lib/ui/ui/ui_button.h	/^    u8 image_index;$/;"	m	language:C++	struct:button	access:public
+button::info	./include_lib/ui/ui/ui_button.h	/^    const struct ui_button_info *info;$/;"	m	language:C++	struct:button	typeref:struct:button::ui_button_info	access:public
+cache	./include_lib/ui/res/quicklz.h	/^    ui32 cache;$/;"	m	language:C++	struct:__anon1	access:public
+camera	./include_lib/ui/ui/control.h	/^    struct ui_camera_info 	camera;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_camera_info	access:public
+cent_x	./include_lib/ui/ui/control.h	/^    u16 cent_x;$/;"	m	language:C++	struct:ui_pic_info	access:public
+cent_x	./include_lib/ui/ui/ui_watch.h	/^    u16 cent_x;$/;"	m	language:C++	struct:watch_pic_info	access:public
+cent_y	./include_lib/ui/ui/control.h	/^    u16 cent_y;$/;"	m	language:C++	struct:ui_pic_info	access:public
+cent_y	./include_lib/ui/ui/ui_watch.h	/^    u16 cent_y;$/;"	m	language:C++	struct:watch_pic_info	access:public
+charge_image	./include_lib/ui/ui/control.h	/^    struct ui_image_list *charge_image;$/;"	m	language:C++	struct:ui_battery_info	typeref:struct:ui_battery_info::ui_image_list	access:public
+check_ptr	./include_lib/upgrade/ecc_rs_api.h	/^    unsigned short *check_ptr;$/;"	m	language:C++	struct:ecc_rs	access:public
+child	./include_lib/ui/ui/ui_core.h	/^    struct list_head child;$/;"	m	language:C++	struct:element	typeref:struct:element::list_head	access:public
+child_elm	./include_lib/ui/ui/ui_slider.h	/^    struct element child_elm[SLIDER_CHILD_NUM];$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::element	access:public
+child_elm	./include_lib/ui/ui/ui_watch.h	/^    struct element child_elm[WATCH_CHILD_NUM];$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::element	access:public
+clear_file_preview	./include_lib/ui/ui/ui_core.h	/^    int (*clear_file_preview)(struct ui_file_browser *, struct rect *r);$/;"	m	language:C++	struct:ui_platform_api	access:public
+close_device	./include_lib/ui/ui/ui_core.h	/^    int (*close_device)(int);$/;"	m	language:C++	struct:ui_platform_api	access:public
+close_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*close_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+close_resfile	./include_lib/ui/res/resfile.h	/^void close_resfile();$/;"	p	language:C++	signature:()
+close_str_file	./include_lib/ui/res/resfile.h	/^void close_str_file();$/;"	p	language:C++	signature:()
+code	./include_lib/ui/ui/control.h	/^    char code[8];$/;"	m	language:C++	struct:ui_text_info	access:public
+code	./include_lib/ui/ui/ui_core.h	/^    const char *code;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+col	./include_lib/ui/ui/ui_grid.h	/^    u8 col;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+col_num	./include_lib/ui/ui/ui_grid.h	/^    u8   col_num;$/;"	m	language:C++	struct:ui_grid	access:public
+color	./include_lib/ui/ui/control.h	/^    int color;$/;"	m	language:C++	struct:ui_text_info	access:public
+color	./include_lib/ui/ui/control.h	/^    int color;$/;"	m	language:C++	struct:ui_time_info	access:public
+color	./include_lib/ui/ui/p.h	/^    int color;$/;"	m	language:C++	struct:element_text	access:public
+color	./include_lib/ui/ui/ui_core.h	/^    int color: 24;$/;"	m	language:C++	struct:css_border	access:public
+color	./include_lib/ui/ui/ui_core.h	/^    int color;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+color	./include_lib/ui/ui/ui_text.h	/^    int color;$/;"	m	language:C++	struct:ui_text	access:public
+column	./include_lib/ui/ui/control.h	/^    u8 column;$/;"	m	language:C++	struct:ui_browser_info	access:public
+complete	./include_lib/upgrade/upgrade_detect.h	/^    int (*complete)(u8 success);$/;"	m	language:C++	struct:upgrade_req	access:public
+compress	./include_lib/ui/res/resfile.h	/^    u8 compress;$/;"	m	language:C++	struct:image_file	access:public
+confirm	./include_lib/upgrade/upgrade_detect.h	/^    bool (*confirm)(void);$/;"	m	language:C++	struct:upgrade_req	access:public
+container_of	./include_lib/ui/ui/ui_core.h	19;"	d	language:C++
+container_of	./include_lib/ui/ui/ui_core.h	25;"	d	language:C++
+control_ops	./include_lib/ui/ui/control.h	/^struct control_ops {$/;"	s	language:C++
+control_ops::type	./include_lib/ui/ui/control.h	/^    int type;$/;"	m	language:C++	struct:control_ops	access:public
+css	./include_lib/ui/ui/control.h	/^    struct 	element_css *css;$/;"	m	language:C++	struct:ui_ctrl_info_head	typeref:struct:ui_ctrl_info_head::element_css	access:public
+css	./include_lib/ui/ui/ui_core.h	/^    struct element_css css;$/;"	m	language:C++	struct:element	typeref:struct:element::element_css	access:public
+css	./include_lib/ui/ui/ui_core.h	/^    struct element_css css[0];$/;"	m	language:C++	struct:janimation	typeref:struct:janimation::element_css	access:public
+css_border	./include_lib/ui/ui/ui_core.h	/^struct css_border {$/;"	s	language:C++
+css_border::bottom	./include_lib/ui/ui/ui_core.h	/^    u8 bottom;$/;"	m	language:C++	struct:css_border	access:public
+css_border::color	./include_lib/ui/ui/ui_core.h	/^    int color: 24;$/;"	m	language:C++	struct:css_border	access:public
+css_border::left	./include_lib/ui/ui/ui_core.h	/^    u8 left;$/;"	m	language:C++	struct:css_border	access:public
+css_border::right	./include_lib/ui/ui/ui_core.h	/^    u8 right;$/;"	m	language:C++	struct:css_border	access:public
+css_border::top	./include_lib/ui/ui/ui_core.h	/^    u8 top;$/;"	m	language:C++	struct:css_border	access:public
+css_num	./include_lib/ui/ui/control.h	/^    u8 		css_num;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+css_num	./include_lib/ui/ui/control.h	/^    u8 		css_num;$/;"	m	language:C++	struct:window_info	access:public
+ctrl	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head *ctrl;$/;"	m	language:C++	struct:ui_browser_info	typeref:struct:ui_browser_info::ui_ctrl_info_head	access:public
+ctrl	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head *ctrl;$/;"	m	language:C++	struct:ui_fattrs_info	typeref:struct:ui_fattrs_info::ui_ctrl_info_head	access:public
+ctrl	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head *ctrl;$/;"	m	language:C++	struct:ui_slider_info	typeref:struct:ui_slider_info::ui_ctrl_info_head	access:public
+ctrl	./include_lib/ui/ui/control.h	/^    union ui_control_info *ctrl;$/;"	m	language:C++	struct:layout_info	typeref:union:layout_info::ui_control_info	access:public
+ctrl_num	./include_lib/ui/ui/control.h	/^    u8 		ctrl_num;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+ctrl_num	./include_lib/ui/ui/control.h	/^    u8 		ctrl_num;$/;"	m	language:C++	struct:window_info	access:public
+cur_number	./include_lib/ui/ui/ui_browser.h	/^    u16 cur_number;$/;"	m	language:C++	struct:ui_browser	access:public
+curr_val	./include_lib/ui/ui/slider.h	/^    u32 curr_val;$/;"	m	language:C++	struct:slider	access:public
+data_crc	./include_lib/ui/res/resfile.h	/^    u16 data_crc;$/;"	m	language:C++	struct:image_file	access:public
+data_format	./include_lib/ui/ui/ui_core.h	/^    u8 data_format;$/;"	m	language:C++	struct:draw_context	access:public
+data_len	./include_lib/upgrade/ecc_rs_api.h	/^    int data_len;$/;"	m	language:C++	struct:ecc_rs	access:public
+data_ptr	./include_lib/upgrade/ecc_rs_api.h	/^    unsigned char *data_ptr;$/;"	m	language:C++	struct:ecc_rs	access:public
+day	./include_lib/ui/ui/ui_time.h	/^    u8 day;$/;"	m	language:C++	struct:ui_time	access:public
+day	./include_lib/ui/ui/ui_time.h	/^    u8 day;$/;"	m	language:C++	struct:utime	access:public
+dc	./include_lib/ui/ui/layer.h	/^    struct draw_context dc;$/;"	m	language:C++	struct:layer	typeref:struct:layer::draw_context	access:public
+dc	./include_lib/ui/ui/ui_core.h	/^    struct draw_context *dc;$/;"	m	language:C++	struct:element	typeref:struct:element::draw_context	access:public
+dc	./include_lib/ui/ui/ui_core.h	/^    void *dc;$/;"	m	language:C++	struct:draw_context	access:public
+dc	./include_lib/ui/ui/ui_grid.h	/^    struct draw_context dc;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::draw_context	access:public
+decode_data	./include_lib/upgrade/ecc_rs_api.h	/^    int (*decode_data)(unsigned char *ptr, struct ecc_rs *ecc_rs);  \/\/计算校验信息$/;"	m	language:C++	struct:ecc_rs_api	access:public
+del_timer	./include_lib/ui/ui/ui_core.h	/^    int (*del_timer)(void *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+delay	./include_lib/ui/ui/ui_core.h	/^    u16 delay;$/;"	m	language:C++	struct:janimation	access:public
+delete_file	./include_lib/ui/ui/ui_core.h	/^    int (*delete_file)(struct ui_file_browser *, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+delimiter	./include_lib/ui/ui/control.h	/^    u16 delimiter[10];$/;"	m	language:C++	struct:ui_time_info	access:public
+device	./include_lib/ui/ui/control.h	/^    char device[8];$/;"	m	language:C++	struct:ui_camera_info	access:public
+device	./include_lib/ui/ui/control.h	/^    char device[8];$/;"	m	language:C++	struct:ui_player_info	access:public
+direction	./include_lib/ui/ui/ui_core.h	/^    u8  direction;$/;"	m	language:C++	struct:janimation	access:public
+displen	./include_lib/ui/ui/ui_core.h	/^    int displen;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+draw	./include_lib/ui/ui/ui_core.h	/^    struct rect draw;$/;"	m	language:C++	struct:draw_context	typeref:struct:draw_context::rect	access:public
+draw_context	./include_lib/ui/ui/ui_core.h	/^struct draw_context {$/;"	s	language:C++
+draw_context::align	./include_lib/ui/ui/ui_core.h	/^    u8 align;$/;"	m	language:C++	struct:draw_context	access:public
+draw_context::alpha	./include_lib/ui/ui/ui_core.h	/^    u8 alpha;$/;"	m	language:C++	struct:draw_context	access:public
+draw_context::buf_num	./include_lib/ui/ui/ui_core.h	/^    u8 buf_num;$/;"	m	language:C++	struct:draw_context	access:public
+draw_context::data_format	./include_lib/ui/ui/ui_core.h	/^    u8 data_format;$/;"	m	language:C++	struct:draw_context	access:public
+draw_context::dc	./include_lib/ui/ui/ui_core.h	/^    void *dc;$/;"	m	language:C++	struct:draw_context	access:public
+draw_context::draw	./include_lib/ui/ui/ui_core.h	/^    struct rect draw;$/;"	m	language:C++	struct:draw_context	typeref:struct:draw_context::rect	access:public
+draw_context::elm	./include_lib/ui/ui/ui_core.h	/^    struct element *elm;$/;"	m	language:C++	struct:draw_context	typeref:struct:draw_context::element	access:public
+draw_context::handl	./include_lib/ui/ui/ui_core.h	/^    void *handl;$/;"	m	language:C++	struct:draw_context	access:public
+draw_context::page	./include_lib/ui/ui/ui_core.h	/^    u8 page;$/;"	m	language:C++	struct:draw_context	access:public
+draw_context::rect	./include_lib/ui/ui/ui_core.h	/^    struct rect rect;$/;"	m	language:C++	struct:draw_context	typeref:struct:draw_context::rect	access:public
+draw_context::ref	./include_lib/ui/ui/ui_core.h	/^    u8 ref;$/;"	m	language:C++	struct:draw_context	access:public
+draw_image	./include_lib/ui/ui/ui_core.h	/^    int (*draw_image)(struct draw_context *, u32 src, u8 quadrant);$/;"	m	language:C++	struct:ui_platform_api	access:public
+draw_rect	./include_lib/ui/ui/ui_core.h	/^    int (*draw_rect)(struct draw_context *, struct css_border *border);$/;"	m	language:C++	struct:ui_platform_api	access:public
+duration	./include_lib/ui/ui/ui_core.h	/^    u16 duration;$/;"	m	language:C++	struct:janimation	access:public
+ecc_rs	./include_lib/upgrade/ecc_rs_api.h	/^typedef struct ecc_rs {$/;"	s	language:C++
+ecc_rs::check_ptr	./include_lib/upgrade/ecc_rs_api.h	/^    unsigned short *check_ptr;$/;"	m	language:C++	struct:ecc_rs	access:public
+ecc_rs::data_len	./include_lib/upgrade/ecc_rs_api.h	/^    int data_len;$/;"	m	language:C++	struct:ecc_rs	access:public
+ecc_rs::data_ptr	./include_lib/upgrade/ecc_rs_api.h	/^    unsigned char *data_ptr;$/;"	m	language:C++	struct:ecc_rs	access:public
+ecc_rs::out_ptr	./include_lib/upgrade/ecc_rs_api.h	/^    unsigned char *out_ptr;$/;"	m	language:C++	struct:ecc_rs	access:public
+ecc_rs_api	./include_lib/upgrade/ecc_rs_api.h	/^typedef struct ecc_rs_api {$/;"	s	language:C++
+ecc_rs_api::decode_data	./include_lib/upgrade/ecc_rs_api.h	/^    int (*decode_data)(unsigned char *ptr, struct ecc_rs *ecc_rs);  \/\/计算校验信息$/;"	m	language:C++	struct:ecc_rs_api	access:public
+ecc_rs_api::encode_data	./include_lib/upgrade/ecc_rs_api.h	/^    void (*encode_data)(unsigned char *ptr, struct ecc_rs *ecc_rs);  \/\/计算校验信息$/;"	m	language:C++	struct:ecc_rs_api	access:public
+ecc_rs_api::initialize_ecc	./include_lib/upgrade/ecc_rs_api.h	/^    void (*initialize_ecc)(unsigned char *ptr, int max_err);    \/\/初始化$/;"	m	language:C++	struct:ecc_rs_api	access:public
+ecc_rs_api::need_buf	./include_lib/upgrade/ecc_rs_api.h	/^    unsigned int (*need_buf)(int max_err);    \/\/最大纠错数$/;"	m	language:C++	struct:ecc_rs_api	access:public
+element	./include_lib/ui/ui/ui_core.h	/^struct element {$/;"	s	language:C++
+element::action	./include_lib/ui/ui/ui_core.h	/^    const struct element_event_action *action;$/;"	m	language:C++	struct:element	typeref:struct:element::element_event_action	access:public
+element::alive	./include_lib/ui/ui/ui_core.h	/^    u32 alive;$/;"	m	language:C++	struct:element	access:public
+element::child	./include_lib/ui/ui/ui_core.h	/^    struct list_head child;$/;"	m	language:C++	struct:element	typeref:struct:element::list_head	access:public
+element::css	./include_lib/ui/ui/ui_core.h	/^    struct element_css css;$/;"	m	language:C++	struct:element	typeref:struct:element::element_css	access:public
+element::dc	./include_lib/ui/ui/ui_core.h	/^    struct draw_context *dc;$/;"	m	language:C++	struct:element	typeref:struct:element::draw_context	access:public
+element::focus	./include_lib/ui/ui/ui_core.h	/^    struct element *focus;$/;"	m	language:C++	struct:element	typeref:struct:element::element	access:public
+element::handler	./include_lib/ui/ui/ui_core.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:element	typeref:struct:element::element_event_handler	access:public
+element::highlight	./include_lib/ui/ui/ui_core.h	/^    u8  highlight;$/;"	m	language:C++	struct:element	access:public
+element::id	./include_lib/ui/ui/ui_core.h	/^    int id;$/;"	m	language:C++	struct:element	access:public
+element::ops	./include_lib/ui/ui/ui_core.h	/^    const struct element_ops *ops;$/;"	m	language:C++	struct:element	typeref:struct:element::element_ops	access:public
+element::parent	./include_lib/ui/ui/ui_core.h	/^    struct element *parent;$/;"	m	language:C++	struct:element	typeref:struct:element::element	access:public
+element::ref	./include_lib/ui/ui/ui_core.h	/^    u16  ref;$/;"	m	language:C++	struct:element	access:public
+element::sibling	./include_lib/ui/ui/ui_core.h	/^    struct list_head sibling;$/;"	m	language:C++	struct:element	typeref:struct:element::list_head	access:public
+element::state	./include_lib/ui/ui/ui_core.h	/^    u8  state;$/;"	m	language:C++	struct:element	access:public
+element_alive	./include_lib/ui/ui/ui_core.h	256;"	d	language:C++
+element_born	./include_lib/ui/ui/ui_core.h	253;"	d	language:C++
+element_change_event	./include_lib/ui/ui/ui_core.h	/^enum element_change_event {$/;"	g	language:C++
+element_css	./include_lib/ui/ui/ui_core.h	/^struct element_css {$/;"	s	language:C++
+element_css::align	./include_lib/ui/ui/ui_core.h	/^    u8  align;$/;"	m	language:C++	struct:element_css	access:public
+element_css::alpha	./include_lib/ui/ui/ui_core.h	/^    u32 alpha: 8;$/;"	m	language:C++	struct:element_css	access:public
+element_css::background_color	./include_lib/ui/ui/ui_core.h	/^    u32 background_color: 24;$/;"	m	language:C++	struct:element_css	access:public
+element_css::background_image	./include_lib/ui/ui/ui_core.h	/^    int background_image: 24;$/;"	m	language:C++	struct:element_css	access:public
+element_css::border	./include_lib/ui/ui/ui_core.h	/^    struct css_border border;$/;"	m	language:C++	struct:element_css	typeref:struct:element_css::css_border	access:public
+element_css::height	./include_lib/ui/ui/ui_core.h	/^    int height;$/;"	m	language:C++	struct:element_css	access:public
+element_css::image_quadrant	./include_lib/ui/ui/ui_core.h	/^    int image_quadrant: 8;$/;"	m	language:C++	struct:element_css	access:public
+element_css::invisible	./include_lib/ui/ui/ui_core.h	/^    u8  invisible;$/;"	m	language:C++	struct:element_css	access:public
+element_css::left	./include_lib/ui/ui/ui_core.h	/^    int left;$/;"	m	language:C++	struct:element_css	access:public
+element_css::top	./include_lib/ui/ui/ui_core.h	/^    int top;$/;"	m	language:C++	struct:element_css	access:public
+element_css::width	./include_lib/ui/ui/ui_core.h	/^    int width;$/;"	m	language:C++	struct:element_css	access:public
+element_css::z_order	./include_lib/ui/ui/ui_core.h	/^    u8  z_order;$/;"	m	language:C++	struct:element_css	access:public
+element_event_action	./include_lib/ui/ui/ui_core.h	/^struct element_event_action {$/;"	s	language:C++
+element_event_action::action	./include_lib/ui/ui/ui_core.h	/^    struct event_action action[0];$/;"	m	language:C++	struct:element_event_action	typeref:struct:element_event_action::event_action	access:public
+element_event_action::num	./include_lib/ui/ui/ui_core.h	/^    u16 num;$/;"	m	language:C++	struct:element_event_action	access:public
+element_event_handler	./include_lib/ui/ui/ui_core.h	/^struct element_event_handler {$/;"	s	language:C++
+element_event_handler::id	./include_lib/ui/ui/ui_core.h	/^    int id;$/;"	m	language:C++	struct:element_event_handler	access:public
+element_event_handler::onchange	./include_lib/ui/ui/ui_core.h	/^    int (*onchange)(void *, enum element_change_event, void *);$/;"	m	language:C++	struct:element_event_handler	access:public
+element_event_handler::onkey	./include_lib/ui/ui/ui_core.h	/^    int (*onkey)(void *, struct element_key_event *);$/;"	m	language:C++	struct:element_event_handler	access:public
+element_event_handler::ontouch	./include_lib/ui/ui/ui_core.h	/^    int (*ontouch)(void *, struct element_touch_event *);$/;"	m	language:C++	struct:element_event_handler	access:public
+element_event_handler_for_id	./include_lib/ui/ui/ui_core.h	/^static inline struct element_event_handler *element_event_handler_for_id(u32 id)$/;"	f	language:C++	signature:(u32 id)
+element_key_event	./include_lib/ui/ui/ui_core.h	/^struct element_key_event {$/;"	s	language:C++
+element_key_event::event	./include_lib/ui/ui/ui_core.h	/^    u8 event;$/;"	m	language:C++	struct:element_key_event	access:public
+element_key_event::private_data	./include_lib/ui/ui/ui_core.h	/^    void *private_data;$/;"	m	language:C++	struct:element_key_event	access:public
+element_key_event::value	./include_lib/ui/ui/ui_core.h	/^    u8 value;$/;"	m	language:C++	struct:element_key_event	access:public
+element_ops	./include_lib/ui/ui/ui_core.h	/^struct element_ops {$/;"	s	language:C++
+element_ops::redraw	./include_lib/ui/ui/ui_core.h	/^    int (*redraw)(struct element *, struct rect *);$/;"	m	language:C++	struct:element_ops	access:public
+element_ops::show	./include_lib/ui/ui/ui_core.h	/^    int (*show)(struct element *);$/;"	m	language:C++	struct:element_ops	access:public
+element_text	./include_lib/ui/ui/p.h	/^struct element_text {$/;"	s	language:C++
+element_text::color	./include_lib/ui/ui/p.h	/^    int color;$/;"	m	language:C++	struct:element_text	access:public
+element_text::elm	./include_lib/ui/ui/p.h	/^    struct element elm;               \/\/must be first$/;"	m	language:C++	struct:element_text	typeref:struct:element_text::element	access:public
+element_text::format	./include_lib/ui/ui/p.h	/^    const char *format;$/;"	m	language:C++	struct:element_text	access:public
+element_text::handler	./include_lib/ui/ui/p.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:element_text	typeref:struct:element_text::element_event_handler	access:public
+element_text::priv	./include_lib/ui/ui/p.h	/^    void *priv;$/;"	m	language:C++	struct:element_text	access:public
+element_text::str	./include_lib/ui/ui/p.h	/^    char *str;$/;"	m	language:C++	struct:element_text	access:public
+element_touch_event	./include_lib/ui/ui/ui_core.h	/^struct element_touch_event {$/;"	s	language:C++
+element_touch_event::event	./include_lib/ui/ui/ui_core.h	/^    int event;$/;"	m	language:C++	struct:element_touch_event	access:public
+element_touch_event::hold_up	./include_lib/ui/ui/ui_core.h	/^    u8  hold_up;$/;"	m	language:C++	struct:element_touch_event	access:public
+element_touch_event::mov	./include_lib/ui/ui/ui_core.h	/^    struct position mov;$/;"	m	language:C++	struct:element_touch_event	typeref:struct:element_touch_event::position	access:public
+element_touch_event::move_dir	./include_lib/ui/ui/ui_core.h	/^    u8  move_dir;$/;"	m	language:C++	struct:element_touch_event	access:public
+element_touch_event::onfocus	./include_lib/ui/ui/ui_core.h	/^    u8  onfocus;$/;"	m	language:C++	struct:element_touch_event	access:public
+element_touch_event::pos	./include_lib/ui/ui/ui_core.h	/^    struct position pos;$/;"	m	language:C++	struct:element_touch_event	typeref:struct:element_touch_event::position	access:public
+element_touch_event::private_data	./include_lib/ui/ui/ui_core.h	/^    void *private_data;$/;"	m	language:C++	struct:element_touch_event	access:public
+element_touch_event::xoffset	./include_lib/ui/ui/ui_core.h	/^    int xoffset;$/;"	m	language:C++	struct:element_touch_event	access:public
+element_touch_event::yoffset	./include_lib/ui/ui/ui_core.h	/^    int yoffset;$/;"	m	language:C++	struct:element_touch_event	access:public
+elm	./include_lib/ui/ui/layer.h	/^    struct element elm; 		\/\/must be first$/;"	m	language:C++	struct:layer	typeref:struct:layer::element	access:public
+elm	./include_lib/ui/ui/layout.h	/^    struct element elm; 	\/\/must be first$/;"	m	language:C++	struct:layout	typeref:struct:layout::element	access:public
+elm	./include_lib/ui/ui/p.h	/^    struct element elm;               \/\/must be first$/;"	m	language:C++	struct:element_text	typeref:struct:element_text::element	access:public
+elm	./include_lib/ui/ui/ui_animation.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_animation	typeref:struct:ui_animation::element	access:public
+elm	./include_lib/ui/ui/ui_battery.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_battery	typeref:struct:ui_battery::element	access:public
+elm	./include_lib/ui/ui/ui_browser.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::element	access:public
+elm	./include_lib/ui/ui/ui_button.h	/^    struct element elm;$/;"	m	language:C++	struct:button	typeref:struct:button::element	access:public
+elm	./include_lib/ui/ui/ui_camera.h	/^    struct element elm; 	\/\/must be first$/;"	m	language:C++	struct:ui_camera	typeref:struct:ui_camera::element	access:public
+elm	./include_lib/ui/ui/ui_core.h	/^    struct element *elm;$/;"	m	language:C++	struct:draw_context	typeref:struct:draw_context::element	access:public
+elm	./include_lib/ui/ui/ui_file_attrs.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_fattrs	typeref:struct:ui_fattrs::element	access:public
+elm	./include_lib/ui/ui/ui_grid.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::element	access:public
+elm	./include_lib/ui/ui/ui_pic.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_pic	typeref:struct:ui_pic::element	access:public
+elm	./include_lib/ui/ui/ui_player.h	/^    struct element elm; 	\/\/must be first$/;"	m	language:C++	struct:ui_player	typeref:struct:ui_player::element	access:public
+elm	./include_lib/ui/ui/ui_slider.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::element	access:public
+elm	./include_lib/ui/ui/ui_text.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_text	typeref:struct:ui_text::element	access:public
+elm	./include_lib/ui/ui/ui_watch.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::element	access:public
+elm	./include_lib/ui/ui/window.h	/^    struct element elm; 	\/\/must be first$/;"	m	language:C++	struct:window	typeref:struct:window::element	access:public
+elm2	./include_lib/ui/ui/ui_grid.h	/^    struct element elm2;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::element	access:public
+encode	./include_lib/ui/ui/ui_core.h	/^    char encode;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+encode	./include_lib/ui/ui/ui_text.h	/^    char encode;$/;"	m	language:C++	struct:ui_text	access:public
+encode_data	./include_lib/upgrade/ecc_rs_api.h	/^    void (*encode_data)(unsigned char *ptr, struct ecc_rs *ecc_rs);  \/\/计算校验信息$/;"	m	language:C++	struct:ecc_rs_api	access:public
+end	./include_lib/ui/ui/ui_core.h	/^    struct element_event_handler *end;$/;"	m	language:C++	struct:ui_style_info	typeref:struct:ui_style_info::element_event_handler	access:public
+endian	./include_lib/ui/ui/ui_core.h	/^    char endian;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+endian	./include_lib/ui/ui/ui_text.h	/^    char endian;$/;"	m	language:C++	struct:ui_text	access:public
+entry	./include_lib/ui/ui/ui_battery.h	/^    struct list_head entry;$/;"	m	language:C++	struct:ui_battery	typeref:struct:ui_battery::list_head	access:public
+entry	./include_lib/ui/ui/window.h	/^    struct list_head entry;$/;"	m	language:C++	struct:window	typeref:struct:window::list_head	access:public
+event	./include_lib/ui/ui/ui_core.h	/^    int event;$/;"	m	language:C++	struct:element_touch_event	access:public
+event	./include_lib/ui/ui/ui_core.h	/^    u16 event;$/;"	m	language:C++	struct:event_action	access:public
+event	./include_lib/ui/ui/ui_core.h	/^    u8 event;$/;"	m	language:C++	struct:element_key_event	access:public
+event_action	./include_lib/ui/ui/ui_core.h	/^struct event_action {$/;"	s	language:C++
+event_action::action	./include_lib/ui/ui/ui_core.h	/^    u16 action;$/;"	m	language:C++	struct:event_action	access:public
+event_action::argc	./include_lib/ui/ui/ui_core.h	/^    u8  argc;$/;"	m	language:C++	struct:event_action	access:public
+event_action::argv	./include_lib/ui/ui/ui_core.h	/^    char argv[];$/;"	m	language:C++	struct:event_action	access:public
+event_action::event	./include_lib/ui/ui/ui_core.h	/^    u16 event;$/;"	m	language:C++	struct:event_action	access:public
+event_action::id	./include_lib/ui/ui/ui_core.h	/^    int id;$/;"	m	language:C++	struct:event_action	access:public
+fd	./include_lib/ui/ui/ui_camera.h	/^    int fd;$/;"	m	language:C++	struct:ui_camera	access:public
+fd	./include_lib/ui/ui/ui_player.h	/^    int fd;$/;"	m	language:C++	struct:ui_player	access:public
+file	./include_lib/ui/ui/ui_core.h	/^    const char *file;$/;"	m	language:C++	struct:ui_style	access:public
+file	./include_lib/upgrade/upgrade_detect.h	/^    FILE *file;$/;"	m	language:C++	struct:upgrade_req	access:public
+file_browser_close	./include_lib/ui/ui/ui_core.h	/^    void (*file_browser_close)(struct ui_file_browser *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+file_browser_open	./include_lib/ui/ui/ui_core.h	/^    struct ui_file_browser *(*file_browser_open)(struct rect *r,$/;"	m	language:C++	struct:ui_platform_api	typeref:struct:ui_platform_api::file_browser_open	access:public
+file_num	./include_lib/ui/ui/ui_core.h	/^    u16 file_num;$/;"	m	language:C++	struct:ui_file_attrs	access:public
+file_number	./include_lib/ui/ui/ui_browser.h	/^    u16 file_number;$/;"	m	language:C++	struct:ui_browser	access:public
+file_number	./include_lib/ui/ui/ui_core.h	/^    int file_number;$/;"	m	language:C++	struct:ui_file_browser	access:public
+fill_rect	./include_lib/ui/ui/ui_core.h	/^    int (*fill_rect)(struct draw_context *, u32 color);$/;"	m	language:C++	struct:ui_platform_api	access:public
+film_len	./include_lib/ui/ui/ui_core.h	/^    u32 film_len;$/;"	m	language:C++	struct:ui_file_attrs	access:public
+flags	./include_lib/ui/ui/ui_core.h	/^    u32 flags;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+flags	./include_lib/ui/ui/ui_text.h	/^    u32 flags;$/;"	m	language:C++	struct:ui_text	access:public
+flush_file_preview	./include_lib/ui/ui/ui_core.h	/^    int (*flush_file_preview)(struct ui_file_browser *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+fname	./include_lib/ui/ui/ui_core.h	/^    char fname[128];$/;"	m	language:C++	struct:ui_file_attrs	access:public
+focus	./include_lib/ui/ui/ui_core.h	/^    struct element *focus;$/;"	m	language:C++	struct:element	typeref:struct:element::element	access:public
+font_ascii_get_pix	./include_lib/ui/res/font_ascii.h	/^int font_ascii_get_pix(char code, u8 *pixbuf, int *height, int *width);$/;"	p	language:C++	signature:(char code, u8 *pixbuf, int *height, int *width)
+font_ascii_init	./include_lib/ui/res/resfile.h	/^int font_ascii_init(const char *name);$/;"	p	language:C++	signature:(const char *name)
+font_ascii_width_check	./include_lib/ui/res/font_ascii.h	/^int font_ascii_width_check(const char *str);$/;"	p	language:C++	signature:(const char *str)
+font_close	./include_lib/ui/font/font_textout.h	/^void font_close(struct font_info *info);$/;"	p	language:C++	signature:(struct font_info *info)
+font_open	./include_lib/ui/font/font_textout.h	/^struct font_info *font_open(struct font_info *info, u8 language);$/;"	p	language:C++	signature:(struct font_info *info, u8 language)
+font_sd_fopen	./include_lib/ui/font/font_sdfs.h	/^FILE *font_sd_fopen(const char *filename, void *arg);$/;"	p	language:C++	signature:(const char *filename, void *arg)
+font_sd_fread	./include_lib/ui/font/font_sdfs.h	/^int font_sd_fread(FILE *fp, void *buf, u32 len);$/;"	p	language:C++	signature:(FILE *fp, void *buf, u32 len)
+font_sd_fseek	./include_lib/ui/font/font_sdfs.h	/^int font_sd_fseek(FILE *fp, u8 seek_mode, u32 offset);$/;"	p	language:C++	signature:(FILE *fp, u8 seek_mode, u32 offset)
+font_text_width	./include_lib/ui/font/font_textout.h	/^u16 font_text_width(struct font_info *info, u8 *str, u16 strlen);$/;"	p	language:C++	signature:(struct font_info *info, u8 *str, u16 strlen)
+font_textout	./include_lib/ui/font/font_textout.h	/^u16 font_textout(struct font_info *info, u8 *str, u16 strlen, u16 x, u16 y);$/;"	p	language:C++	signature:(struct font_info *info, u8 *str, u16 strlen, u16 x, u16 y)
+font_textout_unicode	./include_lib/ui/font/font_textout.h	/^u16 font_textout_unicode(struct font_info *info, u8 *str, u16 strlen, u16 x, u16 y);$/;"	p	language:C++	signature:(struct font_info *info, u8 *str, u16 strlen, u16 x, u16 y)
+font_textout_utf8	./include_lib/ui/font/font_textout.h	/^u16 font_textout_utf8(struct font_info *info, u8 *str, u16 strlen, u16 x, u16 y);$/;"	p	language:C++	signature:(struct font_info *info, u8 *str, u16 strlen, u16 x, u16 y)
+font_utf16toansi	./include_lib/ui/font/font_textout.h	/^u16 font_utf16toansi(struct font_info *info, u8 *utf, u16 len, u8 *ansi);$/;"	p	language:C++	signature:(struct font_info *info, u8 *utf, u16 len, u8 *ansi)
+font_utf8toansi	./include_lib/ui/font/font_textout.h	/^u16 font_utf8toansi(struct font_info *info, u8 *utf8, u16 utf8len, u8 *ansi);$/;"	p	language:C++	signature:(struct font_info *info, u8 *utf8, u16 utf8len, u8 *ansi)
+font_utf8toutf16	./include_lib/ui/font/font_textout.h	/^u16 font_utf8toutf16(struct font_info *info, u8 *utf8, u16 utf8len, u16 *utf16);$/;"	p	language:C++	signature:(struct font_info *info, u8 *utf8, u16 utf8len, u16 *utf16)
+force	./include_lib/upgrade/upgrade_detect.h	/^    u8   force; \/\/强制升级$/;"	m	language:C++	struct:upgrade_req	access:public
+format	./include_lib/ui/res/resfile.h	/^    u8 format;$/;"	m	language:C++	struct:image_file	access:public
+format	./include_lib/ui/ui/control.h	/^    char format[16];$/;"	m	language:C++	struct:ui_time_info	access:public
+format	./include_lib/ui/ui/control.h	/^    u8 format;$/;"	m	language:C++	struct:layer_info	access:public
+format	./include_lib/ui/ui/p.h	/^    const char *format;$/;"	m	language:C++	struct:element_text	access:public
+format	./include_lib/ui/ui/p.h	/^    const char *format;$/;"	m	language:C++	struct:ui_str	access:public
+format	./include_lib/ui/ui/slider.h	/^    const char *format;$/;"	m	language:C++	struct:slider_info	access:public
+format	./include_lib/ui/ui/ui_core.h	/^    char *format;$/;"	m	language:C++	struct:ui_file_attrs	access:public
+format	./include_lib/ui/ui/ui_text.h	/^    const char *format;$/;"	m	language:C++	struct:ui_text	access:public
+free	./include_lib/ui/ui/ui_core.h	/^    void (*free)(void *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+fsize_str	./include_lib/ui/ui/ui_file_attrs.h	/^    char fsize_str[16];$/;"	m	language:C++	struct:ui_fattrs	access:public
+ftype	./include_lib/ui/ui/ui_browser.h	/^    const char *ftype;$/;"	m	language:C++	struct:ui_browser	access:public
+ftype	./include_lib/ui/ui/ui_core.h	/^    u8 ftype;$/;"	m	language:C++	struct:ui_file_attrs	access:public
+get_control_ops_by_type	./include_lib/ui/ui/control.h	228;"	d	language:C++
+get_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*get_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+get_ecc_rs_api	./include_lib/upgrade/ecc_rs_api.h	/^extern struct ecc_rs_api  *get_ecc_rs_api();$/;"	p	language:C++	signature:()
+get_element_by_id	./include_lib/ui/ui/ui_core.h	/^struct element *get_element_by_id(struct element *elm, u32 id);$/;"	p	language:C++	signature:(struct element *elm, u32 id)
+get_file_attrs	./include_lib/ui/ui/ui_core.h	/^    int (*get_file_attrs)(struct ui_file_browser *, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+grid	./include_lib/ui/ui/control.h	/^    struct ui_grid_info  	grid;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_grid_info	access:public
+grid	./include_lib/ui/ui/ui_browser.h	/^    struct ui_grid *grid;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::ui_grid	access:public
+group	./include_lib/ui/ui/play_control.h	/^    struct view_group *group;$/;"	m	language:C++	struct:play_ctrl	typeref:struct:play_ctrl::view_group	access:public
+h	./include_lib/ui/ui/play_control.h	/^    } h;$/;"	m	language:C++	struct:play_ctrl	typeref:union:play_ctrl::__anon6	access:public
+handl	./include_lib/ui/ui/ui_core.h	/^    void *handl;$/;"	m	language:C++	struct:draw_context	access:public
+handler	./include_lib/ui/ui/layer.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:layer	typeref:struct:layer::element_event_handler	access:public
+handler	./include_lib/ui/ui/layout.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:layout	typeref:struct:layout::element_event_handler	access:public
+handler	./include_lib/ui/ui/p.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:element_text	typeref:struct:element_text::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui.h	/^    int (*handler)(const char *type, u32 args);$/;"	m	language:C++	struct:uimsg_handl	access:public
+handler	./include_lib/ui/ui/ui_animation.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_animation	typeref:struct:ui_animation::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_battery.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_battery	typeref:struct:ui_battery::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_browser.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_button.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:button	typeref:struct:button::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_camera.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_camera	typeref:struct:ui_camera::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_core.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:element	typeref:struct:element::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_file_attrs.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_fattrs	typeref:struct:ui_fattrs::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_grid.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_pic.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_pic	typeref:struct:ui_pic::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_player.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_player	typeref:struct:ui_player::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_slider.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_text.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_text	typeref:struct:ui_text::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_time.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_time	typeref:struct:ui_time::element_event_handler	access:public
+handler	./include_lib/ui/ui/ui_watch.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::element_event_handler	access:public
+handler	./include_lib/ui/ui/window.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:window	typeref:struct:window::element_event_handler	access:public
+hash	./include_lib/ui/res/quicklz.h	/^    qlz_hash_compress hash[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon3	access:public
+hash	./include_lib/ui/res/quicklz.h	/^    qlz_hash_decompress hash[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon4	access:public
+hash	./include_lib/ui/res/quicklz.h	/^    qlz_hash_decompress hash[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon5	access:public
+hash_counter	./include_lib/ui/res/quicklz.h	/^    unsigned char hash_counter[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon3	access:public
+hash_counter	./include_lib/ui/res/quicklz.h	/^    unsigned char hash_counter[QLZ_HASH_VALUES];$/;"	m	language:C++	struct:__anon4	access:public
+hdl	./include_lib/ui/ui/ui_browser.h	/^    struct ui_file_browser *hdl;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::ui_file_browser	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head 	head;$/;"	m	language:C++	struct:ui_button_info	typeref:struct:ui_button_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:layer_info	typeref:struct:layer_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:layout_info	typeref:struct:layout_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_animation_info	typeref:struct:ui_animation_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_battery_info	typeref:struct:ui_battery_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_browser_info	typeref:struct:ui_browser_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_camera_info	typeref:struct:ui_camera_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_fattrs_info	typeref:struct:ui_fattrs_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_grid_info	typeref:struct:ui_grid_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_pic_info	typeref:struct:ui_pic_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_player_info	typeref:struct:ui_player_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_slider_info	typeref:struct:ui_slider_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_text_info	typeref:struct:ui_text_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_time_info	typeref:struct:ui_time_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_ctrl_info_head	access:public
+head	./include_lib/ui/ui/ui_watch.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:watch_pic_info	typeref:struct:watch_pic_info::ui_ctrl_info_head	access:public
+height	./include_lib/ui/res/resfile.h	/^    u16 height;$/;"	m	language:C++	struct:image_file	access:public
+height	./include_lib/ui/ui/ui_core.h	/^    int height;$/;"	m	language:C++	struct:element_css	access:public
+hi_index	./include_lib/ui/ui/ui_grid.h	/^    char hi_index;$/;"	m	language:C++	struct:ui_grid	access:public
+hi_num	./include_lib/ui/ui/ui_grid.h	/^    char hi_num;$/;"	m	language:C++	struct:ui_grid	access:public
+hide	./include_lib/ui/ui/layer.h	/^    u8 hide;$/;"	m	language:C++	struct:layer	access:public
+hide	./include_lib/ui/ui/layout.h	/^    u8 hide;$/;"	m	language:C++	struct:layout	access:public
+hide	./include_lib/ui/ui/ui_core.h	/^    u32 hide;$/;"	m	language:C++	struct:jaction	access:public
+hide	./include_lib/ui/ui/window.h	/^    u8 hide;$/;"	m	language:C++	struct:window	access:public
+hide_byself	./include_lib/ui/ui/ui_browser.h	/^    u8 hide_byself;$/;"	m	language:C++	struct:ui_browser	access:public
+highlight	./include_lib/ui/ui/control.h	/^    u8 highlight;$/;"	m	language:C++	struct:ui_pic_info	access:public
+highlight	./include_lib/ui/ui/layer.h	/^    u8 highlight;$/;"	m	language:C++	struct:layer	access:public
+highlight	./include_lib/ui/ui/ui_browser.h	/^    u8 highlight;$/;"	m	language:C++	struct:ui_browser	access:public
+highlight	./include_lib/ui/ui/ui_core.h	/^    u8  highlight;$/;"	m	language:C++	struct:element	access:public
+highlight_color	./include_lib/ui/ui/control.h	/^    int highlight_color;$/;"	m	language:C++	struct:ui_text_info	access:public
+highlight_img	./include_lib/ui/ui/control.h	/^    struct ui_image_list *highlight_img;$/;"	m	language:C++	struct:ui_pic_info	typeref:struct:ui_pic_info::ui_image_list	access:public
+highlight_index	./include_lib/ui/ui/control.h	/^    char highlight_index;$/;"	m	language:C++	struct:ui_grid_info	access:public
+highlight_index	./include_lib/ui/ui/ui_grid.h	/^    u8 highlight_index;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+hold_up	./include_lib/ui/ui/ui_core.h	/^    u8  hold_up;$/;"	m	language:C++	struct:element_touch_event	access:public
+hour	./include_lib/ui/ui/ui_time.h	/^    u8 hour;$/;"	m	language:C++	struct:ui_time	access:public
+hour	./include_lib/ui/ui/ui_time.h	/^    u8 hour;$/;"	m	language:C++	struct:utime	access:public
+hour	./include_lib/ui/ui/ui_watch.h	/^    u8 hour;$/;"	m	language:C++	struct:ui_watch	access:public
+id	./include_lib/ui/ui/control.h	/^    int 	id;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+id	./include_lib/ui/ui/ui_core.h	/^    int id;$/;"	m	language:C++	struct:element	access:public
+id	./include_lib/ui/ui/ui_core.h	/^    int id;$/;"	m	language:C++	struct:element_event_handler	access:public
+id	./include_lib/ui/ui/ui_core.h	/^    int id;$/;"	m	language:C++	struct:event_action	access:public
+image	./include_lib/ui/ui/control.h	/^    u16 image[0];$/;"	m	language:C++	struct:ui_image_list	access:public
+image_decode	./include_lib/ui/res/resfile.h	/^u32 image_decode(const void *pSour, void *pDest, u32 SourLen, u32 DestLen, u8 compress);$/;"	p	language:C++	signature:(const void *pSour, void *pDest, u32 SourLen, u32 DestLen, u8 compress)
+image_file	./include_lib/ui/res/resfile.h	/^struct image_file {$/;"	s	language:C++
+image_file::compress	./include_lib/ui/res/resfile.h	/^    u8 compress;$/;"	m	language:C++	struct:image_file	access:public
+image_file::data_crc	./include_lib/ui/res/resfile.h	/^    u16 data_crc;$/;"	m	language:C++	struct:image_file	access:public
+image_file::format	./include_lib/ui/res/resfile.h	/^    u8 format;$/;"	m	language:C++	struct:image_file	access:public
+image_file::height	./include_lib/ui/res/resfile.h	/^    u16 height;$/;"	m	language:C++	struct:image_file	access:public
+image_file::len	./include_lib/ui/res/resfile.h	/^    u32 len;$/;"	m	language:C++	struct:image_file	access:public
+image_file::offset	./include_lib/ui/res/resfile.h	/^    u32 offset;$/;"	m	language:C++	struct:image_file	access:public
+image_file::width	./include_lib/ui/res/resfile.h	/^    u16 width;$/;"	m	language:C++	struct:image_file	access:public
+image_index	./include_lib/ui/ui/ui_button.h	/^    u8 image_index;$/;"	m	language:C++	struct:button	access:public
+image_quadrant	./include_lib/ui/ui/ui_core.h	/^    int image_quadrant: 8;$/;"	m	language:C++	struct:element_css	access:public
+image_set_css	./include_lib/ui/ui/img.h	21;"	d	language:C++
+img	./include_lib/ui/ui/control.h	/^    struct ui_image_list *img;$/;"	m	language:C++	struct:ui_animation_info	typeref:struct:ui_animation_info::ui_image_list	access:public
+img	./include_lib/ui/ui/ui_watch.h	/^    struct ui_image_list *img;$/;"	m	language:C++	struct:watch_pic_info	typeref:struct:watch_pic_info::ui_image_list	access:public
+index	./include_lib/ui/ui/ui_animation.h	/^    u16 index;$/;"	m	language:C++	struct:ui_animation	access:public
+index	./include_lib/ui/ui/ui_battery.h	/^    u8 index;$/;"	m	language:C++	struct:ui_battery	access:public
+index	./include_lib/ui/ui/ui_pic.h	/^    char index;$/;"	m	language:C++	struct:ui_pic	access:public
+info	./include_lib/ui/ui/control.h	/^    struct layout_info *info;$/;"	m	language:C++	struct:ui_grid_info	typeref:struct:ui_grid_info::layout_info	access:public
+info	./include_lib/ui/ui/layer.h	/^    const struct layer_info *info;$/;"	m	language:C++	struct:layer	typeref:struct:layer::layer_info	access:public
+info	./include_lib/ui/ui/layout.h	/^    const struct layout_info *info;$/;"	m	language:C++	struct:layout	typeref:struct:layout::layout_info	access:public
+info	./include_lib/ui/ui/ui_animation.h	/^    const struct ui_animation_info *info;$/;"	m	language:C++	struct:ui_animation	typeref:struct:ui_animation::ui_animation_info	access:public
+info	./include_lib/ui/ui/ui_battery.h	/^    const struct ui_battery_info *info;$/;"	m	language:C++	struct:ui_battery	typeref:struct:ui_battery::ui_battery_info	access:public
+info	./include_lib/ui/ui/ui_browser.h	/^    const struct ui_browser_info *info;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::ui_browser_info	access:public
+info	./include_lib/ui/ui/ui_button.h	/^    const struct ui_button_info *info;$/;"	m	language:C++	struct:button	typeref:struct:button::ui_button_info	access:public
+info	./include_lib/ui/ui/ui_camera.h	/^    const struct ui_camera_info *info;$/;"	m	language:C++	struct:ui_camera	typeref:struct:ui_camera::ui_camera_info	access:public
+info	./include_lib/ui/ui/ui_file_attrs.h	/^    const struct ui_fattrs_info *info;$/;"	m	language:C++	struct:ui_fattrs	typeref:struct:ui_fattrs::ui_fattrs_info	access:public
+info	./include_lib/ui/ui/ui_grid.h	/^    const struct ui_grid_info *info;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::ui_grid_info	access:public
+info	./include_lib/ui/ui/ui_grid.h	/^    struct layout_info *info;$/;"	m	language:C++	struct:ui_grid_item_info	typeref:struct:ui_grid_item_info::layout_info	access:public
+info	./include_lib/ui/ui/ui_pic.h	/^    const struct ui_pic_info *info;$/;"	m	language:C++	struct:ui_pic	typeref:struct:ui_pic::ui_pic_info	access:public
+info	./include_lib/ui/ui/ui_player.h	/^    const struct ui_player_info *info;$/;"	m	language:C++	struct:ui_player	typeref:struct:ui_player::ui_player_info	access:public
+info	./include_lib/ui/ui/ui_slider.h	/^    const struct ui_slider_info *info;$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::ui_slider_info	access:public
+info	./include_lib/ui/ui/ui_text.h	/^    const struct ui_text_info *info;$/;"	m	language:C++	struct:ui_text	typeref:struct:ui_text::ui_text_info	access:public
+info	./include_lib/ui/ui/ui_time.h	/^    const struct ui_time_info *info;$/;"	m	language:C++	struct:ui_time	typeref:struct:ui_time::ui_time_info	access:public
+info	./include_lib/ui/ui/ui_watch.h	/^    const struct layout_info *info;$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::layout_info	access:public
+info	./include_lib/ui/ui/window.h	/^    const struct window_info *info;$/;"	m	language:C++	struct:window	typeref:struct:window::window_info	access:public
+inited	./include_lib/ui/ui/layer.h	/^    u8 inited;$/;"	m	language:C++	struct:layer	access:public
+inited	./include_lib/ui/ui/layout.h	/^    u8 inited;$/;"	m	language:C++	struct:layout	access:public
+inited	./include_lib/ui/ui/ui_browser.h	/^    u8 inited;$/;"	m	language:C++	struct:ui_browser	access:public
+initialize_ecc	./include_lib/upgrade/ecc_rs_api.h	/^    void (*initialize_ecc)(unsigned char *ptr, int max_err);    \/\/初始化$/;"	m	language:C++	struct:ecc_rs_api	access:public
+interval	./include_lib/ui/ui/control.h	/^    u32 interval;$/;"	m	language:C++	struct:ui_animation_info	access:public
+interval	./include_lib/ui/ui/control.h	/^    u8 interval;$/;"	m	language:C++	struct:ui_browser_info	access:public
+interval	./include_lib/ui/ui/ui_grid.h	/^    u16 interval;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+invisible	./include_lib/ui/ui/ui_core.h	/^    u8  invisible;$/;"	m	language:C++	struct:element_css	access:public
+item	./include_lib/ui/ui/ui_grid.h	/^    struct layout *item;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::layout	access:public
+item_info	./include_lib/ui/ui/ui_grid.h	/^    struct layout_info *item_info;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::layout_info	access:public
+item_num	./include_lib/ui/ui/ui_browser.h	/^    u8 item_num;$/;"	m	language:C++	struct:ui_browser	access:public
+iteration_count	./include_lib/ui/ui/ui_core.h	/^    u8  iteration_count;$/;"	m	language:C++	struct:janimation	access:public
+jaction	./include_lib/ui/ui/ui_core.h	/^struct jaction {$/;"	s	language:C++
+jaction::hide	./include_lib/ui/ui/ui_core.h	/^    u32 hide;$/;"	m	language:C++	struct:jaction	access:public
+jaction::show	./include_lib/ui/ui/ui_core.h	/^    u32 show;$/;"	m	language:C++	struct:jaction	access:public
+janimation	./include_lib/ui/ui/ui_core.h	/^struct janimation {$/;"	s	language:C++
+janimation::css	./include_lib/ui/ui/ui_core.h	/^    struct element_css css[0];$/;"	m	language:C++	struct:janimation	typeref:struct:janimation::element_css	access:public
+janimation::delay	./include_lib/ui/ui/ui_core.h	/^    u16 delay;$/;"	m	language:C++	struct:janimation	access:public
+janimation::direction	./include_lib/ui/ui/ui_core.h	/^    u8  direction;$/;"	m	language:C++	struct:janimation	access:public
+janimation::duration	./include_lib/ui/ui/ui_core.h	/^    u16 duration;$/;"	m	language:C++	struct:janimation	access:public
+janimation::iteration_count	./include_lib/ui/ui/ui_core.h	/^    u8  iteration_count;$/;"	m	language:C++	struct:janimation	access:public
+janimation::persent	./include_lib/ui/ui/ui_core.h	/^    u8  persent[5];$/;"	m	language:C++	struct:janimation	access:public
+janimation::play_state	./include_lib/ui/ui/ui_core.h	/^    u8  play_state;$/;"	m	language:C++	struct:janimation	access:public
+layer	./include_lib/ui/ui/control.h	/^    struct layer_info *layer;$/;"	m	language:C++	struct:window_info	typeref:struct:window_info::layer_info	access:public
+layer	./include_lib/ui/ui/layer.h	/^struct layer {$/;"	s	language:C++
+layer	./include_lib/ui/ui/window.h	/^    struct layer *layer;$/;"	m	language:C++	struct:window	typeref:struct:window::layer	access:public
+layer::dc	./include_lib/ui/ui/layer.h	/^    struct draw_context dc;$/;"	m	language:C++	struct:layer	typeref:struct:layer::draw_context	access:public
+layer::elm	./include_lib/ui/ui/layer.h	/^    struct element elm; 		\/\/must be first$/;"	m	language:C++	struct:layer	typeref:struct:layer::element	access:public
+layer::handler	./include_lib/ui/ui/layer.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:layer	typeref:struct:layer::element_event_handler	access:public
+layer::hide	./include_lib/ui/ui/layer.h	/^    u8 hide;$/;"	m	language:C++	struct:layer	access:public
+layer::highlight	./include_lib/ui/ui/layer.h	/^    u8 highlight;$/;"	m	language:C++	struct:layer	access:public
+layer::info	./include_lib/ui/ui/layer.h	/^    const struct layer_info *info;$/;"	m	language:C++	struct:layer	typeref:struct:layer::layer_info	access:public
+layer::inited	./include_lib/ui/ui/layer.h	/^    u8 inited;$/;"	m	language:C++	struct:layer	access:public
+layer::layout	./include_lib/ui/ui/layer.h	/^    struct layout *layout;$/;"	m	language:C++	struct:layer	typeref:struct:layer::layout	access:public
+layer_delete	./include_lib/ui/ui/layer.h	/^void layer_delete(struct layer *layer, int num);$/;"	p	language:C++	signature:(struct layer *layer, int num)
+layer_delete_probe	./include_lib/ui/ui/layer.h	/^void layer_delete_probe(struct layer *layer, int num);$/;"	p	language:C++	signature:(struct layer *layer, int num)
+layer_for_id	./include_lib/ui/ui/layer.h	21;"	d	language:C++
+layer_hide	./include_lib/ui/ui/layer.h	/^int layer_hide(int id);$/;"	p	language:C++	signature:(int id)
+layer_info	./include_lib/ui/ui/control.h	/^struct layer_info {$/;"	s	language:C++
+layer_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:layer_info	typeref:struct:layer_info::element_event_action	access:public
+layer_info::format	./include_lib/ui/ui/control.h	/^    u8 format;$/;"	m	language:C++	struct:layer_info	access:public
+layer_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:layer_info	typeref:struct:layer_info::ui_ctrl_info_head	access:public
+layer_info::layout	./include_lib/ui/ui/control.h	/^    struct layout_info *layout;$/;"	m	language:C++	struct:layer_info	typeref:struct:layer_info::layout_info	access:public
+layer_new	./include_lib/ui/ui/layer.h	/^struct layer *layer_new(const struct layer_info *info, int num, struct element *parent);$/;"	p	language:C++	signature:(const struct layer_info *info, int num, struct element *parent)
+layer_show	./include_lib/ui/ui/layer.h	/^int layer_show(int id);$/;"	p	language:C++	signature:(int id)
+layer_toggle	./include_lib/ui/ui/layer.h	/^int layer_toggle(int id);$/;"	p	language:C++	signature:(int id)
+layout	./include_lib/ui/ui/control.h	/^    struct layout_info *layout;$/;"	m	language:C++	struct:layer_info	typeref:struct:layer_info::layout_info	access:public
+layout	./include_lib/ui/ui/layer.h	/^    struct layout *layout;$/;"	m	language:C++	struct:layer	typeref:struct:layer::layout	access:public
+layout	./include_lib/ui/ui/layout.h	/^    struct layout *layout;$/;"	m	language:C++	struct:layout	typeref:struct:layout::layout	access:public
+layout	./include_lib/ui/ui/layout.h	/^struct layout {$/;"	s	language:C++
+layout::elm	./include_lib/ui/ui/layout.h	/^    struct element elm; 	\/\/must be first$/;"	m	language:C++	struct:layout	typeref:struct:layout::element	access:public
+layout::handler	./include_lib/ui/ui/layout.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:layout	typeref:struct:layout::element_event_handler	access:public
+layout::hide	./include_lib/ui/ui/layout.h	/^    u8 hide;$/;"	m	language:C++	struct:layout	access:public
+layout::info	./include_lib/ui/ui/layout.h	/^    const struct layout_info *info;$/;"	m	language:C++	struct:layout	typeref:struct:layout::layout_info	access:public
+layout::inited	./include_lib/ui/ui/layout.h	/^    u8 inited;$/;"	m	language:C++	struct:layout	access:public
+layout::layout	./include_lib/ui/ui/layout.h	/^    struct layout *layout;$/;"	m	language:C++	struct:layout	typeref:struct:layout::layout	access:public
+layout::release	./include_lib/ui/ui/layout.h	/^    u8 release;$/;"	m	language:C++	struct:layout	access:public
+layout_delete	./include_lib/ui/ui/layout.h	/^void layout_delete(struct layout *layout, int num);$/;"	p	language:C++	signature:(struct layout *layout, int num)
+layout_delete_probe	./include_lib/ui/ui/layout.h	/^void layout_delete_probe(struct layout *layout, int num);$/;"	p	language:C++	signature:(struct layout *layout, int num)
+layout_for_id	./include_lib/ui/ui/layout.h	24;"	d	language:C++
+layout_hide	./include_lib/ui/ui/layout.h	/^int layout_hide(int id);$/;"	p	language:C++	signature:(int id)
+layout_info	./include_lib/ui/ui/control.h	/^struct layout_info {$/;"	s	language:C++
+layout_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:layout_info	typeref:struct:layout_info::element_event_action	access:public
+layout_info::ctrl	./include_lib/ui/ui/control.h	/^    union ui_control_info *ctrl;$/;"	m	language:C++	struct:layout_info	typeref:union:layout_info::ui_control_info	access:public
+layout_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:layout_info	typeref:struct:layout_info::ui_ctrl_info_head	access:public
+layout_lose_focus	./include_lib/ui/ui/layout.h	/^void layout_lose_focus(struct layout *layout);$/;"	p	language:C++	signature:(struct layout *layout)
+layout_new	./include_lib/ui/ui/layout.h	/^struct layout *layout_new(const struct layout_info *, int, struct element *);$/;"	p	language:C++	signature:(const struct layout_info *, int, struct element *)
+layout_on_focus	./include_lib/ui/ui/layout.h	/^void layout_on_focus(struct layout *layout);$/;"	p	language:C++	signature:(struct layout *layout)
+layout_show	./include_lib/ui/ui/layout.h	/^int layout_show(int id);$/;"	p	language:C++	signature:(int id)
+layout_toggle	./include_lib/ui/ui/layout.h	/^int layout_toggle(int id);$/;"	p	language:C++	signature:(int id)
+left	./include_lib/ui/ui/ui_core.h	/^    int left;$/;"	m	language:C++	struct:element_css	access:public
+left	./include_lib/ui/ui/ui_core.h	/^    u8 left;$/;"	m	language:C++	struct:css_border	access:public
+left	./include_lib/ui/ui/ui_slider.h	/^    int left;$/;"	m	language:C++	struct:ui_slider	access:public
+len	./include_lib/ui/res/resfile.h	/^    u32 len;$/;"	m	language:C++	struct:image_file	access:public
+len	./include_lib/ui/ui/control.h	/^    u8 		len;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+len	./include_lib/ui/ui/control.h	/^    u8 		len;$/;"	m	language:C++	struct:window_info	access:public
+list_for_each_child_element	./include_lib/ui/ui/ui_core.h	260;"	d	language:C++
+list_for_each_child_element_reverse	./include_lib/ui/ui/ui_core.h	263;"	d	language:C++
+list_for_each_child_element_safe	./include_lib/ui/ui/ui_core.h	266;"	d	language:C++
+load_pallet_table	./include_lib/ui/res/resfile.h	/^int load_pallet_table(int id, u32 *data);$/;"	p	language:C++	signature:(int id, u32 *data)
+load_style	./include_lib/ui/ui/ui_core.h	/^    int (*load_style)(struct ui_style *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+load_window	./include_lib/ui/ui/ui_core.h	/^    void *(*load_window)(int id);$/;"	m	language:C++	struct:ui_platform_api	access:public
+loop	./include_lib/ui/ui/ui_animation.h	/^    u16 loop;$/;"	m	language:C++	struct:ui_animation	access:public
+loop_num	./include_lib/ui/ui/control.h	/^    u16 loop_num;$/;"	m	language:C++	struct:ui_animation_info	access:public
+malloc	./include_lib/ui/ui/ui_core.h	/^    void *(*malloc)(int);$/;"	m	language:C++	struct:ui_platform_api	access:public
+max_left	./include_lib/ui/ui/ui_grid.h	/^    int  max_left;$/;"	m	language:C++	struct:ui_grid	access:public
+max_show_left	./include_lib/ui/ui/ui_grid.h	/^    int  max_show_left;$/;"	m	language:C++	struct:ui_grid	access:public
+max_show_top	./include_lib/ui/ui/ui_grid.h	/^    int  max_show_top;$/;"	m	language:C++	struct:ui_grid	access:public
+max_top	./include_lib/ui/ui/ui_grid.h	/^    int  max_top;$/;"	m	language:C++	struct:ui_grid	access:public
+max_value	./include_lib/ui/ui/ui_slider.h	/^    int max_value;$/;"	m	language:C++	struct:slider_text_info	access:public
+max_value	./include_lib/ui/ui/ui_slider.h	/^    int max_value;$/;"	m	language:C++	struct:ui_slider	access:public
+min	./include_lib/ui/ui/ui_time.h	/^    u8 min;$/;"	m	language:C++	struct:ui_time	access:public
+min	./include_lib/ui/ui/ui_time.h	/^    u8 min;$/;"	m	language:C++	struct:utime	access:public
+min	./include_lib/ui/ui/ui_watch.h	/^    u8 min;$/;"	m	language:C++	struct:ui_watch	access:public
+min_left	./include_lib/ui/ui/ui_grid.h	/^    int  min_left;$/;"	m	language:C++	struct:ui_grid	access:public
+min_show_left	./include_lib/ui/ui/ui_grid.h	/^    int  min_show_left;$/;"	m	language:C++	struct:ui_grid	access:public
+min_show_top	./include_lib/ui/ui/ui_grid.h	/^    int  min_show_top;$/;"	m	language:C++	struct:ui_grid	access:public
+min_top	./include_lib/ui/ui/ui_grid.h	/^    int  min_top;$/;"	m	language:C++	struct:ui_grid	access:public
+min_value	./include_lib/ui/ui/ui_slider.h	/^    int min_value;$/;"	m	language:C++	struct:slider_text_info	access:public
+min_value	./include_lib/ui/ui/ui_slider.h	/^    int min_value;$/;"	m	language:C++	struct:ui_slider	access:public
+month	./include_lib/ui/ui/ui_time.h	/^    u8 month;$/;"	m	language:C++	struct:ui_time	access:public
+month	./include_lib/ui/ui/ui_time.h	/^    u8 month;$/;"	m	language:C++	struct:utime	access:public
+mov	./include_lib/ui/ui/ui_core.h	/^    struct position mov;$/;"	m	language:C++	struct:element_touch_event	typeref:struct:element_touch_event::position	access:public
+move	./include_lib/ui/ui/ui_slider.h	/^    u8 move;$/;"	m	language:C++	struct:slider_text_info	access:public
+move_dir	./include_lib/ui/ui/ui_core.h	/^    u8  move_dir;$/;"	m	language:C++	struct:element_touch_event	access:public
+move_file_preview	./include_lib/ui/ui/ui_core.h	/^    int (*move_file_preview)(struct ui_file_browser *_bro, struct rect *dst, struct rect *src);$/;"	m	language:C++	struct:ui_platform_api	access:public
+msg	./include_lib/ui/ui/ui.h	/^    const char *msg;$/;"	m	language:C++	struct:uimsg_handl	access:public
+name	./include_lib/ui/ui/ui_core.h	/^    const char *name;$/;"	m	language:C++	struct:ui_style_info	access:public
+need_buf	./include_lib/upgrade/ecc_rs_api.h	/^    unsigned int (*need_buf)(int max_err);    \/\/最大纠错数$/;"	m	language:C++	struct:ecc_rs_api	access:public
+new_ui_pic	./include_lib/ui/ui/ui_pic.h	/^void *new_ui_pic(const void *_info, struct element *parent);$/;"	p	language:C++	signature:(const void *_info, struct element *parent)
+new_ui_text	./include_lib/ui/ui/ui_text.h	/^void *new_ui_text(const void *_info, struct element *parent);$/;"	p	language:C++	signature:(const void *_info, struct element *parent)
+new_ui_time	./include_lib/ui/ui/ui_time.h	/^void *new_ui_time(const void *_info, struct element *parent);$/;"	p	language:C++	signature:(const void *_info, struct element *parent)
+normal_image	./include_lib/ui/ui/control.h	/^    struct ui_image_list *normal_image;$/;"	m	language:C++	struct:ui_battery_info	typeref:struct:ui_battery_info::ui_image_list	access:public
+normal_img	./include_lib/ui/ui/control.h	/^    struct ui_image_list *normal_img;$/;"	m	language:C++	struct:ui_pic_info	typeref:struct:ui_pic_info::ui_image_list	access:public
+num	./include_lib/ui/ui/control.h	/^    u16 num;$/;"	m	language:C++	struct:ui_image_list	access:public
+num	./include_lib/ui/ui/control.h	/^    u16 num;$/;"	m	language:C++	struct:ui_text_list	access:public
+num	./include_lib/ui/ui/ui_core.h	/^    u16 num;$/;"	m	language:C++	struct:element_event_action	access:public
+number	./include_lib/ui/ui/control.h	/^    u16 number[10];$/;"	m	language:C++	struct:ui_time_info	access:public
+offset	./include_lib/ui/res/quicklz.h	/^    const unsigned char *offset;$/;"	m	language:C++	struct:__anon1	access:public
+offset	./include_lib/ui/res/quicklz.h	/^    const unsigned char *offset;$/;"	m	language:C++	struct:__anon2	access:public
+offset	./include_lib/ui/res/quicklz.h	/^    unsigned int offset;$/;"	m	language:C++	struct:__anon1	access:public
+offset	./include_lib/ui/res/resfile.h	/^    u32 offset;$/;"	m	language:C++	struct:image_file	access:public
+offsetof	./include_lib/ui/ui/ui_core.h	16;"	d	language:C++
+offsetof	./include_lib/ui/ui/ui_core.h	22;"	d	language:C++
+on_change	./include_lib/ui/ui/play_control.h	/^    int (*on_change)(struct play_ctrl *, int);$/;"	m	language:C++	struct:play_ctrl	access:public
+on_change	./include_lib/ui/ui/slider.h	/^    int (*on_change)(void *, int);$/;"	m	language:C++	struct:slider	access:public
+on_click	./include_lib/ui/ui/play_control.h	/^        int (*on_click)(struct play_ctrl *, int);$/;"	m	language:C++	union:play_ctrl::__anon6	access:public
+on_hold	./include_lib/ui/ui/play_control.h	/^    int (*on_hold)(struct play_ctrl *, int);$/;"	m	language:C++	struct:play_ctrl	access:public
+on_touch	./include_lib/ui/ui/play_control.h	/^        int (*on_touch)(struct play_ctrl *, struct touch_event *);$/;"	m	language:C++	union:play_ctrl::__anon6	access:public
+onchange	./include_lib/ui/ui/ui_core.h	/^    int (*onchange)(void *, enum element_change_event, void *);$/;"	m	language:C++	struct:element_event_handler	access:public
+onfocus	./include_lib/ui/ui/ui_core.h	/^    u8  onfocus;$/;"	m	language:C++	struct:element_touch_event	access:public
+onfocus	./include_lib/ui/ui/ui_grid.h	/^    char onfocus;$/;"	m	language:C++	struct:ui_grid	access:public
+onkey	./include_lib/ui/ui/ui_core.h	/^    int (*onkey)(void *, struct element_key_event *);$/;"	m	language:C++	struct:element_event_handler	access:public
+ontouch	./include_lib/ui/ui/ui_core.h	/^    int (*ontouch)(void *, struct element_touch_event *);$/;"	m	language:C++	struct:element_event_handler	access:public
+open_device	./include_lib/ui/ui/ui_core.h	/^    int (*open_device)(struct draw_context *, const char *device);$/;"	m	language:C++	struct:ui_platform_api	access:public
+open_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*open_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+open_file	./include_lib/ui/ui/ui_core.h	/^    void *(*open_file)(struct ui_file_browser *, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+open_image_by_id	./include_lib/ui/res/resfile.h	/^int open_image_by_id(struct image_file *f, int id, int page);$/;"	p	language:C++	signature:(struct image_file *f, int id, int page)
+open_resfile	./include_lib/ui/res/resfile.h	/^int open_resfile(const char *name);$/;"	p	language:C++	signature:(const char *name)
+open_str_file	./include_lib/ui/res/resfile.h	/^int open_str_file(const char *name);$/;"	p	language:C++	signature:(const char *name)
+open_string_pic	./include_lib/ui/res/resfile.h	/^int open_string_pic(struct image_file *file, int id);$/;"	p	language:C++	signature:(struct image_file *file, int id)
+open_style_file	./include_lib/ui/res/resfile.h	/^int open_style_file(const char *name);$/;"	p	language:C++	signature:(const char *name)
+ops	./include_lib/ui/ui/ui_core.h	/^    const struct element_ops *ops;$/;"	m	language:C++	struct:element	typeref:struct:element::element_ops	access:public
+order	./include_lib/ui/ui/ui_browser.h	/^    char order; \/\/ 1 表示 正序， 非1 表示反序$/;"	m	language:C++	struct:ui_browser	access:public
+out_ptr	./include_lib/upgrade/ecc_rs_api.h	/^    unsigned char *out_ptr;$/;"	m	language:C++	struct:ecc_rs	access:public
+page	./include_lib/ui/ui/control.h	/^    u8 		page;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+page	./include_lib/ui/ui/ui_core.h	/^    u8 page;$/;"	m	language:C++	struct:draw_context	access:public
+page_mode	./include_lib/ui/ui/control.h	/^    u8 page_mode;$/;"	m	language:C++	struct:ui_grid_info	access:public
+page_mode	./include_lib/ui/ui/ui_grid.h	/^    u8   page_mode;$/;"	m	language:C++	struct:ui_grid	access:public
+page_mode	./include_lib/ui/ui/ui_grid.h	/^    u8 page_mode;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+parent	./include_lib/ui/ui/ui_core.h	/^    struct element *parent;$/;"	m	language:C++	struct:element	typeref:struct:element::element	access:public
+path	./include_lib/ui/ui/ui_browser.h	/^    const char *path;$/;"	m	language:C++	struct:ui_browser	access:public
+path	./include_lib/upgrade/upgrade_detect.h	/^    char *path;$/;"	m	language:C++	struct:upgrade_req	access:public
+path	./include_lib/upgrade/upgrade_detect.h	/^    const char *path;$/;"	m	language:C++	struct:upgrade_ui	access:public
+persent	./include_lib/ui/ui/ui_core.h	/^    u8  persent[5];$/;"	m	language:C++	struct:janimation	access:public
+persent	./include_lib/ui/ui/ui_slider.h	/^    char persent;$/;"	m	language:C++	struct:ui_slider	access:public
+pic	./include_lib/ui/ui/control.h	/^    struct ui_pic_info 		pic;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_pic_info	access:public
+pic_info	./include_lib/ui/ui/ui_watch.h	/^    const struct watch_pic_info *pic_info[WATCH_CHILD_NUM];$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::watch_pic_info	access:public
+pix_scroll	./include_lib/ui/ui/ui_grid.h	/^    u8   pix_scroll;$/;"	m	language:C++	struct:ui_grid	access:public
+play_ctrl	./include_lib/ui/ui/play_control.h	/^struct play_ctrl {$/;"	s	language:C++
+play_ctrl::__anon6::on_click	./include_lib/ui/ui/play_control.h	/^        int (*on_click)(struct play_ctrl *, int);$/;"	m	language:C++	union:play_ctrl::__anon6	access:public
+play_ctrl::__anon6::on_touch	./include_lib/ui/ui/play_control.h	/^        int (*on_touch)(struct play_ctrl *, struct touch_event *);$/;"	m	language:C++	union:play_ctrl::__anon6	access:public
+play_ctrl::group	./include_lib/ui/ui/play_control.h	/^    struct view_group *group;$/;"	m	language:C++	struct:play_ctrl	typeref:struct:play_ctrl::view_group	access:public
+play_ctrl::h	./include_lib/ui/ui/play_control.h	/^    } h;$/;"	m	language:C++	struct:play_ctrl	typeref:union:play_ctrl::__anon6	access:public
+play_ctrl::on_change	./include_lib/ui/ui/play_control.h	/^    int (*on_change)(struct play_ctrl *, int);$/;"	m	language:C++	struct:play_ctrl	access:public
+play_ctrl::on_hold	./include_lib/ui/ui/play_control.h	/^    int (*on_hold)(struct play_ctrl *, int);$/;"	m	language:C++	struct:play_ctrl	access:public
+play_state	./include_lib/ui/ui/ui_core.h	/^    u8  play_state;$/;"	m	language:C++	struct:janimation	access:public
+pos	./include_lib/ui/ui/ui_core.h	/^    struct position pos;$/;"	m	language:C++	struct:element_touch_event	typeref:struct:element_touch_event::position	access:public
+pos	./include_lib/ui/ui/ui_grid.h	/^    struct position pos;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::position	access:public
+priv	./include_lib/ui/ui/p.h	/^    void *priv;$/;"	m	language:C++	struct:element_text	access:public
+private_data	./include_lib/ui/ui/ui_core.h	/^    void *private_data;$/;"	m	language:C++	struct:element_key_event	access:public
+private_data	./include_lib/ui/ui/ui_core.h	/^    void *private_data;$/;"	m	language:C++	struct:element_touch_event	access:public
+private_data	./include_lib/ui/ui/ui_core.h	/^    void *private_data;$/;"	m	language:C++	struct:ui_file_browser	access:public
+private_data	./include_lib/ui/ui/window.h	/^    void *private_data;$/;"	m	language:C++	struct:window	access:public
+put_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*put_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+qlz_compress	./include_lib/ui/res/quicklz.h	/^size_t qlz_compress(const void *source, char *destination, size_t size, qlz_state_compress *state);$/;"	p	language:C++	signature:(const void *source, char *destination, size_t size, qlz_state_compress *state)
+qlz_decompress	./include_lib/ui/res/quicklz.h	/^size_t qlz_decompress(const char *source, void *destination, qlz_state_decompress *state);$/;"	p	language:C++	signature:(const char *source, void *destination, qlz_state_decompress *state)
+qlz_get_setting	./include_lib/ui/res/quicklz.h	/^int qlz_get_setting(int setting);$/;"	p	language:C++	signature:(int setting)
+qlz_hash_compress	./include_lib/ui/res/quicklz.h	/^} qlz_hash_compress;$/;"	t	language:C++	typeref:struct:__anon1
+qlz_hash_decompress	./include_lib/ui/res/quicklz.h	/^} qlz_hash_decompress;$/;"	t	language:C++	typeref:struct:__anon2
+qlz_size_compressed	./include_lib/ui/res/quicklz.h	/^size_t qlz_size_compressed(const char *source);$/;"	p	language:C++	signature:(const char *source)
+qlz_size_decompressed	./include_lib/ui/res/quicklz.h	/^size_t qlz_size_decompressed(const char *source);$/;"	p	language:C++	signature:(const char *source)
+qlz_state_compress	./include_lib/ui/res/quicklz.h	/^} qlz_state_compress;$/;"	t	language:C++	typeref:struct:__anon3
+qlz_state_decompress	./include_lib/ui/res/quicklz.h	/^} qlz_state_decompress;$/;"	t	language:C++	typeref:struct:__anon4
+qlz_state_decompress	./include_lib/ui/res/quicklz.h	/^} qlz_state_decompress;$/;"	t	language:C++	typeref:struct:__anon5
+read_image_data	./include_lib/ui/res/resfile.h	/^int read_image_data(struct image_file *f, u8 *data, int len);$/;"	p	language:C++	signature:(struct image_file *f, u8 *data, int len)
+read_str_data	./include_lib/ui/res/resfile.h	/^int read_str_data(struct image_file *f, u8 *data, int len);$/;"	p	language:C++	signature:(struct image_file *f, u8 *data, int len)
+rect	./include_lib/ui/ui/control.h	/^    struct rect rect;$/;"	m	language:C++	struct:window_info	typeref:struct:window_info::rect	access:public
+rect	./include_lib/ui/ui/ui_core.h	/^    struct rect rect;$/;"	m	language:C++	struct:draw_context	typeref:struct:draw_context::rect	access:public
+redraw	./include_lib/ui/ui/ui_core.h	/^    int (*redraw)(struct element *, struct rect *);$/;"	m	language:C++	struct:element_ops	access:public
+ref	./include_lib/ui/ui/ui_core.h	/^    u16  ref;$/;"	m	language:C++	struct:element	access:public
+ref	./include_lib/ui/ui/ui_core.h	/^    u8 ref;$/;"	m	language:C++	struct:draw_context	access:public
+register_ui_camera_handler	./include_lib/ui/ui/ui_camera.h	/^void register_ui_camera_handler(const struct element_event_handler *handler);$/;"	p	language:C++	signature:(const struct element_event_handler *handler)
+register_ui_player_handler	./include_lib/ui/ui/ui_player.h	/^void register_ui_player_handler(const struct element_event_handler *handler);$/;"	p	language:C++	signature:(const struct element_event_handler *handler)
+release	./include_lib/ui/ui/layout.h	/^    u8 release;$/;"	m	language:C++	struct:layout	access:public
+res_file_version_compare	./include_lib/ui/res/resfile.h	/^int res_file_version_compare(int res_ver);$/;"	p	language:C++	signature:(int res_ver)
+rev	./include_lib/ui/ui/control.h	/^    u8 		rev[3];$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+rev	./include_lib/ui/ui/control.h	/^    u8 		rev[4];$/;"	m	language:C++	struct:window_info	access:public
+rev	./include_lib/ui/ui/control.h	/^    u8 rev[3];$/;"	m	language:C++	struct:ui_time_info	access:public
+right	./include_lib/ui/ui/ui_core.h	/^    u8 right;$/;"	m	language:C++	struct:css_border	access:public
+rotate	./include_lib/ui/ui/ui_grid.h	/^    int  rotate;$/;"	m	language:C++	struct:ui_grid	access:public
+row	./include_lib/ui/ui/control.h	/^    u8 row;$/;"	m	language:C++	struct:ui_browser_info	access:public
+row	./include_lib/ui/ui/ui_grid.h	/^    u8 row;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+row_num	./include_lib/ui/ui/ui_grid.h	/^    u8   row_num;$/;"	m	language:C++	struct:ui_grid	access:public
+scroll	./include_lib/ui/ui/control.h	/^    u8 scroll;$/;"	m	language:C++	struct:ui_browser_info	access:public
+scroll_step	./include_lib/ui/ui/ui_grid.h	/^    int  scroll_step;$/;"	m	language:C++	struct:ui_grid	access:public
+sec	./include_lib/ui/ui/ui_time.h	/^    u8 sec;$/;"	m	language:C++	struct:ui_time	access:public
+sec	./include_lib/ui/ui/ui_time.h	/^    u8 sec;$/;"	m	language:C++	struct:utime	access:public
+sec	./include_lib/ui/ui/ui_watch.h	/^    u8 sec;$/;"	m	language:C++	struct:ui_watch	access:public
+set_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*set_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+set_file_attrs	./include_lib/ui/ui/ui_core.h	/^    int (*set_file_attrs)(struct ui_file_browser *, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+set_timer	./include_lib/ui/ui/ui_core.h	/^    void *(*set_timer)(void *, void (*callback)(void *), u32 msec);$/;"	m	language:C++	struct:ui_platform_api	access:public
+show	./include_lib/ui/ui/ui_core.h	/^    int (*show)(struct element *);$/;"	m	language:C++	struct:element_ops	access:public
+show	./include_lib/ui/ui/ui_core.h	/^    u32 show;$/;"	m	language:C++	struct:jaction	access:public
+show_col	./include_lib/ui/ui/ui_grid.h	/^    u8   show_col;$/;"	m	language:C++	struct:ui_grid	access:public
+show_file_preview	./include_lib/ui/ui/ui_core.h	/^    int (*show_file_preview)(struct ui_file_browser *, struct rect *r, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+show_message	./include_lib/upgrade/upgrade_detect.h	/^    int (*show_message)(int msg);$/;"	m	language:C++	struct:upgrade_ui	access:public
+show_mode	./include_lib/ui/ui/ui_browser.h	/^    u8 show_mode;$/;"	m	language:C++	struct:ui_browser	access:public
+show_progress	./include_lib/upgrade/upgrade_detect.h	/^    int (*show_progress)(int percent);$/;"	m	language:C++	struct:upgrade_ui	access:public
+show_row	./include_lib/ui/ui/ui_grid.h	/^    u8   show_row;$/;"	m	language:C++	struct:ui_grid	access:public
+show_text	./include_lib/ui/ui/ui_core.h	/^    int (*show_text)(struct draw_context *, struct ui_text_attrs *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+sibling	./include_lib/ui/ui/ui_core.h	/^    struct list_head sibling;$/;"	m	language:C++	struct:element	typeref:struct:element::list_head	access:public
+slider	./include_lib/ui/ui/slider.h	/^struct slider {$/;"	s	language:C++
+slider::curr_val	./include_lib/ui/ui/slider.h	/^    u32 curr_val;$/;"	m	language:C++	struct:slider	access:public
+slider::on_change	./include_lib/ui/ui/slider.h	/^    int (*on_change)(void *, int);$/;"	m	language:C++	struct:slider	access:public
+slider::total_val	./include_lib/ui/ui/slider.h	/^    u32 total_val;$/;"	m	language:C++	struct:slider	access:public
+slider_info	./include_lib/ui/ui/slider.h	/^struct slider_info {$/;"	s	language:C++
+slider_info::format	./include_lib/ui/ui/slider.h	/^    const char *format;$/;"	m	language:C++	struct:slider_info	access:public
+slider_info::val	./include_lib/ui/ui/slider.h	/^    u32 val;$/;"	m	language:C++	struct:slider_info	access:public
+slider_text_info	./include_lib/ui/ui/ui_slider.h	/^struct slider_text_info {$/;"	s	language:C++
+slider_text_info::max_value	./include_lib/ui/ui/ui_slider.h	/^    int max_value;$/;"	m	language:C++	struct:slider_text_info	access:public
+slider_text_info::min_value	./include_lib/ui/ui/ui_slider.h	/^    int min_value;$/;"	m	language:C++	struct:slider_text_info	access:public
+slider_text_info::move	./include_lib/ui/ui/ui_slider.h	/^    u8 move;$/;"	m	language:C++	struct:slider_text_info	access:public
+slider_text_info::text_color	./include_lib/ui/ui/ui_slider.h	/^    int text_color;$/;"	m	language:C++	struct:slider_text_info	access:public
+src	./include_lib/ui/ui/ui_battery.h	/^    int src;$/;"	m	language:C++	struct:ui_battery	access:public
+state	./include_lib/ui/ui/ui_core.h	/^    u8  state;$/;"	m	language:C++	struct:element	access:public
+step	./include_lib/ui/ui/control.h	/^    u8 step;$/;"	m	language:C++	struct:ui_slider_info	access:public
+step	./include_lib/ui/ui/ui_slider.h	/^    u8 step;$/;"	m	language:C++	struct:ui_slider	access:public
+step_msecs	./include_lib/upgrade/upgrade_detect.h	/^    int step_msecs;$/;"	m	language:C++	struct:upgrade_ui	access:public
+str	./include_lib/ui/ui/control.h	/^    char str[0];$/;"	m	language:C++	struct:ui_text_list	access:public
+str	./include_lib/ui/ui/control.h	/^    struct ui_text_list *str;$/;"	m	language:C++	struct:ui_text_info	typeref:struct:ui_text_info::ui_text_list	access:public
+str	./include_lib/ui/ui/p.h	/^    char *str;$/;"	m	language:C++	struct:element_text	access:public
+str	./include_lib/ui/ui/p.h	/^    char *str;$/;"	m	language:C++	struct:ui_str	access:public
+str	./include_lib/ui/ui/ui_text.h	/^    const char *str;$/;"	m	language:C++	struct:ui_text	access:public
+str_file_version_compare	./include_lib/ui/res/resfile.h	/^int str_file_version_compare(int str_ver);$/;"	p	language:C++	signature:(int str_ver)
+stream_buffer	./include_lib/ui/res/quicklz.h	/^    unsigned char stream_buffer[QLZ_STREAMING_BUFFER];$/;"	m	language:C++	struct:__anon3	access:public
+stream_buffer	./include_lib/ui/res/quicklz.h	/^    unsigned char stream_buffer[QLZ_STREAMING_BUFFER];$/;"	m	language:C++	struct:__anon4	access:public
+stream_buffer	./include_lib/ui/res/quicklz.h	/^    unsigned char stream_buffer[QLZ_STREAMING_BUFFER];$/;"	m	language:C++	struct:__anon5	access:public
+stream_counter	./include_lib/ui/res/quicklz.h	/^    size_t stream_counter;$/;"	m	language:C++	struct:__anon3	access:public
+stream_counter	./include_lib/ui/res/quicklz.h	/^    size_t stream_counter;$/;"	m	language:C++	struct:__anon4	access:public
+stream_counter	./include_lib/ui/res/quicklz.h	/^    size_t stream_counter;$/;"	m	language:C++	struct:__anon5	access:public
+strlen	./include_lib/ui/ui/ui_core.h	/^    int strlen;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+strlen	./include_lib/ui/ui/ui_text.h	/^    int strlen;$/;"	m	language:C++	struct:ui_text	access:public
+text	./include_lib/ui/ui/control.h	/^    struct ui_text_info 	text;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_text_info	access:public
+text	./include_lib/ui/ui/ui_time.h	/^    struct element_text text;$/;"	m	language:C++	struct:ui_time	typeref:struct:ui_time::element_text	access:public
+text_color	./include_lib/ui/ui/ui_slider.h	/^    int text_color;$/;"	m	language:C++	struct:slider_text_info	access:public
+text_color	./include_lib/ui/ui/ui_slider.h	/^    int text_color;$/;"	m	language:C++	struct:ui_slider	access:public
+text_element_init	./include_lib/ui/ui/p.h	/^void text_element_init(struct element_text *text, int id,$/;"	p	language:C++	signature:(struct element_text *text, int id, const struct element_css *css, const struct element_event_action *action)
+text_element_set_event_handler	./include_lib/ui/ui/p.h	/^void text_element_set_event_handler(struct element_text *text, void *priv,$/;"	p	language:C++	signature:(struct element_text *text, void *priv, const struct element_event_handler *handler)
+text_element_set_text	./include_lib/ui/ui/p.h	/^void text_element_set_text(struct element_text *text, char *str,$/;"	p	language:C++	signature:(struct element_text *text, char *str, const char *format, int color)
+text_info	./include_lib/ui/ui/ui_slider.h	/^    const struct slider_text_info *text_info;$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::slider_text_info	access:public
+text_release	./include_lib/ui/ui/ui_text.h	/^void text_release(struct ui_text *text);$/;"	p	language:C++	signature:(struct ui_text *text)
+time	./include_lib/ui/ui/control.h	/^    struct ui_time_info 	time;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_time_info	access:public
+timer	./include_lib/ui/ui/ui_animation.h	/^    void *timer;$/;"	m	language:C++	struct:ui_animation	access:public
+timer	./include_lib/ui/ui/ui_time.h	/^    void *timer;$/;"	m	language:C++	struct:ui_time	access:public
+timer	./include_lib/ui/ui/ui_watch.h	/^    void *timer;$/;"	m	language:C++	struct:ui_watch	access:public
+top	./include_lib/ui/ui/ui_core.h	/^    int top;$/;"	m	language:C++	struct:element_css	access:public
+top	./include_lib/ui/ui/ui_core.h	/^    u8 top;$/;"	m	language:C++	struct:css_border	access:public
+total_val	./include_lib/ui/ui/slider.h	/^    u32 total_val;$/;"	m	language:C++	struct:slider	access:public
+touch_index	./include_lib/ui/ui/ui_grid.h	/^    char touch_index;$/;"	m	language:C++	struct:ui_grid	access:public
+txt	./include_lib/ui/ui/ui_core.h	/^    const char *txt;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+type	./include_lib/ui/ui/control.h	/^    int type;$/;"	m	language:C++	struct:control_ops	access:public
+type	./include_lib/ui/ui/control.h	/^    u8 		type;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+type	./include_lib/ui/ui/control.h	/^    u8 		type;$/;"	m	language:C++	struct:window_info	access:public
+type	./include_lib/upgrade/upgrade_detect.h	/^    u8   type;$/;"	m	language:C++	struct:upgrade_req	access:public
+ui	./include_lib/upgrade/upgrade_detect.h	/^    struct upgrade_ui ui;$/;"	m	language:C++	struct:upgrade_req	typeref:struct:upgrade_req::upgrade_ui	access:public
+ui16	./include_lib/ui/res/quicklz.h	/^typedef unsigned short int ui16;$/;"	t	language:C++
+ui32	./include_lib/ui/res/quicklz.h	/^typedef unsigned int ui32;$/;"	t	language:C++
+ui_align	./include_lib/ui/ui/ui_core.h	/^enum ui_align {$/;"	g	language:C++
+ui_animation	./include_lib/ui/ui/ui_animation.h	/^struct ui_animation {$/;"	s	language:C++
+ui_animation::elm	./include_lib/ui/ui/ui_animation.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_animation	typeref:struct:ui_animation::element	access:public
+ui_animation::handler	./include_lib/ui/ui/ui_animation.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_animation	typeref:struct:ui_animation::element_event_handler	access:public
+ui_animation::index	./include_lib/ui/ui/ui_animation.h	/^    u16 index;$/;"	m	language:C++	struct:ui_animation	access:public
+ui_animation::info	./include_lib/ui/ui/ui_animation.h	/^    const struct ui_animation_info *info;$/;"	m	language:C++	struct:ui_animation	typeref:struct:ui_animation::ui_animation_info	access:public
+ui_animation::loop	./include_lib/ui/ui/ui_animation.h	/^    u16 loop;$/;"	m	language:C++	struct:ui_animation	access:public
+ui_animation::timer	./include_lib/ui/ui/ui_animation.h	/^    void *timer;$/;"	m	language:C++	struct:ui_animation	access:public
+ui_animation_info	./include_lib/ui/ui/control.h	/^struct ui_animation_info {$/;"	s	language:C++
+ui_animation_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_animation_info	typeref:struct:ui_animation_info::element_event_action	access:public
+ui_animation_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_animation_info	typeref:struct:ui_animation_info::ui_ctrl_info_head	access:public
+ui_animation_info::img	./include_lib/ui/ui/control.h	/^    struct ui_image_list *img;$/;"	m	language:C++	struct:ui_animation_info	typeref:struct:ui_animation_info::ui_image_list	access:public
+ui_animation_info::interval	./include_lib/ui/ui/control.h	/^    u32 interval;$/;"	m	language:C++	struct:ui_animation_info	access:public
+ui_animation_info::loop_num	./include_lib/ui/ui/control.h	/^    u16 loop_num;$/;"	m	language:C++	struct:ui_animation_info	access:public
+ui_battery	./include_lib/ui/ui/ui_battery.h	/^struct ui_battery {$/;"	s	language:C++
+ui_battery::elm	./include_lib/ui/ui/ui_battery.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_battery	typeref:struct:ui_battery::element	access:public
+ui_battery::entry	./include_lib/ui/ui/ui_battery.h	/^    struct list_head entry;$/;"	m	language:C++	struct:ui_battery	typeref:struct:ui_battery::list_head	access:public
+ui_battery::handler	./include_lib/ui/ui/ui_battery.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_battery	typeref:struct:ui_battery::element_event_handler	access:public
+ui_battery::index	./include_lib/ui/ui/ui_battery.h	/^    u8 index;$/;"	m	language:C++	struct:ui_battery	access:public
+ui_battery::info	./include_lib/ui/ui/ui_battery.h	/^    const struct ui_battery_info *info;$/;"	m	language:C++	struct:ui_battery	typeref:struct:ui_battery::ui_battery_info	access:public
+ui_battery::src	./include_lib/ui/ui/ui_battery.h	/^    int src;$/;"	m	language:C++	struct:ui_battery	access:public
+ui_battery_info	./include_lib/ui/ui/control.h	/^struct ui_battery_info {$/;"	s	language:C++
+ui_battery_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_battery_info	typeref:struct:ui_battery_info::element_event_action	access:public
+ui_battery_info::charge_image	./include_lib/ui/ui/control.h	/^    struct ui_image_list *charge_image;$/;"	m	language:C++	struct:ui_battery_info	typeref:struct:ui_battery_info::ui_image_list	access:public
+ui_battery_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_battery_info	typeref:struct:ui_battery_info::ui_ctrl_info_head	access:public
+ui_battery_info::normal_image	./include_lib/ui/ui/control.h	/^    struct ui_image_list *normal_image;$/;"	m	language:C++	struct:ui_battery_info	typeref:struct:ui_battery_info::ui_image_list	access:public
+ui_battery_level_change	./include_lib/ui/ui/ui_battery.h	/^void ui_battery_level_change(int persent, int incharge);$/;"	p	language:C++	signature:(int persent, int incharge)
+ui_browser	./include_lib/ui/ui/ui_browser.h	/^struct ui_browser {$/;"	s	language:C++
+ui_browser::cur_number	./include_lib/ui/ui/ui_browser.h	/^    u16 cur_number;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::elm	./include_lib/ui/ui/ui_browser.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::element	access:public
+ui_browser::file_number	./include_lib/ui/ui/ui_browser.h	/^    u16 file_number;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::ftype	./include_lib/ui/ui/ui_browser.h	/^    const char *ftype;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::grid	./include_lib/ui/ui/ui_browser.h	/^    struct ui_grid *grid;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::ui_grid	access:public
+ui_browser::handler	./include_lib/ui/ui/ui_browser.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::element_event_handler	access:public
+ui_browser::hdl	./include_lib/ui/ui/ui_browser.h	/^    struct ui_file_browser *hdl;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::ui_file_browser	access:public
+ui_browser::hide_byself	./include_lib/ui/ui/ui_browser.h	/^    u8 hide_byself;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::highlight	./include_lib/ui/ui/ui_browser.h	/^    u8 highlight;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::info	./include_lib/ui/ui/ui_browser.h	/^    const struct ui_browser_info *info;$/;"	m	language:C++	struct:ui_browser	typeref:struct:ui_browser::ui_browser_info	access:public
+ui_browser::inited	./include_lib/ui/ui/ui_browser.h	/^    u8 inited;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::item_num	./include_lib/ui/ui/ui_browser.h	/^    u8 item_num;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::order	./include_lib/ui/ui/ui_browser.h	/^    char order; \/\/ 1 表示 正序， 非1 表示反序$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::path	./include_lib/ui/ui/ui_browser.h	/^    const char *path;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser::show_mode	./include_lib/ui/ui/ui_browser.h	/^    u8 show_mode;$/;"	m	language:C++	struct:ui_browser	access:public
+ui_browser_info	./include_lib/ui/ui/control.h	/^struct ui_browser_info {$/;"	s	language:C++
+ui_browser_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_browser_info	typeref:struct:ui_browser_info::element_event_action	access:public
+ui_browser_info::auto_highlight	./include_lib/ui/ui/control.h	/^    u8 auto_highlight;$/;"	m	language:C++	struct:ui_browser_info	access:public
+ui_browser_info::column	./include_lib/ui/ui/control.h	/^    u8 column;$/;"	m	language:C++	struct:ui_browser_info	access:public
+ui_browser_info::ctrl	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head *ctrl;$/;"	m	language:C++	struct:ui_browser_info	typeref:struct:ui_browser_info::ui_ctrl_info_head	access:public
+ui_browser_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_browser_info	typeref:struct:ui_browser_info::ui_ctrl_info_head	access:public
+ui_browser_info::interval	./include_lib/ui/ui/control.h	/^    u8 interval;$/;"	m	language:C++	struct:ui_browser_info	access:public
+ui_browser_info::row	./include_lib/ui/ui/control.h	/^    u8 row;$/;"	m	language:C++	struct:ui_browser_info	access:public
+ui_browser_info::scroll	./include_lib/ui/ui/control.h	/^    u8 scroll;$/;"	m	language:C++	struct:ui_browser_info	access:public
+ui_button_info	./include_lib/ui/ui/control.h	/^struct ui_button_info {$/;"	s	language:C++
+ui_button_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_button_info	typeref:struct:ui_button_info::element_event_action	access:public
+ui_button_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head 	head;$/;"	m	language:C++	struct:ui_button_info	typeref:struct:ui_button_info::ui_ctrl_info_head	access:public
+ui_camera	./include_lib/ui/ui/ui_camera.h	/^struct ui_camera {$/;"	s	language:C++
+ui_camera::elm	./include_lib/ui/ui/ui_camera.h	/^    struct element elm; 	\/\/must be first$/;"	m	language:C++	struct:ui_camera	typeref:struct:ui_camera::element	access:public
+ui_camera::fd	./include_lib/ui/ui/ui_camera.h	/^    int fd;$/;"	m	language:C++	struct:ui_camera	access:public
+ui_camera::handler	./include_lib/ui/ui/ui_camera.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_camera	typeref:struct:ui_camera::element_event_handler	access:public
+ui_camera::info	./include_lib/ui/ui/ui_camera.h	/^    const struct ui_camera_info *info;$/;"	m	language:C++	struct:ui_camera	typeref:struct:ui_camera::ui_camera_info	access:public
+ui_camera_for_id	./include_lib/ui/ui/ui_camera.h	21;"	d	language:C++
+ui_camera_info	./include_lib/ui/ui/control.h	/^struct ui_camera_info {$/;"	s	language:C++
+ui_camera_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_camera_info	typeref:struct:ui_camera_info::element_event_action	access:public
+ui_camera_info::device	./include_lib/ui/ui/control.h	/^    char device[8];$/;"	m	language:C++	struct:ui_camera_info	access:public
+ui_camera_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_camera_info	typeref:struct:ui_camera_info::ui_ctrl_info_head	access:public
+ui_camera_set_rect	./include_lib/ui/ui/ui_camera.h	/^int ui_camera_set_rect(int id, struct rect *r);$/;"	p	language:C++	signature:(int id, struct rect *r)
+ui_control_info	./include_lib/ui/ui/control.h	/^union ui_control_info {$/;"	u	language:C++
+ui_control_info::battery	./include_lib/ui/ui/control.h	/^    struct ui_battery_info 	battery;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_battery_info	access:public
+ui_control_info::button	./include_lib/ui/ui/control.h	/^    struct ui_button_info 	button;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_button_info	access:public
+ui_control_info::camera	./include_lib/ui/ui/control.h	/^    struct ui_camera_info 	camera;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_camera_info	access:public
+ui_control_info::grid	./include_lib/ui/ui/control.h	/^    struct ui_grid_info  	grid;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_grid_info	access:public
+ui_control_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_ctrl_info_head	access:public
+ui_control_info::pic	./include_lib/ui/ui/control.h	/^    struct ui_pic_info 		pic;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_pic_info	access:public
+ui_control_info::text	./include_lib/ui/ui/control.h	/^    struct ui_text_info 	text;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_text_info	access:public
+ui_control_info::time	./include_lib/ui/ui/control.h	/^    struct ui_time_info 	time;$/;"	m	language:C++	union:ui_control_info	typeref:struct:ui_control_info::ui_time_info	access:public
+ui_core_append_child	./include_lib/ui/ui/ui_core.h	/^void ui_core_append_child(void *_child);$/;"	p	language:C++	signature:(void *_child)
+ui_core_close_draw_context	./include_lib/ui/ui/ui_core.h	/^int ui_core_close_draw_context(struct draw_context *dc);$/;"	p	language:C++	signature:(struct draw_context *dc)
+ui_core_element_append_child	./include_lib/ui/ui/ui_core.h	/^void ui_core_element_append_child(struct element *parent, struct element *child);$/;"	p	language:C++	signature:(struct element *parent, struct element *child)
+ui_core_element_init	./include_lib/ui/ui/ui_core.h	/^void ui_core_element_init(struct element *, u32 id,$/;"	p	language:C++	signature:(struct element *, u32 id, const struct element_css *, const struct element_event_handler *, const struct element_event_action *)
+ui_core_element_invisable	./include_lib/ui/ui/ui_core.h	392;"	d	language:C++
+ui_core_element_on_focus	./include_lib/ui/ui/ui_core.h	/^void ui_core_element_on_focus(struct element *elm, int yes);$/;"	p	language:C++	signature:(struct element *elm, int yes)
+ui_core_element_onkey	./include_lib/ui/ui/ui_core.h	/^int ui_core_element_onkey(struct element *elm, struct element_key_event *e);$/;"	p	language:C++	signature:(struct element *elm, struct element_key_event *e)
+ui_core_element_ontouch	./include_lib/ui/ui/ui_core.h	/^int ui_core_element_ontouch(struct element *, struct element_touch_event *e);$/;"	p	language:C++	signature:(struct element *, struct element_touch_event *e)
+ui_core_free	./include_lib/ui/ui/ui_core.h	/^void ui_core_free(void *);$/;"	p	language:C++	signature:(void *)
+ui_core_get_down_element	./include_lib/ui/ui/ui_core.h	/^struct element *ui_core_get_down_element(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_core_get_element_abs_rect	./include_lib/ui/ui/ui_core.h	/^void ui_core_get_element_abs_rect(struct element *elm, struct rect *rect);$/;"	p	language:C++	signature:(struct element *elm, struct rect *rect)
+ui_core_get_element_by_id	./include_lib/ui/ui/ui_core.h	/^struct element *ui_core_get_element_by_id(u32 id);$/;"	p	language:C++	signature:(u32 id)
+ui_core_get_element_css	./include_lib/ui/ui/ui_core.h	389;"	d	language:C++
+ui_core_get_first_child	./include_lib/ui/ui/ui_core.h	/^struct element *ui_core_get_first_child();$/;"	p	language:C++	signature:()
+ui_core_get_left_element	./include_lib/ui/ui/ui_core.h	/^struct element *ui_core_get_left_element(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_core_get_right_element	./include_lib/ui/ui/ui_core.h	/^struct element *ui_core_get_right_element(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_core_get_rotate	./include_lib/ui/ui/ui_core.h	/^int ui_core_get_rotate();$/;"	p	language:C++	signature:()
+ui_core_get_up_element	./include_lib/ui/ui/ui_core.h	/^struct element *ui_core_get_up_element(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_core_hide	./include_lib/ui/ui/ui_core.h	/^int ui_core_hide(void *_elm);$/;"	p	language:C++	signature:(void *_elm)
+ui_core_highlight_element	./include_lib/ui/ui/ui_core.h	/^int ui_core_highlight_element(struct element *elm, int yes);$/;"	p	language:C++	signature:(struct element *elm, int yes)
+ui_core_init	./include_lib/ui/ui/ui_core.h	/^int ui_core_init(const struct ui_platform_api *api, struct rect *rect);$/;"	p	language:C++	signature:(const struct ui_platform_api *api, struct rect *rect)
+ui_core_malloc	./include_lib/ui/ui/ui_core.h	/^void *ui_core_malloc(int size);$/;"	p	language:C++	signature:(int size)
+ui_core_onkey	./include_lib/ui/ui/ui_core.h	/^int ui_core_onkey(struct element_key_event *e);$/;"	p	language:C++	signature:(struct element_key_event *e)
+ui_core_ontouch	./include_lib/ui/ui/ui_core.h	/^int ui_core_ontouch(struct element_touch_event *e);$/;"	p	language:C++	signature:(struct element_touch_event *e)
+ui_core_ontouch_lock	./include_lib/ui/ui/ui_core.h	/^void ui_core_ontouch_lock(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_core_ontouch_unlock	./include_lib/ui/ui/ui_core.h	/^void ui_core_ontouch_unlock(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_core_open_draw_context	./include_lib/ui/ui/ui_core.h	/^int ui_core_open_draw_context(struct draw_context *dc, struct element *elm);$/;"	p	language:C++	signature:(struct draw_context *dc, struct element *elm)
+ui_core_redraw	./include_lib/ui/ui/ui_core.h	/^int ui_core_redraw(void *_elm);$/;"	p	language:C++	signature:(void *_elm)
+ui_core_release_child	./include_lib/ui/ui/ui_core.h	/^void ui_core_release_child(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_core_release_child_probe	./include_lib/ui/ui/ui_core.h	/^void ui_core_release_child_probe(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_core_remove_element	./include_lib/ui/ui/ui_core.h	/^void ui_core_remove_element(void *_child);$/;"	p	language:C++	signature:(void *_child)
+ui_core_set_element_css	./include_lib/ui/ui/ui_core.h	/^struct element_css *ui_core_set_element_css(void *_elm, const struct element_css *css);$/;"	p	language:C++	signature:(void *_elm, const struct element_css *css)
+ui_core_set_rotate	./include_lib/ui/ui/ui_core.h	/^void ui_core_set_rotate(int _rotate);$/;"	p	language:C++	signature:(int _rotate)
+ui_core_set_style	./include_lib/ui/ui/ui_core.h	/^int ui_core_set_style(const char *style);$/;"	p	language:C++	signature:(const char *style)
+ui_core_show	./include_lib/ui/ui/ui_core.h	/^int ui_core_show(void *_elm, int init);$/;"	p	language:C++	signature:(void *_elm, int init)
+ui_ctrl_info_head	./include_lib/ui/ui/control.h	/^struct ui_ctrl_info_head {$/;"	s	language:C++
+ui_ctrl_info_head::css	./include_lib/ui/ui/control.h	/^    struct 	element_css *css;$/;"	m	language:C++	struct:ui_ctrl_info_head	typeref:struct:ui_ctrl_info_head::element_css	access:public
+ui_ctrl_info_head::css_num	./include_lib/ui/ui/control.h	/^    u8 		css_num;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+ui_ctrl_info_head::ctrl_num	./include_lib/ui/ui/control.h	/^    u8 		ctrl_num;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+ui_ctrl_info_head::id	./include_lib/ui/ui/control.h	/^    int 	id;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+ui_ctrl_info_head::len	./include_lib/ui/ui/control.h	/^    u8 		len;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+ui_ctrl_info_head::page	./include_lib/ui/ui/control.h	/^    u8 		page;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+ui_ctrl_info_head::rev	./include_lib/ui/ui/control.h	/^    u8 		rev[3];$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+ui_ctrl_info_head::type	./include_lib/ui/ui/control.h	/^    u8 		type;$/;"	m	language:C++	struct:ui_ctrl_info_head	access:public
+ui_direction	./include_lib/ui/ui/ui_core.h	/^enum ui_direction {$/;"	g	language:C++
+ui_event_onkey	./include_lib/ui/ui/ui.h	/^int ui_event_onkey(struct element_key_event *e);$/;"	p	language:C++	signature:(struct element_key_event *e)
+ui_event_ontouch	./include_lib/ui/ui/ui.h	/^int ui_event_ontouch(struct element_touch_event *e);$/;"	p	language:C++	signature:(struct element_touch_event *e)
+ui_fattrs	./include_lib/ui/ui/ui_file_attrs.h	/^struct ui_fattrs {$/;"	s	language:C++
+ui_fattrs::attrs	./include_lib/ui/ui/ui_file_attrs.h	/^    struct ui_file_attrs attrs;$/;"	m	language:C++	struct:ui_fattrs	typeref:struct:ui_fattrs::ui_file_attrs	access:public
+ui_fattrs::elm	./include_lib/ui/ui/ui_file_attrs.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_fattrs	typeref:struct:ui_fattrs::element	access:public
+ui_fattrs::fsize_str	./include_lib/ui/ui/ui_file_attrs.h	/^    char fsize_str[16];$/;"	m	language:C++	struct:ui_fattrs	access:public
+ui_fattrs::handler	./include_lib/ui/ui/ui_file_attrs.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_fattrs	typeref:struct:ui_fattrs::element_event_handler	access:public
+ui_fattrs::info	./include_lib/ui/ui/ui_file_attrs.h	/^    const struct ui_fattrs_info *info;$/;"	m	language:C++	struct:ui_fattrs	typeref:struct:ui_fattrs::ui_fattrs_info	access:public
+ui_fattrs_info	./include_lib/ui/ui/control.h	/^struct ui_fattrs_info {$/;"	s	language:C++
+ui_fattrs_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_fattrs_info	typeref:struct:ui_fattrs_info::element_event_action	access:public
+ui_fattrs_info::ctrl	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head *ctrl;$/;"	m	language:C++	struct:ui_fattrs_info	typeref:struct:ui_fattrs_info::ui_ctrl_info_head	access:public
+ui_fattrs_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_fattrs_info	typeref:struct:ui_fattrs_info::ui_ctrl_info_head	access:public
+ui_file_attrs	./include_lib/ui/ui/ui_core.h	/^struct ui_file_attrs {$/;"	s	language:C++
+ui_file_attrs::attr	./include_lib/ui/ui/ui_core.h	/^    struct vfs_attr attr;$/;"	m	language:C++	struct:ui_file_attrs	typeref:struct:ui_file_attrs::vfs_attr	access:public
+ui_file_attrs::file_num	./include_lib/ui/ui/ui_core.h	/^    u16 file_num;$/;"	m	language:C++	struct:ui_file_attrs	access:public
+ui_file_attrs::film_len	./include_lib/ui/ui/ui_core.h	/^    u32 film_len;$/;"	m	language:C++	struct:ui_file_attrs	access:public
+ui_file_attrs::fname	./include_lib/ui/ui/ui_core.h	/^    char fname[128];$/;"	m	language:C++	struct:ui_file_attrs	access:public
+ui_file_attrs::format	./include_lib/ui/ui/ui_core.h	/^    char *format;$/;"	m	language:C++	struct:ui_file_attrs	access:public
+ui_file_attrs::ftype	./include_lib/ui/ui/ui_core.h	/^    u8 ftype;$/;"	m	language:C++	struct:ui_file_attrs	access:public
+ui_file_attrs_get	./include_lib/ui/ui/ui_file_attrs.h	/^int ui_file_attrs_get(struct element *elm, struct ui_file_attrs *attrs);$/;"	p	language:C++	signature:(struct element *elm, struct ui_file_attrs *attrs)
+ui_file_attrs_set	./include_lib/ui/ui/ui_file_attrs.h	/^int ui_file_attrs_set(struct element *elm, struct ui_file_attrs *attrs);$/;"	p	language:C++	signature:(struct element *elm, struct ui_file_attrs *attrs)
+ui_file_attrs_show	./include_lib/ui/ui/ui_file_attrs.h	/^int ui_file_attrs_show(struct element *elm, struct ui_file_attrs *attrs);$/;"	p	language:C++	signature:(struct element *elm, struct ui_file_attrs *attrs)
+ui_file_browser	./include_lib/ui/ui/ui_core.h	/^struct ui_file_browser {$/;"	s	language:C++
+ui_file_browser::file_number	./include_lib/ui/ui/ui_core.h	/^    int file_number;$/;"	m	language:C++	struct:ui_file_browser	access:public
+ui_file_browser::private_data	./include_lib/ui/ui/ui_core.h	/^    void *private_data;$/;"	m	language:C++	struct:ui_file_browser	access:public
+ui_file_browser_cur_item	./include_lib/ui/ui/ui_browser.h	31;"	d	language:C++
+ui_file_browser_cur_page	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_cur_page(struct ui_browser *bro, int *file_num);$/;"	p	language:C++	signature:(struct ui_browser *bro, int *file_num)
+ui_file_browser_del_file	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_del_file(struct ui_browser *bro, int item);$/;"	p	language:C++	signature:(struct ui_browser *bro, int item)
+ui_file_browser_get_child_by_id	./include_lib/ui/ui/ui_browser.h	/^void *ui_file_browser_get_child_by_id(struct ui_browser *bro, int item, int id);$/;"	p	language:C++	signature:(struct ui_browser *bro, int item, int id)
+ui_file_browser_get_file_attrs	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_get_file_attrs(struct ui_browser *bro, int item,$/;"	p	language:C++	signature:(struct ui_browser *bro, int item, struct ui_file_attrs *attrs)
+ui_file_browser_highlight_item	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_highlight_item(struct ui_browser *bro, int item, bool yes);$/;"	p	language:C++	signature:(struct ui_browser *bro, int item, bool yes)
+ui_file_browser_next_page	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_next_page(struct ui_browser *bro);$/;"	p	language:C++	signature:(struct ui_browser *bro)
+ui_file_browser_next_page_by_id	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_next_page_by_id(int id);$/;"	p	language:C++	signature:(int id)
+ui_file_browser_open_file	./include_lib/ui/ui/ui_browser.h	/^void *ui_file_browser_open_file(struct ui_browser *bro, int item);$/;"	p	language:C++	signature:(struct ui_browser *bro, int item)
+ui_file_browser_page_num	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_page_num(struct ui_browser *bro);$/;"	p	language:C++	signature:(struct ui_browser *bro)
+ui_file_browser_prev_page	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_prev_page(struct ui_browser *bro);$/;"	p	language:C++	signature:(struct ui_browser *bro)
+ui_file_browser_prev_page_by_id	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_prev_page_by_id(int id);$/;"	p	language:C++	signature:(int id)
+ui_file_browser_set_dir	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_set_dir(struct ui_browser *bro, const char *path, const char *ftype);$/;"	p	language:C++	signature:(struct ui_browser *bro, const char *path, const char *ftype)
+ui_file_browser_set_dir_by_id	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_set_dir_by_id(int id, const char *path, const char *ftype);$/;"	p	language:C++	signature:(int id, const char *path, const char *ftype)
+ui_file_browser_set_file_attrs	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_set_file_attrs(struct ui_browser *bro, int item,$/;"	p	language:C++	signature:(struct ui_browser *bro, int item, struct ui_file_attrs *attrs)
+ui_file_browser_set_page	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_set_page(struct ui_browser *bro, int page);$/;"	p	language:C++	signature:(struct ui_browser *bro, int page)
+ui_file_browser_set_page_by_id	./include_lib/ui/ui/ui_browser.h	/^int ui_file_browser_set_page_by_id(int id, int page);$/;"	p	language:C++	signature:(int id, int page)
+ui_framework_init	./include_lib/ui/ui/ui.h	/^int ui_framework_init();$/;"	p	language:C++	signature:()
+ui_get_current_window_id	./include_lib/ui/ui/ui.h	/^int ui_get_current_window_id();$/;"	p	language:C++	signature:()
+ui_get_highlight_child_by_id	./include_lib/ui/ui/ui.h	/^struct element *ui_get_highlight_child_by_id(int id);$/;"	p	language:C++	signature:(int id)
+ui_grid	./include_lib/ui/ui/ui_grid.h	/^struct ui_grid {$/;"	s	language:C++
+ui_grid::avail_item_num	./include_lib/ui/ui/ui_grid.h	/^    u8   avail_item_num;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::col_num	./include_lib/ui/ui/ui_grid.h	/^    u8   col_num;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::dc	./include_lib/ui/ui/ui_grid.h	/^    struct draw_context dc;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::draw_context	access:public
+ui_grid::elm	./include_lib/ui/ui/ui_grid.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::element	access:public
+ui_grid::elm2	./include_lib/ui/ui/ui_grid.h	/^    struct element elm2;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::element	access:public
+ui_grid::handler	./include_lib/ui/ui/ui_grid.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::element_event_handler	access:public
+ui_grid::hi_index	./include_lib/ui/ui/ui_grid.h	/^    char hi_index;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::hi_num	./include_lib/ui/ui/ui_grid.h	/^    char hi_num;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::info	./include_lib/ui/ui/ui_grid.h	/^    const struct ui_grid_info *info;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::ui_grid_info	access:public
+ui_grid::item	./include_lib/ui/ui/ui_grid.h	/^    struct layout *item;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::layout	access:public
+ui_grid::item_info	./include_lib/ui/ui/ui_grid.h	/^    struct layout_info *item_info;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::layout_info	access:public
+ui_grid::max_left	./include_lib/ui/ui/ui_grid.h	/^    int  max_left;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::max_show_left	./include_lib/ui/ui/ui_grid.h	/^    int  max_show_left;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::max_show_top	./include_lib/ui/ui/ui_grid.h	/^    int  max_show_top;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::max_top	./include_lib/ui/ui/ui_grid.h	/^    int  max_top;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::min_left	./include_lib/ui/ui/ui_grid.h	/^    int  min_left;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::min_show_left	./include_lib/ui/ui/ui_grid.h	/^    int  min_show_left;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::min_show_top	./include_lib/ui/ui/ui_grid.h	/^    int  min_show_top;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::min_top	./include_lib/ui/ui/ui_grid.h	/^    int  min_top;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::onfocus	./include_lib/ui/ui/ui_grid.h	/^    char onfocus;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::page_mode	./include_lib/ui/ui/ui_grid.h	/^    u8   page_mode;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::pix_scroll	./include_lib/ui/ui/ui_grid.h	/^    u8   pix_scroll;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::pos	./include_lib/ui/ui/ui_grid.h	/^    struct position pos;$/;"	m	language:C++	struct:ui_grid	typeref:struct:ui_grid::position	access:public
+ui_grid::rotate	./include_lib/ui/ui/ui_grid.h	/^    int  rotate;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::row_num	./include_lib/ui/ui/ui_grid.h	/^    u8   row_num;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::scroll_step	./include_lib/ui/ui/ui_grid.h	/^    int  scroll_step;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::show_col	./include_lib/ui/ui/ui_grid.h	/^    u8   show_col;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::show_row	./include_lib/ui/ui/ui_grid.h	/^    u8   show_row;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::touch_index	./include_lib/ui/ui/ui_grid.h	/^    char touch_index;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::x_interval	./include_lib/ui/ui/ui_grid.h	/^    int  x_interval;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid::y_interval	./include_lib/ui/ui/ui_grid.h	/^    int  y_interval;$/;"	m	language:C++	struct:ui_grid	access:public
+ui_grid_cur_item	./include_lib/ui/ui/ui_grid.h	/^static inline int ui_grid_cur_item(struct ui_grid *grid)$/;"	f	language:C++	signature:(struct ui_grid *grid)
+ui_grid_highlight_item	./include_lib/ui/ui/ui_grid.h	/^int ui_grid_highlight_item(struct ui_grid *grid, int item, bool yes);$/;"	p	language:C++	signature:(struct ui_grid *grid, int item, bool yes)
+ui_grid_highlight_item_by_id	./include_lib/ui/ui/ui_grid.h	/^int ui_grid_highlight_item_by_id(int id, int item, bool yes);$/;"	p	language:C++	signature:(int id, int item, bool yes)
+ui_grid_info	./include_lib/ui/ui/control.h	/^struct ui_grid_info {$/;"	s	language:C++
+ui_grid_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_grid_info	typeref:struct:ui_grid_info::element_event_action	access:public
+ui_grid_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_grid_info	typeref:struct:ui_grid_info::ui_ctrl_info_head	access:public
+ui_grid_info::highlight_index	./include_lib/ui/ui/control.h	/^    char highlight_index;$/;"	m	language:C++	struct:ui_grid_info	access:public
+ui_grid_info::info	./include_lib/ui/ui/control.h	/^    struct layout_info *info;$/;"	m	language:C++	struct:ui_grid_info	typeref:struct:ui_grid_info::layout_info	access:public
+ui_grid_info::page_mode	./include_lib/ui/ui/control.h	/^    u8 page_mode;$/;"	m	language:C++	struct:ui_grid_info	access:public
+ui_grid_item_info	./include_lib/ui/ui/ui_grid.h	/^struct ui_grid_item_info {$/;"	s	language:C++
+ui_grid_item_info::col	./include_lib/ui/ui/ui_grid.h	/^    u8 col;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+ui_grid_item_info::highlight_index	./include_lib/ui/ui/ui_grid.h	/^    u8 highlight_index;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+ui_grid_item_info::info	./include_lib/ui/ui/ui_grid.h	/^    struct layout_info *info;$/;"	m	language:C++	struct:ui_grid_item_info	typeref:struct:ui_grid_item_info::layout_info	access:public
+ui_grid_item_info::interval	./include_lib/ui/ui/ui_grid.h	/^    u16 interval;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+ui_grid_item_info::page_mode	./include_lib/ui/ui/ui_grid.h	/^    u8 page_mode;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+ui_grid_item_info::row	./include_lib/ui/ui/ui_grid.h	/^    u8 row;$/;"	m	language:C++	struct:ui_grid_item_info	access:public
+ui_grid_lose_focus	./include_lib/ui/ui/ui_grid.h	/^void ui_grid_lose_focus(struct ui_grid *grid);$/;"	p	language:C++	signature:(struct ui_grid *grid)
+ui_grid_on_focus	./include_lib/ui/ui/ui_grid.h	/^void ui_grid_on_focus(struct ui_grid *grid);$/;"	p	language:C++	signature:(struct ui_grid *grid)
+ui_grid_set_item	./include_lib/ui/ui/ui_grid.h	62;"	d	language:C++
+ui_grid_state_reset	./include_lib/ui/ui/ui_grid.h	/^void ui_grid_state_reset(struct ui_grid *grid, int highlight_item);$/;"	p	language:C++	signature:(struct ui_grid *grid, int highlight_item)
+ui_hide	./include_lib/ui/ui/ui.h	/^int ui_hide(int id);$/;"	p	language:C++	signature:(int id)
+ui_highlight_element	./include_lib/ui/ui/ui.h	/^int ui_highlight_element(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_highlight_element_by_id	./include_lib/ui/ui/ui.h	/^int ui_highlight_element_by_id(int id);$/;"	p	language:C++	signature:(int id)
+ui_image_list	./include_lib/ui/ui/control.h	/^struct ui_image_list {$/;"	s	language:C++
+ui_image_list::image	./include_lib/ui/ui/control.h	/^    u16 image[0];$/;"	m	language:C++	struct:ui_image_list	access:public
+ui_image_list::num	./include_lib/ui/ui/control.h	/^    u16 num;$/;"	m	language:C++	struct:ui_image_list	access:public
+ui_language_get	./include_lib/ui/res/resfile.h	/^int ui_language_get();$/;"	p	language:C++	signature:()
+ui_language_set	./include_lib/ui/res/resfile.h	/^int ui_language_set(int language);$/;"	p	language:C++	signature:(int language)
+ui_lock_layer	./include_lib/ui/ui/ui.h	/^int ui_lock_layer(int id);$/;"	p	language:C++	signature:(int id)
+ui_message_handler	./include_lib/ui/ui/ui.h	/^int ui_message_handler(int id, const char *msg, va_list);$/;"	p	language:C++	signature:(int id, const char *msg, va_list)
+ui_no_highlight_element	./include_lib/ui/ui/ui.h	/^int ui_no_highlight_element(struct element *elm);$/;"	p	language:C++	signature:(struct element *elm)
+ui_no_highlight_element_by_id	./include_lib/ui/ui/ui.h	/^int ui_no_highlight_element_by_id(int id);$/;"	p	language:C++	signature:(int id)
+ui_ontouch_lock	./include_lib/ui/ui/ui.h	/^void ui_ontouch_lock(void *elm);$/;"	p	language:C++	signature:(void *elm)
+ui_ontouch_unlock	./include_lib/ui/ui/ui.h	/^void ui_ontouch_unlock(void *elm);$/;"	p	language:C++	signature:(void *elm)
+ui_pic	./include_lib/ui/ui/ui_pic.h	/^struct ui_pic {$/;"	s	language:C++
+ui_pic::elm	./include_lib/ui/ui/ui_pic.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_pic	typeref:struct:ui_pic::element	access:public
+ui_pic::handler	./include_lib/ui/ui/ui_pic.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_pic	typeref:struct:ui_pic::element_event_handler	access:public
+ui_pic::index	./include_lib/ui/ui/ui_pic.h	/^    char index;$/;"	m	language:C++	struct:ui_pic	access:public
+ui_pic::info	./include_lib/ui/ui/ui_pic.h	/^    const struct ui_pic_info *info;$/;"	m	language:C++	struct:ui_pic	typeref:struct:ui_pic::ui_pic_info	access:public
+ui_pic_info	./include_lib/ui/ui/control.h	/^struct ui_pic_info {$/;"	s	language:C++
+ui_pic_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_pic_info	typeref:struct:ui_pic_info::element_event_action	access:public
+ui_pic_info::cent_x	./include_lib/ui/ui/control.h	/^    u16 cent_x;$/;"	m	language:C++	struct:ui_pic_info	access:public
+ui_pic_info::cent_y	./include_lib/ui/ui/control.h	/^    u16 cent_y;$/;"	m	language:C++	struct:ui_pic_info	access:public
+ui_pic_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_pic_info	typeref:struct:ui_pic_info::ui_ctrl_info_head	access:public
+ui_pic_info::highlight	./include_lib/ui/ui/control.h	/^    u8 highlight;$/;"	m	language:C++	struct:ui_pic_info	access:public
+ui_pic_info::highlight_img	./include_lib/ui/ui/control.h	/^    struct ui_image_list *highlight_img;$/;"	m	language:C++	struct:ui_pic_info	typeref:struct:ui_pic_info::ui_image_list	access:public
+ui_pic_info::normal_img	./include_lib/ui/ui/control.h	/^    struct ui_image_list *normal_img;$/;"	m	language:C++	struct:ui_pic_info	typeref:struct:ui_pic_info::ui_image_list	access:public
+ui_pic_set_image_index	./include_lib/ui/ui/ui_pic.h	/^int ui_pic_set_image_index(struct ui_pic *pic, int index);$/;"	p	language:C++	signature:(struct ui_pic *pic, int index)
+ui_pic_show_image_by_id	./include_lib/ui/ui/ui_pic.h	/^int ui_pic_show_image_by_id(int id, int index);$/;"	p	language:C++	signature:(int id, int index)
+ui_platform_api	./include_lib/ui/ui/ui_core.h	/^struct ui_platform_api {$/;"	s	language:C++
+ui_platform_api::clear_file_preview	./include_lib/ui/ui/ui_core.h	/^    int (*clear_file_preview)(struct ui_file_browser *, struct rect *r);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::close_device	./include_lib/ui/ui/ui_core.h	/^    int (*close_device)(int);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::close_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*close_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::del_timer	./include_lib/ui/ui/ui_core.h	/^    int (*del_timer)(void *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::delete_file	./include_lib/ui/ui/ui_core.h	/^    int (*delete_file)(struct ui_file_browser *, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::draw_image	./include_lib/ui/ui/ui_core.h	/^    int (*draw_image)(struct draw_context *, u32 src, u8 quadrant);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::draw_rect	./include_lib/ui/ui/ui_core.h	/^    int (*draw_rect)(struct draw_context *, struct css_border *border);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::file_browser_close	./include_lib/ui/ui/ui_core.h	/^    void (*file_browser_close)(struct ui_file_browser *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::file_browser_open	./include_lib/ui/ui/ui_core.h	/^    struct ui_file_browser *(*file_browser_open)(struct rect *r,$/;"	m	language:C++	struct:ui_platform_api	typeref:struct:ui_platform_api::file_browser_open	access:public
+ui_platform_api::fill_rect	./include_lib/ui/ui/ui_core.h	/^    int (*fill_rect)(struct draw_context *, u32 color);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::flush_file_preview	./include_lib/ui/ui/ui_core.h	/^    int (*flush_file_preview)(struct ui_file_browser *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::free	./include_lib/ui/ui/ui_core.h	/^    void (*free)(void *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::get_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*get_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::get_file_attrs	./include_lib/ui/ui/ui_core.h	/^    int (*get_file_attrs)(struct ui_file_browser *, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::load_style	./include_lib/ui/ui/ui_core.h	/^    int (*load_style)(struct ui_style *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::load_window	./include_lib/ui/ui/ui_core.h	/^    void *(*load_window)(int id);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::malloc	./include_lib/ui/ui/ui_core.h	/^    void *(*malloc)(int);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::move_file_preview	./include_lib/ui/ui/ui_core.h	/^    int (*move_file_preview)(struct ui_file_browser *_bro, struct rect *dst, struct rect *src);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::open_device	./include_lib/ui/ui/ui_core.h	/^    int (*open_device)(struct draw_context *, const char *device);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::open_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*open_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::open_file	./include_lib/ui/ui/ui_core.h	/^    void *(*open_file)(struct ui_file_browser *, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::put_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*put_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::set_draw_context	./include_lib/ui/ui/ui_core.h	/^    int (*set_draw_context)(struct draw_context *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::set_file_attrs	./include_lib/ui/ui/ui_core.h	/^    int (*set_file_attrs)(struct ui_file_browser *, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::set_timer	./include_lib/ui/ui/ui_core.h	/^    void *(*set_timer)(void *, void (*callback)(void *), u32 msec);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::show_file_preview	./include_lib/ui/ui/ui_core.h	/^    int (*show_file_preview)(struct ui_file_browser *, struct rect *r, struct ui_file_attrs *attrs);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::show_text	./include_lib/ui/ui/ui_core.h	/^    int (*show_text)(struct draw_context *, struct ui_text_attrs *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_platform_api::unload_window	./include_lib/ui/ui/ui_core.h	/^    void (*unload_window)(void *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+ui_player	./include_lib/ui/ui/ui_player.h	/^struct ui_player {$/;"	s	language:C++
+ui_player::elm	./include_lib/ui/ui/ui_player.h	/^    struct element elm; 	\/\/must be first$/;"	m	language:C++	struct:ui_player	typeref:struct:ui_player::element	access:public
+ui_player::fd	./include_lib/ui/ui/ui_player.h	/^    int fd;$/;"	m	language:C++	struct:ui_player	access:public
+ui_player::handler	./include_lib/ui/ui/ui_player.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_player	typeref:struct:ui_player::element_event_handler	access:public
+ui_player::info	./include_lib/ui/ui/ui_player.h	/^    const struct ui_player_info *info;$/;"	m	language:C++	struct:ui_player	typeref:struct:ui_player::ui_player_info	access:public
+ui_player_for_id	./include_lib/ui/ui/ui_player.h	23;"	d	language:C++
+ui_player_info	./include_lib/ui/ui/control.h	/^struct ui_player_info {$/;"	s	language:C++
+ui_player_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_player_info	typeref:struct:ui_player_info::element_event_action	access:public
+ui_player_info::device	./include_lib/ui/ui/control.h	/^    char device[8];$/;"	m	language:C++	struct:ui_player_info	access:public
+ui_player_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_player_info	typeref:struct:ui_player_info::ui_ctrl_info_head	access:public
+ui_register_msg_handler	./include_lib/ui/ui/ui.h	/^int ui_register_msg_handler(int id, const struct uimsg_handl *handl);$/;"	p	language:C++	signature:(int id, const struct uimsg_handl *handl)
+ui_set_call	./include_lib/ui/ui/ui.h	/^int ui_set_call(int (*func)(int), int param);$/;"	p	language:C++	signature:(int (*func)(int), int param)
+ui_set_style_file	./include_lib/ui/ui/ui.h	/^int ui_set_style_file(struct ui_style *style);$/;"	p	language:C++	signature:(struct ui_style *style)
+ui_show	./include_lib/ui/ui/ui.h	/^int ui_show(int id);$/;"	p	language:C++	signature:(int id)
+ui_slider	./include_lib/ui/ui/ui_slider.h	/^struct ui_slider {$/;"	s	language:C++
+ui_slider::child_elm	./include_lib/ui/ui/ui_slider.h	/^    struct element child_elm[SLIDER_CHILD_NUM];$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::element	access:public
+ui_slider::elm	./include_lib/ui/ui/ui_slider.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::element	access:public
+ui_slider::handler	./include_lib/ui/ui/ui_slider.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::element_event_handler	access:public
+ui_slider::info	./include_lib/ui/ui/ui_slider.h	/^    const struct ui_slider_info *info;$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::ui_slider_info	access:public
+ui_slider::left	./include_lib/ui/ui/ui_slider.h	/^    int left;$/;"	m	language:C++	struct:ui_slider	access:public
+ui_slider::max_value	./include_lib/ui/ui/ui_slider.h	/^    int max_value;$/;"	m	language:C++	struct:ui_slider	access:public
+ui_slider::min_value	./include_lib/ui/ui/ui_slider.h	/^    int min_value;$/;"	m	language:C++	struct:ui_slider	access:public
+ui_slider::persent	./include_lib/ui/ui/ui_slider.h	/^    char persent;$/;"	m	language:C++	struct:ui_slider	access:public
+ui_slider::step	./include_lib/ui/ui/ui_slider.h	/^    u8 step;$/;"	m	language:C++	struct:ui_slider	access:public
+ui_slider::text_color	./include_lib/ui/ui/ui_slider.h	/^    int text_color;$/;"	m	language:C++	struct:ui_slider	access:public
+ui_slider::text_info	./include_lib/ui/ui/ui_slider.h	/^    const struct slider_text_info *text_info;$/;"	m	language:C++	struct:ui_slider	typeref:struct:ui_slider::slider_text_info	access:public
+ui_slider::width	./include_lib/ui/ui/ui_slider.h	/^    int width;$/;"	m	language:C++	struct:ui_slider	access:public
+ui_slider_info	./include_lib/ui/ui/control.h	/^struct ui_slider_info {$/;"	s	language:C++
+ui_slider_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_slider_info	typeref:struct:ui_slider_info::element_event_action	access:public
+ui_slider_info::ctrl	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head *ctrl;$/;"	m	language:C++	struct:ui_slider_info	typeref:struct:ui_slider_info::ui_ctrl_info_head	access:public
+ui_slider_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_slider_info	typeref:struct:ui_slider_info::ui_ctrl_info_head	access:public
+ui_slider_info::step	./include_lib/ui/ui/control.h	/^    u8 step;$/;"	m	language:C++	struct:ui_slider_info	access:public
+ui_slider_set_persent_by_id	./include_lib/ui/ui/ui_slider.h	/^int ui_slider_set_persent_by_id(int id, int persent);$/;"	p	language:C++	signature:(int id, int persent)
+ui_str	./include_lib/ui/ui/p.h	/^struct ui_str {$/;"	s	language:C++
+ui_str::format	./include_lib/ui/ui/p.h	/^    const char *format;$/;"	m	language:C++	struct:ui_str	access:public
+ui_str::str	./include_lib/ui/ui/p.h	/^    char *str;$/;"	m	language:C++	struct:ui_str	access:public
+ui_style	./include_lib/ui/ui/ui_core.h	/^struct ui_style {$/;"	s	language:C++
+ui_style::file	./include_lib/ui/ui/ui_core.h	/^    const char *file;$/;"	m	language:C++	struct:ui_style	access:public
+ui_style::version	./include_lib/ui/ui/ui_core.h	/^    u32 version;$/;"	m	language:C++	struct:ui_style	access:public
+ui_style_file_version_compare	./include_lib/ui/ui/ui.h	/^int ui_style_file_version_compare(int version);$/;"	p	language:C++	signature:(int version)
+ui_style_info	./include_lib/ui/ui/ui_core.h	/^struct ui_style_info {$/;"	s	language:C++
+ui_style_info::begin	./include_lib/ui/ui/ui_core.h	/^    struct element_event_handler *begin;$/;"	m	language:C++	struct:ui_style_info	typeref:struct:ui_style_info::element_event_handler	access:public
+ui_style_info::end	./include_lib/ui/ui/ui_core.h	/^    struct element_event_handler *end;$/;"	m	language:C++	struct:ui_style_info	typeref:struct:ui_style_info::element_event_handler	access:public
+ui_style_info::name	./include_lib/ui/ui/ui_core.h	/^    const char *name;$/;"	m	language:C++	struct:ui_style_info	access:public
+ui_text	./include_lib/ui/ui/ui_text.h	/^struct ui_text {$/;"	s	language:C++
+ui_text::attrs	./include_lib/ui/ui/ui_text.h	/^    struct ui_text_attrs attrs;$/;"	m	language:C++	struct:ui_text	typeref:struct:ui_text::ui_text_attrs	access:public
+ui_text::color	./include_lib/ui/ui/ui_text.h	/^    int color;$/;"	m	language:C++	struct:ui_text	access:public
+ui_text::elm	./include_lib/ui/ui/ui_text.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_text	typeref:struct:ui_text::element	access:public
+ui_text::encode	./include_lib/ui/ui/ui_text.h	/^    char encode;$/;"	m	language:C++	struct:ui_text	access:public
+ui_text::endian	./include_lib/ui/ui/ui_text.h	/^    char endian;$/;"	m	language:C++	struct:ui_text	access:public
+ui_text::flags	./include_lib/ui/ui/ui_text.h	/^    u32 flags;$/;"	m	language:C++	struct:ui_text	access:public
+ui_text::format	./include_lib/ui/ui/ui_text.h	/^    const char *format;$/;"	m	language:C++	struct:ui_text	access:public
+ui_text::handler	./include_lib/ui/ui/ui_text.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_text	typeref:struct:ui_text::element_event_handler	access:public
+ui_text::info	./include_lib/ui/ui/ui_text.h	/^    const struct ui_text_info *info;$/;"	m	language:C++	struct:ui_text	typeref:struct:ui_text::ui_text_info	access:public
+ui_text::str	./include_lib/ui/ui/ui_text.h	/^    const char *str;$/;"	m	language:C++	struct:ui_text	access:public
+ui_text::strlen	./include_lib/ui/ui/ui_text.h	/^    int strlen;$/;"	m	language:C++	struct:ui_text	access:public
+ui_text_attrs	./include_lib/ui/ui/ui_core.h	/^struct ui_text_attrs {$/;"	s	language:C++
+ui_text_attrs::code	./include_lib/ui/ui/ui_core.h	/^    const char *code;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+ui_text_attrs::color	./include_lib/ui/ui/ui_core.h	/^    int color;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+ui_text_attrs::displen	./include_lib/ui/ui/ui_core.h	/^    int displen;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+ui_text_attrs::encode	./include_lib/ui/ui/ui_core.h	/^    char encode;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+ui_text_attrs::endian	./include_lib/ui/ui/ui_core.h	/^    char endian;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+ui_text_attrs::flags	./include_lib/ui/ui/ui_core.h	/^    u32 flags;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+ui_text_attrs::strlen	./include_lib/ui/ui/ui_core.h	/^    int strlen;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+ui_text_attrs::txt	./include_lib/ui/ui/ui_core.h	/^    const char *txt;$/;"	m	language:C++	struct:ui_text_attrs	access:public
+ui_text_info	./include_lib/ui/ui/control.h	/^struct ui_text_info {$/;"	s	language:C++
+ui_text_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_text_info	typeref:struct:ui_text_info::element_event_action	access:public
+ui_text_info::code	./include_lib/ui/ui/control.h	/^    char code[8];$/;"	m	language:C++	struct:ui_text_info	access:public
+ui_text_info::color	./include_lib/ui/ui/control.h	/^    int color;$/;"	m	language:C++	struct:ui_text_info	access:public
+ui_text_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_text_info	typeref:struct:ui_text_info::ui_ctrl_info_head	access:public
+ui_text_info::highlight_color	./include_lib/ui/ui/control.h	/^    int highlight_color;$/;"	m	language:C++	struct:ui_text_info	access:public
+ui_text_info::str	./include_lib/ui/ui/control.h	/^    struct ui_text_list *str;$/;"	m	language:C++	struct:ui_text_info	typeref:struct:ui_text_info::ui_text_list	access:public
+ui_text_list	./include_lib/ui/ui/control.h	/^struct ui_text_list {$/;"	s	language:C++
+ui_text_list::num	./include_lib/ui/ui/control.h	/^    u16 num;$/;"	m	language:C++	struct:ui_text_list	access:public
+ui_text_list::str	./include_lib/ui/ui/control.h	/^    char str[0];$/;"	m	language:C++	struct:ui_text_list	access:public
+ui_text_set_index	./include_lib/ui/ui/ui_text.h	/^int ui_text_set_index(struct ui_text *text, int index);$/;"	p	language:C++	signature:(struct ui_text *text, int index)
+ui_text_set_str	./include_lib/ui/ui/ui_text.h	/^int ui_text_set_str(struct ui_text *text, const char *format, const char *str, int strlen, u32 flags);$/;"	p	language:C++	signature:(struct ui_text *text, const char *format, const char *str, int strlen, u32 flags)
+ui_text_set_str_by_id	./include_lib/ui/ui/ui_text.h	/^int ui_text_set_str_by_id(int id, const char *format, const char *str);$/;"	p	language:C++	signature:(int id, const char *format, const char *str)
+ui_text_set_text_attrs	./include_lib/ui/ui/ui_text.h	/^void ui_text_set_text_attrs(struct ui_text *text, const char *str, int strlen, u8 encode, u8 endian, u32 flags);$/;"	p	language:C++	signature:(struct ui_text *text, const char *str, int strlen, u8 encode, u8 endian, u32 flags)
+ui_text_set_text_by_id	./include_lib/ui/ui/ui_text.h	/^int ui_text_set_text_by_id(int id, const char *str, int strlen, u32 flags);$/;"	p	language:C++	signature:(int id, const char *str, int strlen, u32 flags)
+ui_text_set_textu_by_id	./include_lib/ui/ui/ui_text.h	/^int ui_text_set_textu_by_id(int id, const char *str, int strlen, u32 flags);$/;"	p	language:C++	signature:(int id, const char *str, int strlen, u32 flags)
+ui_text_set_textw_by_id	./include_lib/ui/ui/ui_text.h	/^int ui_text_set_textw_by_id(int id, const char *str, int strlen, int endian, u32 flags);$/;"	p	language:C++	signature:(int id, const char *str, int strlen, int endian, u32 flags)
+ui_text_show_index_by_id	./include_lib/ui/ui/ui_text.h	/^int ui_text_show_index_by_id(int id, int index);$/;"	p	language:C++	signature:(int id, int index)
+ui_time	./include_lib/ui/ui/ui_time.h	/^struct ui_time {$/;"	s	language:C++
+ui_time::buf	./include_lib/ui/ui/ui_time.h	/^    u16 buf[32];$/;"	m	language:C++	struct:ui_time	access:public
+ui_time::day	./include_lib/ui/ui/ui_time.h	/^    u8 day;$/;"	m	language:C++	struct:ui_time	access:public
+ui_time::handler	./include_lib/ui/ui/ui_time.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_time	typeref:struct:ui_time::element_event_handler	access:public
+ui_time::hour	./include_lib/ui/ui/ui_time.h	/^    u8 hour;$/;"	m	language:C++	struct:ui_time	access:public
+ui_time::info	./include_lib/ui/ui/ui_time.h	/^    const struct ui_time_info *info;$/;"	m	language:C++	struct:ui_time	typeref:struct:ui_time::ui_time_info	access:public
+ui_time::min	./include_lib/ui/ui/ui_time.h	/^    u8 min;$/;"	m	language:C++	struct:ui_time	access:public
+ui_time::month	./include_lib/ui/ui/ui_time.h	/^    u8 month;$/;"	m	language:C++	struct:ui_time	access:public
+ui_time::sec	./include_lib/ui/ui/ui_time.h	/^    u8 sec;$/;"	m	language:C++	struct:ui_time	access:public
+ui_time::text	./include_lib/ui/ui/ui_time.h	/^    struct element_text text;$/;"	m	language:C++	struct:ui_time	typeref:struct:ui_time::element_text	access:public
+ui_time::timer	./include_lib/ui/ui/ui_time.h	/^    void *timer;$/;"	m	language:C++	struct:ui_time	access:public
+ui_time::year	./include_lib/ui/ui/ui_time.h	/^    u16 year;$/;"	m	language:C++	struct:ui_time	access:public
+ui_time_info	./include_lib/ui/ui/control.h	/^struct ui_time_info {$/;"	s	language:C++
+ui_time_info::action	./include_lib/ui/ui/control.h	/^    struct element_event_action *action;$/;"	m	language:C++	struct:ui_time_info	typeref:struct:ui_time_info::element_event_action	access:public
+ui_time_info::auto_cnt	./include_lib/ui/ui/control.h	/^    u8 auto_cnt;$/;"	m	language:C++	struct:ui_time_info	access:public
+ui_time_info::color	./include_lib/ui/ui/control.h	/^    int color;$/;"	m	language:C++	struct:ui_time_info	access:public
+ui_time_info::delimiter	./include_lib/ui/ui/control.h	/^    u16 delimiter[10];$/;"	m	language:C++	struct:ui_time_info	access:public
+ui_time_info::format	./include_lib/ui/ui/control.h	/^    char format[16];$/;"	m	language:C++	struct:ui_time_info	access:public
+ui_time_info::head	./include_lib/ui/ui/control.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:ui_time_info	typeref:struct:ui_time_info::ui_ctrl_info_head	access:public
+ui_time_info::number	./include_lib/ui/ui/control.h	/^    u16 number[10];$/;"	m	language:C++	struct:ui_time_info	access:public
+ui_time_info::rev	./include_lib/ui/ui/control.h	/^    u8 rev[3];$/;"	m	language:C++	struct:ui_time_info	access:public
+ui_time_update_by_id	./include_lib/ui/ui/ui_time.h	/^int ui_time_update_by_id(int id, struct utime *time);$/;"	p	language:C++	signature:(int id, struct utime *time)
+ui_unlock_layer	./include_lib/ui/ui/ui.h	/^int ui_unlock_layer(int id);$/;"	p	language:C++	signature:(int id)
+ui_watch	./include_lib/ui/ui/ui_watch.h	/^struct ui_watch {$/;"	s	language:C++
+ui_watch::child_elm	./include_lib/ui/ui/ui_watch.h	/^    struct element child_elm[WATCH_CHILD_NUM];$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::element	access:public
+ui_watch::elm	./include_lib/ui/ui/ui_watch.h	/^    struct element elm;$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::element	access:public
+ui_watch::handler	./include_lib/ui/ui/ui_watch.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::element_event_handler	access:public
+ui_watch::hour	./include_lib/ui/ui/ui_watch.h	/^    u8 hour;$/;"	m	language:C++	struct:ui_watch	access:public
+ui_watch::info	./include_lib/ui/ui/ui_watch.h	/^    const struct layout_info *info;$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::layout_info	access:public
+ui_watch::min	./include_lib/ui/ui/ui_watch.h	/^    u8 min;$/;"	m	language:C++	struct:ui_watch	access:public
+ui_watch::pic_info	./include_lib/ui/ui/ui_watch.h	/^    const struct watch_pic_info *pic_info[WATCH_CHILD_NUM];$/;"	m	language:C++	struct:ui_watch	typeref:struct:ui_watch::watch_pic_info	access:public
+ui_watch::sec	./include_lib/ui/ui/ui_watch.h	/^    u8 sec;$/;"	m	language:C++	struct:ui_watch	access:public
+ui_watch::timer	./include_lib/ui/ui/ui_watch.h	/^    void *timer;$/;"	m	language:C++	struct:ui_watch	access:public
+ui_watch::updata	./include_lib/ui/ui/ui_watch.h	/^    u8 updata;$/;"	m	language:C++	struct:ui_watch	access:public
+uimsg_handl	./include_lib/ui/ui/ui.h	/^struct uimsg_handl {$/;"	s	language:C++
+uimsg_handl::handler	./include_lib/ui/ui/ui.h	/^    int (*handler)(const char *type, u32 args);$/;"	m	language:C++	struct:uimsg_handl	access:public
+uimsg_handl::msg	./include_lib/ui/ui/ui.h	/^    const char *msg;$/;"	m	language:C++	struct:uimsg_handl	access:public
+unload_window	./include_lib/ui/ui/ui_core.h	/^    void (*unload_window)(void *);$/;"	m	language:C++	struct:ui_platform_api	access:public
+updata	./include_lib/ui/ui/ui_watch.h	/^    u8 updata;$/;"	m	language:C++	struct:ui_watch	access:public
+upgrade_file_detect	./include_lib/upgrade/upgrade_detect.h	/^extern int upgrade_file_detect(struct upgrade_req *req);$/;"	p	language:C++	signature:(struct upgrade_req *req)
+upgrade_message	./include_lib/upgrade/upgrade_detect.h	/^enum upgrade_message {$/;"	g	language:C++
+upgrade_req	./include_lib/upgrade/upgrade_detect.h	/^struct upgrade_req {$/;"	s	language:C++
+upgrade_req::buf	./include_lib/upgrade/upgrade_detect.h	/^    u8   *buf;$/;"	m	language:C++	struct:upgrade_req	access:public
+upgrade_req::buf_size	./include_lib/upgrade/upgrade_detect.h	/^    int  buf_size;$/;"	m	language:C++	struct:upgrade_req	access:public
+upgrade_req::complete	./include_lib/upgrade/upgrade_detect.h	/^    int (*complete)(u8 success);$/;"	m	language:C++	struct:upgrade_req	access:public
+upgrade_req::confirm	./include_lib/upgrade/upgrade_detect.h	/^    bool (*confirm)(void);$/;"	m	language:C++	struct:upgrade_req	access:public
+upgrade_req::file	./include_lib/upgrade/upgrade_detect.h	/^    FILE *file;$/;"	m	language:C++	struct:upgrade_req	access:public
+upgrade_req::force	./include_lib/upgrade/upgrade_detect.h	/^    u8   force; \/\/强制升级$/;"	m	language:C++	struct:upgrade_req	access:public
+upgrade_req::path	./include_lib/upgrade/upgrade_detect.h	/^    char *path;$/;"	m	language:C++	struct:upgrade_req	access:public
+upgrade_req::type	./include_lib/upgrade/upgrade_detect.h	/^    u8   type;$/;"	m	language:C++	struct:upgrade_req	access:public
+upgrade_req::ui	./include_lib/upgrade/upgrade_detect.h	/^    struct upgrade_ui ui;$/;"	m	language:C++	struct:upgrade_req	typeref:struct:upgrade_req::upgrade_ui	access:public
+upgrade_ui	./include_lib/upgrade/upgrade_detect.h	/^struct upgrade_ui {$/;"	s	language:C++
+upgrade_ui::path	./include_lib/upgrade/upgrade_detect.h	/^    const char *path;$/;"	m	language:C++	struct:upgrade_ui	access:public
+upgrade_ui::show_message	./include_lib/upgrade/upgrade_detect.h	/^    int (*show_message)(int msg);$/;"	m	language:C++	struct:upgrade_ui	access:public
+upgrade_ui::show_progress	./include_lib/upgrade/upgrade_detect.h	/^    int (*show_progress)(int percent);$/;"	m	language:C++	struct:upgrade_ui	access:public
+upgrade_ui::step_msecs	./include_lib/upgrade/upgrade_detect.h	/^    int step_msecs;$/;"	m	language:C++	struct:upgrade_ui	access:public
+utime	./include_lib/ui/ui/ui_time.h	/^struct utime {$/;"	s	language:C++
+utime::day	./include_lib/ui/ui/ui_time.h	/^    u8 day;$/;"	m	language:C++	struct:utime	access:public
+utime::hour	./include_lib/ui/ui/ui_time.h	/^    u8 hour;$/;"	m	language:C++	struct:utime	access:public
+utime::min	./include_lib/ui/ui/ui_time.h	/^    u8 min;$/;"	m	language:C++	struct:utime	access:public
+utime::month	./include_lib/ui/ui/ui_time.h	/^    u8 month;$/;"	m	language:C++	struct:utime	access:public
+utime::sec	./include_lib/ui/ui/ui_time.h	/^    u8 sec;$/;"	m	language:C++	struct:utime	access:public
+utime::year	./include_lib/ui/ui/ui_time.h	/^    u16 year;$/;"	m	language:C++	struct:utime	access:public
+val	./include_lib/ui/ui/slider.h	/^    u32 val;$/;"	m	language:C++	struct:slider_info	access:public
+value	./include_lib/ui/ui/ui_core.h	/^    u8 value;$/;"	m	language:C++	struct:element_key_event	access:public
+version	./include_lib/ui/ui/ui_core.h	/^    u32 version;$/;"	m	language:C++	struct:ui_style	access:public
+watch_pic_info	./include_lib/ui/ui/ui_watch.h	/^struct watch_pic_info {$/;"	s	language:C++
+watch_pic_info::cent_x	./include_lib/ui/ui/ui_watch.h	/^    u16 cent_x;$/;"	m	language:C++	struct:watch_pic_info	access:public
+watch_pic_info::cent_y	./include_lib/ui/ui/ui_watch.h	/^    u16 cent_y;$/;"	m	language:C++	struct:watch_pic_info	access:public
+watch_pic_info::head	./include_lib/ui/ui/ui_watch.h	/^    struct ui_ctrl_info_head head;$/;"	m	language:C++	struct:watch_pic_info	typeref:struct:watch_pic_info::ui_ctrl_info_head	access:public
+watch_pic_info::img	./include_lib/ui/ui/ui_watch.h	/^    struct ui_image_list *img;$/;"	m	language:C++	struct:watch_pic_info	typeref:struct:watch_pic_info::ui_image_list	access:public
+width	./include_lib/ui/res/resfile.h	/^    u16 width;$/;"	m	language:C++	struct:image_file	access:public
+width	./include_lib/ui/ui/ui_core.h	/^    int width;$/;"	m	language:C++	struct:element_css	access:public
+width	./include_lib/ui/ui/ui_slider.h	/^    int width;$/;"	m	language:C++	struct:ui_slider	access:public
+window	./include_lib/ui/ui/window.h	/^struct window {$/;"	s	language:C++
+window::busy	./include_lib/ui/ui/window.h	/^    u8 busy;$/;"	m	language:C++	struct:window	access:public
+window::elm	./include_lib/ui/ui/window.h	/^    struct element elm; 	\/\/must be first$/;"	m	language:C++	struct:window	typeref:struct:window::element	access:public
+window::entry	./include_lib/ui/ui/window.h	/^    struct list_head entry;$/;"	m	language:C++	struct:window	typeref:struct:window::list_head	access:public
+window::handler	./include_lib/ui/ui/window.h	/^    const struct element_event_handler *handler;$/;"	m	language:C++	struct:window	typeref:struct:window::element_event_handler	access:public
+window::hide	./include_lib/ui/ui/window.h	/^    u8 hide;$/;"	m	language:C++	struct:window	access:public
+window::info	./include_lib/ui/ui/window.h	/^    const struct window_info *info;$/;"	m	language:C++	struct:window	typeref:struct:window::window_info	access:public
+window::layer	./include_lib/ui/ui/window.h	/^    struct layer *layer;$/;"	m	language:C++	struct:window	typeref:struct:window::layer	access:public
+window::private_data	./include_lib/ui/ui/window.h	/^    void *private_data;$/;"	m	language:C++	struct:window	access:public
+window_hide	./include_lib/ui/ui/window.h	/^int window_hide(int id);$/;"	p	language:C++	signature:(int id)
+window_info	./include_lib/ui/ui/control.h	/^struct window_info {$/;"	s	language:C++
+window_info::css_num	./include_lib/ui/ui/control.h	/^    u8 		css_num;$/;"	m	language:C++	struct:window_info	access:public
+window_info::ctrl_num	./include_lib/ui/ui/control.h	/^    u8 		ctrl_num;$/;"	m	language:C++	struct:window_info	access:public
+window_info::layer	./include_lib/ui/ui/control.h	/^    struct layer_info *layer;$/;"	m	language:C++	struct:window_info	typeref:struct:window_info::layer_info	access:public
+window_info::len	./include_lib/ui/ui/control.h	/^    u8 		len;$/;"	m	language:C++	struct:window_info	access:public
+window_info::rect	./include_lib/ui/ui/control.h	/^    struct rect rect;$/;"	m	language:C++	struct:window_info	typeref:struct:window_info::rect	access:public
+window_info::rev	./include_lib/ui/ui/control.h	/^    u8 		rev[4];$/;"	m	language:C++	struct:window_info	access:public
+window_info::type	./include_lib/ui/ui/control.h	/^    u8 		type;$/;"	m	language:C++	struct:window_info	access:public
+window_onkey	./include_lib/ui/ui/window.h	/^int window_onkey(struct element_key_event *e);$/;"	p	language:C++	signature:(struct element_key_event *e)
+window_ontouch	./include_lib/ui/ui/window.h	/^int window_ontouch(struct element_touch_event *e);$/;"	p	language:C++	signature:(struct element_touch_event *e)
+window_show	./include_lib/ui/ui/window.h	/^int window_show(int);$/;"	p	language:C++	signature:(int)
+window_toggle	./include_lib/ui/ui/window.h	/^int window_toggle(int id);$/;"	p	language:C++	signature:(int id)
+x_interval	./include_lib/ui/ui/ui_grid.h	/^    int  x_interval;$/;"	m	language:C++	struct:ui_grid	access:public
+xoffset	./include_lib/ui/ui/ui_core.h	/^    int xoffset;$/;"	m	language:C++	struct:element_touch_event	access:public
+y_interval	./include_lib/ui/ui/ui_grid.h	/^    int  y_interval;$/;"	m	language:C++	struct:ui_grid	access:public
+year	./include_lib/ui/ui/ui_time.h	/^    u16 year;$/;"	m	language:C++	struct:ui_time	access:public
+year	./include_lib/ui/ui/ui_time.h	/^    u16 year;$/;"	m	language:C++	struct:utime	access:public
+yoffset	./include_lib/ui/ui/ui_core.h	/^    int yoffset;$/;"	m	language:C++	struct:element_touch_event	access:public
+z_order	./include_lib/ui/ui/ui_core.h	/^    u8  z_order;$/;"	m	language:C++	struct:element_css	access:public
