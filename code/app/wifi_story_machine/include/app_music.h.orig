@@ -1,0 +1,56 @@
+
+#ifndef _VIDEO_MUSIC_
+#define _VIDEO_MUSIC_
+
+#include "system/includes.h"
+#include "app_config.h"
+#include "server/audio_server.h"
+
+struct music_dec_ops {
+    int (*switch_dir)(int fsel_mode);
+    int (*switch_file)(int fsel_mode);
+    int (*dec_file)(void *file, int (*handler)(int), int);
+    int (*play_pause)();
+    int (*dec_stop)(int);
+    int (*exit)();
+};
+
+struct app_music_hdl {
+    u8 net_connted;
+    u8 listening;
+    u8 net_music_enable;
+    u16 net_state;
+    u16 local_state;
+    u32 bp_file_sclust;
+    int event_to_ai;
+    FILE *bp_file;
+    FILE *file;
+    FILE *rec_file;
+    FILE *curr_dir;
+    void *net_file;
+    void *dec_end_file;
+    int dec_end_priv;
+    int (*dec_end_handler)(int);
+    struct vfscan *fscan;
+    struct vfscan *dir_list;
+    struct server *dec_server;
+<<<<<<< 448692c39c15e1e941079ea6f5d338eeabf7e164
+    struct server *enc_server;
+    struct server *wechat_server;
+=======
+    struct server *ai_server;
+    struct server *wechat_server;
+    struct audio_dec_breakpoint bp;
+    const char *local_music_path;
+    const struct music_dec_ops *dec_ops;
+>>>>>>> 修改app_music，增加ai_server播歌控制
+};
+
+
+
+
+extern struct jieli_mqtt_msg_hdl *get_jieli_mqtt_msg_hdl();
+extern int get_jieli_mqtt_msg_hdl_len();
+
+#endif
+
