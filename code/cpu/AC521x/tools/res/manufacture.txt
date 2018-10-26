@@ -1,5 +1,4 @@
 {
-	"auth_key": "jieli",
-	"code": "wifi_story",
-
+  "auth_key": "E8PNL31m6cZKZAgM",
+  "code": "story_test_turing"
 }

@@ -3,11 +3,25 @@
 
 
 
-#define  CONFIG_BOARD_GR202_2M
+
+
+//#define CONFIG_BOARD_5213B_STORY
+ #define  CONFIG_BOARD_GR202_2M
 
 
 
-
+#ifdef CONFIG_BOARD_5213B_STORY
+#define __CPU_AC521x__
+#define __FLASH_SIZE__    (4 * 1024 * 1024)
+#define CONFIG_SFC_ENABLE
+#ifdef CONFIG_SFC_ENABLE
+#define __SDRAM_SIZE__    (2 * 1024 * 1024)
+#else
+#define __SDRAM_SIZE__    (8 * 1024 * 1024)
+#endif
+#define CONFIG_SD2_ENABLE                       /* SD卡选择 */
+#define CONFIG_NET_ENABLE 						/* 网络配置 */
+#endif
 
 #ifdef CONFIG_BOARD_GR202_2M
 #define __CPU_AC521x__
@@ -38,10 +52,12 @@
 
 #ifdef CONFIG_NET_ENABLE
 #define CONFIG_WIFI_ENABLE  					/* 无线WIFI */
-#define CONFIG_WECHAT_SDK_ENABLE             //使用杰理公众号
-// #define CONFIG_TURING_SDK_ENABLE             //使用图灵公众号
-#define CONFIG_DUER_SDK_ENABLE
-#define CONFIG_DUER_WECHAT_ENABLE
+ #define CONFIG_PROFILE_UPDATE					//每次开机都更新一次profile
+// #define CONFIG_WECHAT_SDK_ENABLE             //使用杰理公众号
+#define CONFIG_TURING_SDK_ENABLE             //使用图灵公众号
+// #define CONFIG_DEEPBRAIN_SDK_ENABLE
+//#define CONFIG_DUER_SDK_ENABLE
+//#define CONFIG_DUER_WECHAT_ENABLE
 #endif
 
 

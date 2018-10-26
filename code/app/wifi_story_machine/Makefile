@@ -57,6 +57,7 @@ $(AR_DIR)/libmpeg.a\
 $(AR_DIR)/libMultSine_Control.a  \
 $(AR_DIR)/ai_server.a\
 $(AR_DIR)/zliblite.a\
+$(AR_DIR)/profile.a\
 --whole-archive \
 $(AR_DIR)/wifi_dev.a  \
 --no-whole-archive \

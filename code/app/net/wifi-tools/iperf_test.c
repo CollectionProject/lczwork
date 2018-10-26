@@ -29,7 +29,7 @@ void iperf_test(void)
 {
 #ifdef IPERF_ENABLE
     if (iperf_test_pid == 0) {
-        thread_fork("iperf_test", 5, 2 * 1024, 0, &iperf_test_pid, iperf_test_thread, 0);
+        thread_fork("iperf_test", 5, 1 * 1024, 0, &iperf_test_pid, iperf_test_thread, 0);
     }
 #endif
 }

@@ -276,7 +276,7 @@ POWER_PLATFORM_DATA_BEGIN(sys_power_data)
         {397, 80},
         {408, 90},
         {422, 100},
-    },
+    }, 
     .charger_online = usb_is_charging,
     .charger_gpio  = get_usb_wkup_gpio,
     .read_power_key = read_power_key,

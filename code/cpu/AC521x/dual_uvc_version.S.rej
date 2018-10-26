@@ -1,0 +1,7 @@
+diff a/cpu/AC54xx/dual_uvc_version.S b/cpu/AC54xx/dual_uvc_version.S	(rejected hunks)
+@@ -1,4 +1,4 @@
+ .section .version;
+ 
+-    .long 62828511 
++    .long 62928814 
+     .asciz "dual-uvc_v0.0.5-AC54-debug-2"

@@ -62,6 +62,25 @@ static void wifi_app_timer_func(void *p)
     os_taskq_post(WIFI_APP_TASK_NAME, 1, WIFI_MSG_TICK_1_SEC);
 }
 
+static void wifi_taskq_post(int msg)
+{
+    int ret = 0;
+    u8 retry = 0;
+
+    do {
+        ret = os_taskq_post(WIFI_APP_TASK_NAME, 1, msg);
+        if (ret == OS_NO_ERR) {
+            break;
+        }
+        msleep(50);
+        retry++;
+    } while (retry < 5);
+
+    if (ret != OS_NO_ERR) {
+        printf("post msg %d to wifi_app_task fail !!! \n", msg);
+    }
+}
+
 void wifi_smp_connect(char *ssid, char *pwd, void *rand_str)
 {
     struct cfg_info info = {0};
@@ -267,17 +286,10 @@ static int network_user_callback(void *network_ctx, enum NETWORK_EVENT state, vo
 
     case WIFI_EVENT_MODULE_START:
         puts("|network_user_callback->WIFI_EVENT_MODULE_START\n");
-
-        /* info.ssid = "DUER_WIFI"; */
-        info.ssid = "WM31_TEST";
-        info.pwd = "12345678";
-        /* info.mode = STA_MODE; */
         info.mode = SMP_CFG_MODE;
         info.force_default_mode = 0;
         dev_ioctl(wifi_dev, DEV_SAVE_DEFAULT_MODE, (u32)&info);
-
         break;
-
     case WIFI_EVENT_MODULE_STOP:
         puts("|network_user_callback->WIFI_EVENT_MODULE_STOP\n");
         break;
@@ -285,10 +297,8 @@ static int network_user_callback(void *network_ctx, enum NETWORK_EVENT state, vo
     case WIFI_EVENT_AP_START:
         puts("|network_user_callback->WIFI_EVENT_AP_START\n");
         break;
-
     case WIFI_EVENT_AP_STOP:
         puts("|network_user_callback->WIFI_EVENT_AP_STOP\n");
-
 #if 0//8801要if 1，8189不能开，开了切换不了模式
         info.port_status = 0;
         printf("---------DEV_SET_WIFI_POWER-OFF-----------\r\n");
@@ -306,7 +316,6 @@ static int network_user_callback(void *network_ctx, enum NETWORK_EVENT state, vo
     case WIFI_EVENT_MODULE_START_ERR:
         puts("|network_user_callback->WIFI_EVENT_MODULE_START_ERR\n");
         break;
-
     case WIFI_EVENT_STA_STOP:
         puts("|network_user_callback->WIFI_EVENT_STA_STOP\n");
 #if 0
@@ -319,22 +328,17 @@ static int network_user_callback(void *network_ctx, enum NETWORK_EVENT state, vo
         dev_ioctl(wifi_dev, DEV_SET_WIFI_POWER, (u32)&info);
 #endif
         break;
-
     case WIFI_EVENT_STA_DISCONNECT:
         puts("|network_user_callback->WIFI_STA_DISCONNECT\n");
-        os_taskq_post(WIFI_APP_TASK_NAME, 1, WIFI_MSG_STA_DISCONNECTED);
-
+        wifi_taskq_post(WIFI_MSG_STA_DISCONNECTED);
         break;
-
     case WIFI_EVENT_STA_SCAN_COMPLETED:
-
         /* if(wpa_supplicant_get_state() != STA_WPA_CONNECT_COMPLETED) */
         /* { */
         puts("|network_user_callback->WIFI_STA_SCAN_COMPLETED\n");
-        os_taskq_post(WIFI_APP_TASK_NAME, 1, WIFI_MSG_STA_SCAN_COMPLETED);
+        wifi_taskq_post(WIFI_MSG_STA_SCAN_COMPLETED);
         /* } */
         break;
-
     case WIFI_EVENT_STA_CONNECT_SUCC:
         dev_ioctl(wifi_dev, DEV_GET_WIFI_CHANNEL, (u32)&info);
         printf("|network_user_callback->WIFI_STA_CONNECT_SUCC,CH=%d\r\n", info.sta_channel);
@@ -355,7 +359,7 @@ static int network_user_callback(void *network_ctx, enum NETWORK_EVENT state, vo
         break;
     case WIFI_EVENT_STA_NETWORK_STACK_DHCP_SUCC:
         puts("|network_user_callback->WIFI_EVENT_STA_NETWPRK_STACK_DHCP_SUCC\n");
-        os_taskq_post(WIFI_APP_TASK_NAME, 1, WIFI_MSG_STA_NETWORK_STACK_DHCP_SUCC);
+        wifi_taskq_post(WIFI_MSG_STA_NETWORK_STACK_DHCP_SUCC);
         break;
     case WIFI_EVENT_STA_NETWORK_STACK_DHCP_TIMEOUT:
         puts("|network_user_callback->WIFI_EVENT_STA_NETWPRK_STACK_DHCP_TIMEOUT\n");
@@ -379,21 +383,19 @@ static int network_user_callback(void *network_ctx, enum NETWORK_EVENT state, vo
 
     case WIFI_EVENT_SMP_CFG_START:
         puts("|network_user_callback->WIFI_EVENT_SMP_CFG_START\n");
-        os_taskq_post(WIFI_APP_TASK_NAME, 1, WIFI_MSG_SMP_CFG_START);
+        wifi_taskq_post(WIFI_MSG_SMP_CFG_START);
         break;
-
     case WIFI_EVENT_SMP_CFG_STOP:
         puts("|network_user_callback->WIFI_EVENT_SMP_CFG_STOP\n");
-        os_taskq_post(WIFI_APP_TASK_NAME, 1, WIFI_MSG_SMP_CFG_STOP);
+        wifi_taskq_post(WIFI_MSG_SMP_CFG_STOP);
         break;
-
     case WIFI_EVENT_SMP_CFG_TIMEOUT:
         puts("|network_user_callback->WIFI_EVENT_SMP_CFG_TIMEOUT\n");
-        os_taskq_post(WIFI_APP_TASK_NAME, 1, WIFI_MSG_SMP_CFG_TIMEOUT);
+        wifi_taskq_post(WIFI_MSG_SMP_CFG_TIMEOUT);
         break;
     case WIFI_EVENT_SMP_CFG_COMPLETED:
         puts("|network_user_callback->WIFI_EVENT_SMP_CFG_COMPLETED\n");
-        os_taskq_post(WIFI_APP_TASK_NAME, 1, WIFI_MSG_SMP_CFG_COMPLETED);
+        wifi_taskq_post(WIFI_MSG_SMP_CFG_COMPLETED);
         break;
 
     case WIFI_EVENT_PM_SUSPEND:
@@ -407,7 +409,6 @@ static int network_user_callback(void *network_ctx, enum NETWORK_EVENT state, vo
         struct eth_addr *hwaddr = (struct eth_addr *)network_ctx;
         printf("WIFI_EVENT_AP_ON_ASSOC hwaddr = %02x:%02x:%02x:%02x:%02x:%02x \r\n\r\n",
                hwaddr->addr[0], hwaddr->addr[1], hwaddr->addr[2], hwaddr->addr[3], hwaddr->addr[4], hwaddr->addr[5]);
-
         break;
     case WIFI_EVENT_AP_ON_DISCONNECTED:
         hwaddr = (struct eth_addr *)network_ctx;
@@ -417,7 +418,6 @@ static int network_user_callback(void *network_ctx, enum NETWORK_EVENT state, vo
     default:
         break;
     }
-
 
     return 0;
 }
@@ -655,9 +655,9 @@ void wifi_app_task(void *priv)
 int wireless_net_init(void)//主要是create wifi 线程的
 {
     puts("wifi early init \n\n\n\n\n\n");
-    thread_fork(WIFI_APP_TASK_NAME, 10, 0x1000, 64, 0, wifi_app_task, NULL);
-    return 0;
+    return thread_fork(WIFI_APP_TASK_NAME, 10, 2048, 64, 0, wifi_app_task, NULL);
 }
+
 #if defined CONFIG_WIFI_ENABLE
 late_initcall(wireless_net_init);
 #endif

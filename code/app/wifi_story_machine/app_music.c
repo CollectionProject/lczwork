@@ -20,7 +20,7 @@ enum {
     LISTEN_STATE_RETURN_URL,
 };
 
-//#define CONFIG_STORE_VOLUME
+/* #define CONFIG_STORE_VOLUME */
 
 #define DEC_BUF_LEN      12 * 1024
 
@@ -55,7 +55,6 @@ static int app_music_shutdown(int priv)
     return 0;
 }
 
-
 static void led_ui_post_msg(const char *msg, ...)
 {
     union led_uireq req;
@@ -78,7 +77,6 @@ static void led_ui_post_msg(const char *msg, ...)
     va_end(argptr);
 
 }
-
 
 static void set_dec_end_handler(void *file, void *handler, int arg0, int arg1)
 {
@@ -118,7 +116,6 @@ static const char *__get_dirname_file(const char *name, int len)
 
     return NULL;
 }
-
 
 static int __get_dec_breakpoint(struct audio_dec_breakpoint *bp)
 {
@@ -162,7 +159,6 @@ static int __set_dec_volume(int step)
     req.dec.volume  = volume;
     return server_request(__this->dec_server, AUDIO_REQ_DEC, &req);
 }
-
 
 /*
  * 暂停/播放音乐
@@ -217,7 +213,6 @@ static int local_music_dec_stop(int save_breakpoint)
 
     return 0;
 }
-
 
 /*
  * 选择文件并播放, mode为选择方式，如FSEL_NEXT_FILE
@@ -511,7 +506,6 @@ static int net_music_dec_play_pause(u8 notify)
     return 0;
 }
 
-
 static int net_music_dec_stop(int save_breakpoint)
 {
     union audio_req r;
@@ -584,8 +578,6 @@ static int net_music_dec_end(int save_bp)
     req.evt.ai_name     = __this->ai_name;
     return server_request(__this->ai_server, AI_REQ_EVENT, &req);
 }
-
-
 
 static int __net_music_dec_file(int breakpoint)
 {
@@ -699,7 +691,6 @@ static int net_music_dec_file(void *_url, int breakpoint, void *handler, int arg
     return 0;
 }
 
-
 static int net_music_dec_switch_file(int fsel_mode)
 {
     int err;
@@ -782,7 +773,6 @@ static int net_music_dec_volume(int step)
     return server_request(__this->ai_server, AI_REQ_EVENT, &req);
 }
 
-
 static const struct music_dec_ops net_music_dec_ops = {
     .switch_dir     = net_music_dec_switch_dir,
     .switch_file    = net_music_dec_switch_file,
@@ -793,7 +783,6 @@ static const struct music_dec_ops net_music_dec_ops = {
     .dec_progress   = net_music_dec_progress,
     .dec_stop       = net_music_dec_stop,
 };
-
 
 static void ai_server_event_handler(void *priv, int argc, int *argv)
 {
@@ -838,6 +827,10 @@ static void ai_server_event_handler(void *priv, int argc, int *argv)
         break;
     case AI_SERVER_EVENT_PAUSE:
         __this->dec_ops->dec_play_pause(0);
+        break;
+    case AI_SERVER_EVENT_UPGRADE:
+        sys_power_auto_shutdown_pause();
+        app_music_play_voice_prompt("024.mp3", NULL);
         break;
     default:
         break;
@@ -911,7 +904,6 @@ static void app_music_event_net_connected()
     /*
      * 网络连接成功,开始连接ai服务器
      */
-
     if (__this->ai_server) {
         return;
     }
@@ -930,6 +922,7 @@ static void app_music_event_net_connected()
 /************************微信相关API****************************/
 extern int net_dhcp_ready();
 extern char jieliapp_net_ready(void);
+
 static int wechat_start(void)
 {
     struct wechat_req req;
@@ -1074,15 +1067,16 @@ static void wechat_server_event_handler(void *priv, int argc, int *argv)
 }
 
 
-
 /***************************************************************/
+extern int dev_profile_init(void);
+extern void dev_profile_uninit(void);
+extern void dev_profile_update(void);
+extern void wifi_enter_smp_cfg_mode(void);
+extern void wifi_return_sta_mode(void);
+extern int get_wifi_is_smp_mode(void);
 
 static void app_music_net_config(void)
 {
-    extern void wifi_enter_smp_cfg_mode(void);
-    extern void wifi_return_sta_mode(void);
-    extern	int get_wifi_is_smp_mode(void);
-
     sys_power_auto_shutdown_pause();
 
     if (!__this->wifi_config_state) {
@@ -1092,6 +1086,7 @@ static void app_music_net_config(void)
             __this->ai_connected = 0;
             __this->wechat_connected = 0;
         }
+        dev_profile_uninit();
         app_music_play_voice_prompt("013.mp3", NULL);
         wifi_enter_smp_cfg_mode();
     } else {
@@ -1102,10 +1097,6 @@ static void app_music_net_config(void)
     }
     __this->wifi_config_state = !__this->wifi_config_state;
 }
-
-
-
-
 
 #endif
 
@@ -1119,11 +1110,9 @@ static void dec_server_event_handler(void *priv, int argc, int *argv)
         puts("app_music: AUDIO_SERVER_EVENT_ERR\n");
     case AUDIO_SERVER_EVENT_END:
         puts("app_music: AUDIO_SERVER_EVENT_END\n");
-
         led_ui_post_msg("dec_end");
         sys_key_event_enable();
         __this->play_voice_prompt = 0;
-
         do_dec_end_handler((void *)argv[1]);
         break;
     case AUDIO_SERVER_EVENT_CURR_TIME:
@@ -1134,9 +1123,6 @@ static void dec_server_event_handler(void *priv, int argc, int *argv)
         break;
     }
 }
-
-
-
 
 static int __play_voice_prompt(const char *fname, void *dec_end_handler, int save_bp)
 {
@@ -1212,6 +1198,11 @@ static int app_music_main()
     server_register_event_handler(__this->dec_server, NULL, dec_server_event_handler);
 
 #ifdef CONFIG_NET_ENABLE
+#ifdef CONFIG_PROFILE_UPDATE
+    dev_profile_update();
+#endif
+
+#ifndef CONFIG_DUER_WECHAT_ENABLE
     __this->wechat_server = server_open("wechat_server", NULL);
     if (!__this->wechat_server) {
         puts("play_music open wechat_server fail!\n");
@@ -1223,7 +1214,7 @@ static int app_music_main()
     wait_completion(net_dhcp_ready, (int (*)(void *))wechat_open, NULL);
     wait_completion(net_dhcp_ready, (int (*)(void *))wechat_start, NULL);
 #endif
-
+#endif
 
     /*
      * 播放开机提示音
@@ -1241,27 +1232,6 @@ static int app_music_main()
 
     return err;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*
  *按键响应函数
@@ -1296,7 +1266,11 @@ static int app_music_key_click(struct key_event *key)
         }
         break;
     case KEY_F1:
+#ifndef CONFIG_DUER_WECHAT_ENABLE
         if (!__this->wechat_connected) {
+#else
+        if (!__this->ai_connected) {
+#endif
             app_music_play_voice_prompt("016.mp3", __this->dec_ops->dec_breakpoint);
         } else {
             if (__this->wechat_speech_read_flag) {
@@ -1320,7 +1294,6 @@ static int app_music_key_click(struct key_event *key)
 
 static int app_music_key_hold(struct key_event *key)
 {
-
     switch (key->value) {
     case KEY_UP:
         if (__this->dec_ops) {
@@ -1475,10 +1448,11 @@ static int app_music_net_event_handler(struct sys_event *event)
         switch (event->u.net.event) {
         case NET_EVENT_CONNECTED:
             puts("NET_EVENT_CONNECTED\n");
-            __this->wifi_config_state =  0;
-            /* extern void init_turing_para(void); */
-            /* init_turing_para(); */
-            app_music_event_net_connected();
+            if (!get_wifi_is_smp_mode()) {
+                __this->wifi_config_state =  0;
+                dev_profile_init();
+                app_music_event_net_connected();
+            }
             break;
         case NET_EVENT_DISCONNECTED:
             puts("NET_EVENT_DISCONNECTED\n");

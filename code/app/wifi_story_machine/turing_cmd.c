@@ -1,5 +1,6 @@
 #include "os/os_compat.h"
 #include "turing/turing.h"
+#include "app_config.h"
 
 #ifdef CONFIG_TURING_SDK_ENABLE
 
@@ -68,16 +69,10 @@ static int turing_cb(int code, struct json_object *func)
 
     return 0;
 }
-#define APIKEY "3d442018244f477d8fc84b2f05d6571c"
-#define DEVICE_ID "aiAA001122334483"
-#define SECRET_KEY "58AF23xUN47Y4Tt4"
+
 void init_turing_para(void)
 {
     struct turing_para para = {0};
-
-    strcpy(para.user_id, DEVICE_ID);
-    strcpy(para.aes_key, SECRET_KEY);
-    strcpy(para.api_key, APIKEY);
 
     para.asr = ASR_SPEEX;
     para.tts = TTS_MP3_16;

@@ -190,6 +190,8 @@ SECTIONS
         *(.vm)
         _VM_CODE_END = . ;
         *(.flushinv_icache)
+
+  . = ALIGN(4);
     } > ram0
 
     .ram0_bss ALIGN(4):

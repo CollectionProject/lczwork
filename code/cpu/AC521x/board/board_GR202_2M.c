@@ -18,7 +18,7 @@
 
 UART2_PLATFORM_DATA_BEGIN(uart2_data)
 .baudrate = 460800,
- .tx_pin = IO_PORTF_00,
+ .tx_pin = IO_PORTG_10,
   .flags = UART_DEBUG,
    UART2_PLATFORM_DATA_END();
 

@@ -185,5 +185,6 @@ void JL_turing_wechat_speak_play(const char *url);
 int set_turing_para(struct turing_para *para, u32 timeout, int (*cb)(int, struct json_object *));
 void set_turing_media_url(const char *url);
 u8 get_turing_msg_notify(void);
+u8 turing_app_get_connect_status(void);
 
 #endif  //_TURING_H_

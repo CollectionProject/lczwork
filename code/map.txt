@@ -976,12 +976,12 @@ include_lib/liba/AC521x/rtl8189e.a(rtl8188e_xmit.o)
                               rtl8189es_recv.o (symbol from plugin) (handle_txrpt_ccx_88e)
 include_lib/liba/AC521x/hsm.a(hsm.o)
                               wifi_connect.o (symbol from plugin) (HSM_STATE_Create)
-include_lib/liba/AC521x/http_cli.a(http_cli.o)
-                              obj\Debug\app\wifi_story_machine\mqtt_cmd.o (symbol from plugin) (httpcli_init)
 include_lib/liba/AC521x/http_cli.a(https_cli.o)
                               obj\Debug\app\wifi_story_machine\wifi_app_task.o (symbol from plugin) (httpscli_get)
+include_lib/liba/AC521x/http_cli.a(http_cli.o)
+                              https_cli.o (symbol from plugin) (transfer_chunked_analysis)
 include_lib/liba/AC521x/json.a(json_tokener.o)
-                              obj\Debug\app\wifi_story_machine\mqtt_cmd.o (symbol from plugin) (json_tokener_parse)
+                              obj\Debug\app\wifi_story_machine\turing_mqtt_cmd.o (symbol from plugin) (json_tokener_parse)
 include_lib/liba/AC521x/json.a(json_util.o)
                               json_tokener.o (symbol from plugin) (json_parse_double)
 include_lib/liba/AC521x/json.a(json_object.o)
@@ -996,188 +996,24 @@ include_lib/liba/AC521x/json.a(debug.o)
                               json_tokener.o (symbol from plugin) (mc_debug)
 include_lib/liba/AC521x/json.a(random_seed.o)
                               linkhash.o (symbol from plugin) (json_c_get_random_seed)
-include_lib/liba/AC521x/libduer-device.a(duer_api.o)
-                              obj\Debug\app\wifi_story_machine\version.o (symbol from plugin) (duer_sdk_version)
-include_lib/liba/AC521x/libduer-device.a(duerapp_ota.o)
-                              obj\Debug\app\wifi_story_machine\app_main.o (symbol from plugin) (set_duer_package_info)
-include_lib/liba/AC521x/libduer-device.a(lightduer_memory.o)
-                              duerapp_ota.o (symbol from plugin) (duer_malloc)
-include_lib/liba/AC521x/libduer-device.a(lightduer_debug.o)
-                              duerapp_ota.o (symbol from plugin) (duer_debug)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dev_info.o)
-                              duerapp_ota.o (symbol from plugin) (duer_register_device_info_ops)
-include_lib/liba/AC521x/libduer-device.a(lightduer_voice.o)
-                              duer_api.o (symbol from plugin) (duer_voice_get_mode)
-include_lib/liba/AC521x/libduer-device.a(lightduer_session.o)
-                              lightduer_voice.o (symbol from plugin) (duer_session_generate)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ds_log_recorder.o)
-                              lightduer_voice.o (symbol from plugin) (duer_ds_rec_delay_info_update)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ota_notifier.o)
-                              duerapp_ota.o (symbol from plugin) (duer_ota_notify_package_info)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ota_unpack.o)
-                              duerapp_ota.o (symbol from plugin) (duer_ota_unpack_get_private_data)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ota_updater.o)
-                              duerapp_ota.o (symbol from plugin) (duer_init_ota)
-include_lib/liba/AC521x/libduer-device.a(duerapp.o)
-                              duer_api.o (symbol from plugin) (duer_app_get_connect_state)
-include_lib/liba/AC521x/libduer-device.a(duerapp_event.o)
-                              duerapp.o (symbol from plugin) (duer_event_loop)
-include_lib/liba/AC521x/libduer-device.a(duerapp_profile_config.o)
-                              duerapp.o (symbol from plugin) (duer_load_profile)
-include_lib/liba/AC521x/libduer-device.a(duerapp_media.o)
-                              duerapp.o (symbol from plugin) (duer_media_init)
-include_lib/liba/AC521x/libduer-device.a(duerapp_alert.o)
-                              duerapp_event.o (symbol from plugin) (duer_alert_bell)
-include_lib/liba/AC521x/libduer-device.a(baidu_json.o)
-                              lightduer_memory.o (symbol from plugin) (baidu_json_InitHooks)
-include_lib/liba/AC521x/libduer-device.a(lightduer_timestamp.o)
-                              lightduer_voice.o (symbol from plugin) (duer_timestamp)
-include_lib/liba/AC521x/libduer-device.a(lightduer_sleep.o)
-                              lightduer_ota_updater.o (symbol from plugin) (duer_sleep)
-include_lib/liba/AC521x/libduer-device.a(lightduer_random.o)
-                              lightduer_session.o (symbol from plugin) (duer_random)
-include_lib/liba/AC521x/libduer-device.a(lightduer_mutex.o)
-                              lightduer_dev_info.o (symbol from plugin) (duer_mutex_create)
-include_lib/liba/AC521x/libduer-device.a(lightduer_queue_cache.o)
-                              lightduer_voice.o (symbol from plugin) (duer_qcache_create)
-include_lib/liba/AC521x/libduer-device.a(lightduer_connagent.o)
-                              duerapp.o (symbol from plugin) (duer_initialize)
-include_lib/liba/AC521x/libduer-device.a(lightduer_engine.o)
-                              lightduer_connagent.o (symbol from plugin) (duer_engine_register_notify)
-include_lib/liba/AC521x/libduer-device.a(lightduer_event_emitter.o)
-                              lightduer_connagent.o (symbol from plugin) (duer_emitter_create)
-include_lib/liba/AC521x/libduer-device.a(lightduer_data_cache.o)
-                              lightduer_engine.o (symbol from plugin) (duer_dcache_initialize)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_router.o)
-                              duerapp.o (symbol from plugin) (duer_add_dcs_directive_internal)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_alert.o)
-                              duerapp_alert.o (symbol from plugin) (duer_dcs_report_alert_event)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_audio_player.o)
-                              duerapp_event.o (symbol from plugin) (duer_dcs_audio_on_stopped)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_local.o)
-                              lightduer_dcs_alert.o (symbol from plugin) (duer_dcs_data_report_internal)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_system.o)
-                              duerapp.o (symbol from plugin) (duer_dcs_sync_state)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_playback_control.o)
-                              duerapp_event.o (symbol from plugin) (duer_dcs_send_play_control_cmd)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_speaker_control.o)
-                              duerapp_media.o (symbol from plugin) (duer_dcs_on_volume_changed)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_voice_input.o)
-                              lightduer_dcs_local.o (symbol from plugin) (duer_is_recording_internal)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_voice_output.o)
-                              duerapp_event.o (symbol from plugin) (duer_dcs_speech_on_finished)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_screen.o)
-                              duerapp.o (symbol from plugin) (duer_dcs_screen_init)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_device_control.o)
-                              lightduer_dcs_router.o (symbol from plugin) (duer_dcs_device_control_uninitialize_internal)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_miscellaneous.o)
-                              duerapp.o (symbol from plugin) (duer_dcs_recommend_request)
-include_lib/liba/AC521x/libduer-device.a(lightduer_net_ntp.o)
-                              duerapp_alert.o (symbol from plugin) (duer_ntp_client)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ds_log.o)
-                              lightduer_connagent.o (symbol from plugin) (duer_ds_log_init)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ds_log_ca.o)
-                              lightduer_connagent.o (symbol from plugin) (duer_ds_log_ca_info)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ds_log_dcs.o)
-                              lightduer_dcs_voice_input.o (symbol from plugin) (duer_ds_log_dcs)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ds_report.o)
-                              lightduer_connagent.o (symbol from plugin) (duer_ds_register_report_function)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ds_report_ca.o)
-                              lightduer_engine.o (symbol from plugin) (duer_ds_report_ca_update_avg_latency)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ds_log_cache.o)
-                              lightduer_ds_log.o (symbol from plugin) (duer_ds_log_cache_push)
-include_lib/liba/AC521x/libduer-device.a(lightduer_bind_device.o)
-                              duerapp.o (symbol from plugin) (duer_start_bind_device_task)
-include_lib/liba/AC521x/libduer-device.a(baidu_ca_adapter.o)
-                              lightduer_connagent.o (symbol from plugin) (baidu_ca_adapter_initialize)
-include_lib/liba/AC521x/libduer-device.a(baidu_ca_debug_adp.o)
-                              baidu_ca_adapter.o (symbol from plugin) (bcadbg)
-include_lib/liba/AC521x/libduer-device.a(baidu_ca_memory_adp.o)
-                              baidu_ca_adapter.o (symbol from plugin) (bcamem_alloc)
-include_lib/liba/AC521x/libduer-device.a(baidu_ca_mutex_adp.o)
-                              baidu_ca_adapter.o (symbol from plugin) (create_mutex)
-include_lib/liba/AC521x/libduer-device.a(baidu_ca_socket_adp.o)
-                              baidu_ca_adapter.o (symbol from plugin) (bcasoc_initialize)
-include_lib/liba/AC521x/libduer-device.a(lightduer_events.o)
-                              lightduer_ota_updater.o (symbol from plugin) (duer_events_create)
-include_lib/liba/AC521x/libduer-device.a(lightduer_priority_conf.o)
-                              lightduer_events.o (symbol from plugin) (duer_priority_get_task_id)
-include_lib/liba/AC521x/libduer-device.a(lightduer_timers.o)
-                              duerapp.o (symbol from plugin) (duer_timer_acquire)
-include_lib/liba/AC521x/libduer-device.a(lightduer_random_impl.o)
-                              baidu_ca_adapter.o (symbol from plugin) (duer_random_impl)
-include_lib/liba/AC521x/libduer-device.a(lightduer_statistics.o)
-                              baidu_ca_adapter.o (symbol from plugin) (duer_statistics_initialize)
-include_lib/liba/AC521x/libduer-device.a(net_timer.o)
-                              duerapp.o (symbol from plugin) (net_timer_init)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ota_downloader.o)
-                              lightduer_ota_updater.o (symbol from plugin) (duer_init_ota_downloader)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ota_http_downloader.o)
-                              lightduer_ota_updater.o (symbol from plugin) (duer_init_http_downloader)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ota_package_api.o)
-                              lightduer_ota_unpack.o (symbol from plugin) (duer_ota_unpack_verification_init)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ota_verification.o)
-                              lightduer_ota_package_api.o (symbol from plugin) (duer_ota_unpack_rsa_ca_pkcs1_init)
-include_lib/liba/AC521x/libduer-device.a(lightduer_net_transport_wrapper.o)
-                              lightduer_net_ntp.o (symbol from plugin) (duer_trans_acquire)
-include_lib/liba/AC521x/libduer-device.a(lightduer_net_transport.o)
-                              baidu_ca_adapter.o (symbol from plugin) (baidu_ca_transport_init)
-include_lib/liba/AC521x/libduer-device.a(lightduer_net_trans_encrypted.o)
-                              lightduer_net_transport_wrapper.o (symbol from plugin) (duer_trans_encrypted_connect)
-include_lib/liba/AC521x/libduer-device.a(lightduer_net_util.o)
-                              lightduer_net_ntp.o (symbol from plugin) (duer_htonl)
-include_lib/liba/AC521x/libduer-device.a(lightduer_aes.o)
-                              lightduer_bind_device.o (symbol from plugin) (duer_aes_context_init)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ca.o)
-                              lightduer_engine.o (symbol from plugin) (baidu_ca_get_uuid)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ca_conf.o)
-                              lightduer_ca.o (symbol from plugin) (duer_conf_create)
-include_lib/liba/AC521x/libduer-device.a(lightduer_dcs_dummy.o)
-                              lightduer_dcs_device_control.o (symbol from plugin) (duer_dcs_bluetooth_set_handler)
-include_lib/liba/AC521x/libduer-device.a(lightduer_http_client.o)
-                              lightduer_ota_http_downloader.o (symbol from plugin) (duer_http_destroy)
-include_lib/liba/AC521x/libduer-device.a(lightduer_http_client_ops.o)
-                              lightduer_ota_http_downloader.o (symbol from plugin) (duer_create_http_client)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ds_log_http.o)
-                              lightduer_http_client.o (symbol from plugin) (duer_ds_log_http)
-include_lib/liba/AC521x/libduer-device.a(lightduer_system_info.o)
-                              lightduer_statistics.o (symbol from plugin) (duer_init_system_info)
-include_lib/liba/AC521x/libduer-device.a(lightduer_ota_decompress.o)
-                              lightduer_ota_package_api.o (symbol from plugin) (duer_ota_unpack_zlibstream_decompress_init)
-include_lib/liba/AC521x/libduer-device.a(lightduer_coap.o)
-                              lightduer_ca.o (symbol from plugin) (duer_coap_resource_add)
-include_lib/liba/AC521x/libduer-device.a(lightduer_coap_trace.o)
-                              lightduer_ca.o (symbol from plugin) (duer_coap_trace_enable)
-include_lib/liba/AC521x/libduer-device.a(lightduer_nsdl_adapter.o)
-                              lightduer_coap.o (symbol from plugin) (duer_nsdl_address_set)
-include_lib/liba/AC521x/libduer-device.a(sn_nsdl.o)
-                              lightduer_coap.o (symbol from plugin) (sn_nsdl_destroy)
-include_lib/liba/AC521x/libduer-device.a(lightduer_hashcode.o)
-                              lightduer_coap.o (symbol from plugin) (duer_hashcode)
-include_lib/liba/AC521x/libduer-device.a(sn_coap_builder.o)
-                              sn_nsdl.o (symbol from plugin) (sn_coap_build_response)
-include_lib/liba/AC521x/libduer-device.a(sn_coap_header_check.o)
-                              sn_coap_builder.o (symbol from plugin) (sn_coap_header_validity_check)
-include_lib/liba/AC521x/libduer-device.a(sn_coap_parser.o)
-                              sn_nsdl.o (symbol from plugin) (sn_coap_parser_init_message)
-include_lib/liba/AC521x/libduer-device.a(sn_coap_protocol.o)
-                              sn_nsdl.o (symbol from plugin) (sn_coap_protocol_destroy)
-include_lib/liba/AC521x/libduer-device.a(sn_grs.o)
-                              sn_nsdl.o (symbol from plugin) (sn_grs_destroy)
-include_lib/liba/AC521x/libduer-device.a(ns_list.o)
-                              sn_coap_protocol.o (symbol from plugin) (ns_list_init_)
 include_lib/liba/AC521x/network_download.a(net_download.o)
                               obj\Debug\app\wifi_story_machine\app_music.o (symbol from plugin) (net_download_open)
 include_lib/liba/AC521x/network_download.a(net_audio_buf.o)
                               net_download.o (symbol from plugin) (net_buf_init)
-include_lib/liba/AC521x/jieli_net.a(wechat_api.o)
-                              obj\Debug\app\wifi_story_machine\version.o (symbol from plugin) (wechat_sdk_version)
-include_lib/liba/AC521x/jieli_net.a(wechat_server.o)
-                              obj\Debug\app\wifi_story_machine\version.o (symbol from plugin) (wechat_server_version)
-include_lib/liba/AC521x/jieli_net.a(wechat_core.o)
-                              wechat_api.o (symbol from plugin) (app_net_ready)
-include_lib/liba/AC521x/jieli_net.a(ota_update.o)
-                              wechat_core.o (symbol from plugin) (is_need_ota_update)
+include_lib/liba/AC521x/libturing.a(turing_api.o)
+                              obj\Debug\app\wifi_story_machine\version.o (symbol from plugin) (turing_sdk_version)
+include_lib/liba/AC521x/libturing.a(turing.o)
+                              obj\Debug\app\wifi_story_machine\turing_cmd.o (symbol from plugin) (set_turing_para)
+include_lib/liba/AC521x/libturing.a(turing_wechat_api.o)
+                              obj\Debug\app\wifi_story_machine\version.o (symbol from plugin) (turing_wechat_sdk_version)
+include_lib/liba/AC521x/libturing.a(turing_wechat_server.o)
+                              obj\Debug\app\wifi_story_machine\version.o (symbol from plugin) (turing_wechat_server_version)
+include_lib/liba/AC521x/libturing.a(turing_iot.o)
+                              turing_wechat_api.o (symbol from plugin) (turing_iot_notify_status)
+include_lib/liba/AC521x/libturing.a(turing_mqtt.o)
+                              turing_wechat_api.o (symbol from plugin) (turing_net_ready)
+include_lib/liba/AC521x/libturing.a(turing_airkess.o)
+                              turing_mqtt.o (symbol from plugin) (turing_start_bind_device)
 include_lib/liba/AC521x/libmpeg.a(mpeg-ts-dec.o)
                               net_download.o (symbol from plugin) (ts_demuxer_input)
 include_lib/liba/AC521x/libmpeg.a(mpeg-packet.o)
@@ -1197,21 +1033,11 @@ include_lib/liba/AC521x/libmpeg.a(mpeg-crc32.o)
 include_lib/liba/AC521x/libMultSine_Control.a(MultSine_Control_st.o)
                               obj\Debug\app\net\wifi-tools\voiceprint_cfg.o (symbol from plugin) (MultSine_Control_QuaryBufSize)
 include_lib/liba/AC521x/ai_server.a(ai_server.o)
-                              duer_api.o (symbol from plugin) (ai_server_event_url)
-include_lib/liba/AC521x/zliblite.a(inflate.o)
-                              lightduer_ota_decompress.o (symbol from plugin) (inflateInit_)
-include_lib/liba/AC521x/zliblite.a(inftrees.o)
-                              inflate.o (symbol from plugin) (inflate_table)
-include_lib/liba/AC521x/zliblite.a(zutil.o)
-                              inflate.o (symbol from plugin) (zmemcpy)
-include_lib/liba/AC521x/zliblite.a(adler32.o)
-                              inflate.o (symbol from plugin) (adler32)
-include_lib/liba/AC521x/zliblite.a(crc32.o)
-                              inflate.o (symbol from plugin) (crc32)
-include_lib/liba/AC521x/zliblite.a(inffast.o)
-                              inflate.o (symbol from plugin) (inflate_fast)
+                              turing_api.o (symbol from plugin) (ai_server_event_url)
+include_lib/liba/AC521x/profile.a(profile.o)
+                              obj\Debug\app\wifi_story_machine\app_music.o (symbol from plugin) (dev_profile_init)
 include_lib/liba/AC521x/libc.a(lib_a-atoi.o)
-                              iperf_api.o (symbol from plugin) (atoi)
+                              obj\Debug\app\wifi_story_machine\turing_mqtt_cmd.o (symbol from plugin) (atoi)
 include_lib/liba/AC521x/libc.a(lib_a-isblank.o)
                               driver_common.o (symbol from plugin) (isblank)
 include_lib/liba/AC521x/libc.a(lib_a-memchr.o)
@@ -1272,32 +1098,6 @@ include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
                               include_lib/liba/AC521x/libc.a(lib_a-isblank.o) (__ctype_ptr__)
 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
                               include_lib/liba/AC521x/libc.a(lib_a-strtol.o) (_impure_ptr)
-include_lib/liba/AC521x/libm.a(lib_a-s_fabs.o)
-                              baidu_json.o (symbol from plugin) (fabs)
-include_lib/liba/AC521x/libm.a(lib_a-s_floor.o)
-                              baidu_json.o (symbol from plugin) (floor)
-include_lib/liba/AC521x/libm.a(lib_a-w_pow.o)
-                              baidu_json.o (symbol from plugin) (pow)
-include_lib/liba/AC521x/libm.a(lib_a-e_pow.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-w_pow.o) (__ieee754_pow)
-include_lib/liba/AC521x/libm.a(lib_a-e_sqrt.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-e_pow.o) (__ieee754_sqrt)
-include_lib/liba/AC521x/libm.a(lib_a-s_finite.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-w_pow.o) (finite)
-include_lib/liba/AC521x/libm.a(lib_a-s_fpclassify.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-w_pow.o) (__fpclassifyd)
-include_lib/liba/AC521x/libm.a(lib_a-s_lib_ver.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-w_pow.o) (__fdlib_version)
-include_lib/liba/AC521x/libm.a(lib_a-s_matherr.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-w_pow.o) (matherr)
-include_lib/liba/AC521x/libm.a(lib_a-s_nan.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-e_pow.o) (nan)
-include_lib/liba/AC521x/libm.a(lib_a-s_rint.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-w_pow.o) (rint)
-include_lib/liba/AC521x/libm.a(lib_a-s_scalbn.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-e_pow.o) (scalbn)
-include_lib/liba/AC521x/libm.a(lib_a-s_copysign.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-s_scalbn.o) (copysign)
 include_lib/liba/AC521x/fs.a(sdfile.o)
                               init.o (symbol from plugin) (sdfile_version_check)
 include_lib/liba/AC521x/fs.a(devfs.o)
@@ -1320,14 +1120,6 @@ include_lib/liba/AC521x/fs.a(tff.o)
                               fat_Dir.o (symbol from plugin) (clust2sect)
 include_lib/liba/AC521x/fs.a(ramfs.o)
                               init.o (symbol from plugin) (ramfs_version_check)
-include_lib/liba/AC521x/mbedtls.a(algorithm_alt.o)
-                              lightduer_net_trans_encrypted.o (symbol from plugin) (mbedtls_ssl_export_keys)
-include_lib/liba/AC521x/mbedtls.a(rsa.o)
-                              lightduer_ota_verification.o (symbol from plugin) (mbedtls_rsa_init)
-include_lib/liba/AC521x/mbedtls.a(md5.o)
-                              lightduer_ota_updater.o (symbol from plugin) (mbedtls_md5_init)
-include_lib/liba/AC521x/mbedtls.a(sha1.o)
-                              lightduer_ota_verification.o (symbol from plugin) (mbedtls_sha1_init)
 include_lib/liba/AC521x/mbedtls.a(error.o)
                               https_cli.o (symbol from plugin) (mbedtls_strerror)
 include_lib/liba/AC521x/mbedtls.a(aes.o)
@@ -1342,16 +1134,12 @@ include_lib/liba/AC521x/mbedtls.a(entropy.o)
                               https_cli.o (symbol from plugin) (mbedtls_entropy_init)
 include_lib/liba/AC521x/mbedtls.a(ssl_tls.o)
                               https_cli.o (symbol from plugin) (mbedtls_ssl_init)
-include_lib/liba/AC521x/mbedtls.a(base64.o)
-                              lightduer_voice.o (symbol from plugin) (mbedtls_base64_encode)
 include_lib/liba/AC521x/mbedtls.a(oid.o)
                               x509_crt.o (symbol from plugin) (mbedtls_oid_get_x509_ext_type)
 include_lib/liba/AC521x/mbedtls.a(md.o)
-                              rsa.o (symbol from plugin) (mbedtls_md_info_from_type)
+                              x509_crt.o (symbol from plugin) (mbedtls_md_info_from_type)
 include_lib/liba/AC521x/mbedtls.a(debug.o)
                               ssl_tls.o (symbol from plugin) (mbedtls_debug_print_msg)
-include_lib/liba/AC521x/mbedtls.a(bignum.o)
-                              rsa.o (symbol from plugin) (mbedtls_mpi_init)
 include_lib/liba/AC521x/mbedtls.a(asn1parse.o)
                               x509_crt.o (symbol from plugin) (mbedtls_asn1_get_len)
 include_lib/liba/AC521x/mbedtls.a(ssl_ciphersuites.o)
@@ -1364,6 +1152,10 @@ include_lib/liba/AC521x/mbedtls.a(sock_api_net.o)
                               https_cli.o (symbol from plugin) (mbedtls_net_init)
 include_lib/liba/AC521x/mbedtls.a(entropy_poll.o)
                               entropy.o (symbol from plugin) (mbedtls_platform_entropy_poll)
+include_lib/liba/AC521x/mbedtls.a(md5.o)
+                              ssl_tls.o (symbol from plugin) (mbedtls_md5_init)
+include_lib/liba/AC521x/mbedtls.a(sha1.o)
+                              ssl_tls.o (symbol from plugin) (mbedtls_sha1_init)
 include_lib/liba/AC521x/mbedtls.a(pk.o)
                               x509_crt.o (symbol from plugin) (mbedtls_pk_free)
 include_lib/liba/AC521x/mbedtls.a(cipher.o)
@@ -1380,8 +1172,14 @@ include_lib/liba/AC521x/mbedtls.a(sha256.o)
                               ssl_tls.o (symbol from plugin) (mbedtls_sha256_init)
 include_lib/liba/AC521x/mbedtls.a(cipher_wrap.o)
                               cipher.o (symbol from plugin) (mbedtls_cipher_definitions)
+include_lib/liba/AC521x/mbedtls.a(base64.o)
+                              pem.o (symbol from plugin) (mbedtls_base64_decode)
 include_lib/liba/AC521x/mbedtls.a(timing.o)
                               entropy_poll.o (symbol from plugin) (mbedtls_timing_hardclock)
+include_lib/liba/AC521x/mbedtls.a(bignum.o)
+                              pkparse.o (symbol from plugin) (mbedtls_mpi_size)
+include_lib/liba/AC521x/mbedtls.a(rsa.o)
+                              pkparse.o (symbol from plugin) (mbedtls_rsa_check_pubkey)
 include_lib/liba/AC521x/mbedtls.a(pk_wrap.o)
                               pk.o (symbol from plugin) (mbedtls_rsa_info)
 include_lib/liba/AC521x/mbedtls.a(gcm.o)
@@ -1429,7 +1227,7 @@ include_lib/liba/AC521x/hostapd_and_wpasupplicant.a(config_file.o)
 include_lib/liba/AC521x/hostapd_and_wpasupplicant.a(eap_register.o)
                               main.o (symbol from plugin) (eap_server_register_methods)
 include_lib/liba/AC521x/lib_mqtt.a(MQTTClient.o)
-                              wechat_core.o (symbol from plugin) (MQTTClient)
+                              turing_mqtt.o (symbol from plugin) (MQTTClient)
 include_lib/liba/AC521x/lib_mqtt.a(MQTTConnectClient.o)
                               MQTTClient.o (symbol from plugin) (MQTTSerialize_connect)
 include_lib/liba/AC521x/lib_mqtt.a(MQTTDeserializePublish.o)
@@ -1453,21 +1251,15 @@ C:\JL\pi32\pi32v2-lib\libc.a(lib_a-bsearch.o)
 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-tolower.o)
                               todo.o (symbol from plugin) (tolower)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-s_floor.o) (__adddf3)
-C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-w_pow.o) (__eqdf2)
-C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-e_pow.o) (__divdf3)
-C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-e_pow.o) (__floatsidf)
-C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-w_pow.o) (__muldf3)
-C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
-                              include_lib/liba/AC521x/libm.a(lib_a-e_pow.o) (__subdf3)
+                              cpu\AC521x\tools\main.or32.o (__adddf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
                               cpu\AC521x\tools\main.or32.o (__addsf3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
+                              cpu\AC521x\tools\main.or32.o (__eqdf2)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
                               cpu\AC521x\tools\main.or32.o (__gtsf2)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
+                              cpu\AC521x\tools\main.or32.o (__divdf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divsf3.o)
                               cpu\AC521x\tools\main.or32.o (__divsf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(extendsfdf2.o)
@@ -1476,30 +1268,30 @@ C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfdi.o)
                               cpu\AC521x\tools\main.or32.o (__fixdfdi)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
                               cpu\AC521x\tools\main.or32.o (__fixdfsi)
-C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
-                              cpu\AC521x\tools\main.or32.o (__fixsfsi)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfdi.o)
                               cpu\AC521x\tools\main.or32.o (__fixunsdfdi)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfsi.o)
                               cpu\AC521x\tools\main.or32.o (__fixunsdfsi)
-C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunssfdi.o)
-                              cpu\AC521x\tools\main.or32.o (__fixunssfdi)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunssfsi.o)
                               cpu\AC521x\tools\main.or32.o (__fixunssfsi)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatdidf.o)
                               cpu\AC521x\tools\main.or32.o (__floatdidf)
-C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsisf.o)
-                              cpu\AC521x\tools\main.or32.o (__floatsisf)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
+                              cpu\AC521x\tools\main.or32.o (__floatsidf)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatundidf.o)
                               cpu\AC521x\tools\main.or32.o (__floatundidf)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsidf.o)
-                              cpu\AC521x\tools\main.or32.o (__floatunsidf)
+                              C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfdi.o) (__floatunsidf)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
                               cpu\AC521x\tools\main.or32.o (__floatunsisf)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(moddi3.o)
                               cpu\AC521x\tools\main.or32.o (__moddi3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
+                              cpu\AC521x\tools\main.or32.o (__muldf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
                               cpu\AC521x\tools\main.or32.o (__mulsf3)
+C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
+                              cpu\AC521x\tools\main.or32.o (__subdf3)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
                               cpu\AC521x\tools\main.or32.o (__truncdfsf2)
 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
@@ -1549,7 +1341,6 @@ tcp_input_pcb       0x0               tcp_in.o (symbol from plugin)
 maskfileBuffer      0x0               rtw_efuse.o (symbol from plugin)
 music_handler       0x0               obj\Debug\app\wifi_story_machine\app_music.o (symbol from plugin)
 timetick            0x0               timer.o (symbol from plugin)
-i                   0x0               algorithm_alt.o (symbol from plugin)
 tcp_bound_pcbs      0x0               tcp.o (symbol from plugin)
 tcp_ticks           0x0               tcp.o (symbol from plugin)
 lock_tcpip_core     0x0               tcpip.o (symbol from plugin)
@@ -1560,7 +1351,6 @@ i_errno             0x0               iperf_error.o (symbol from plugin)
 tcp_tw_pcbs         0x0               tcp.o (symbol from plugin)
 tcp_listen_pcbs     0x0               tcp.o (symbol from plugin)
 device_sd1          0x0               sdmmc_init.o (symbol from plugin)
-s_trace_log_cache   0x0               lightduer_ds_log_cache.o (symbol from plugin)
 dhcp_rx_options_val
                     0x0               dhcp.o (symbol from plugin)
 netconn_aborted     0x0               sockets.o (symbol from plugin)
@@ -1590,7 +1380,6 @@ Discarded input sections
  .text          0x00000000        0x0 obj\Debug\cpu\AC521x\adc.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC521x\adkey.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC521x\board\board_5213B_wifi_story.o (symbol from plugin)
- .text          0x00000000        0x0 obj\Debug\cpu\AC521x\board\board_GR202.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC521x\board\board_GR202_2M.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC521x\debug.o (symbol from plugin)
  .text          0x00000000        0x0 obj\Debug\cpu\AC521x\iokey.o (symbol from plugin)
@@ -2083,8 +1872,8 @@ Discarded input sections
  .text          0x00000000        0x0 rtl8188e_rxdesc.o (symbol from plugin)
  .text          0x00000000        0x0 rtl8188e_xmit.o (symbol from plugin)
  .text          0x00000000        0x0 hsm.o (symbol from plugin)
- .text          0x00000000        0x0 http_cli.o (symbol from plugin)
  .text          0x00000000        0x0 https_cli.o (symbol from plugin)
+ .text          0x00000000        0x0 http_cli.o (symbol from plugin)
  .text          0x00000000        0x0 json_tokener.o (symbol from plugin)
  .text          0x00000000        0x0 json_util.o (symbol from plugin)
  .text          0x00000000        0x0 json_object.o (symbol from plugin)
@@ -2093,97 +1882,15 @@ Discarded input sections
  .text          0x00000000        0x0 linkhash.o (symbol from plugin)
  .text          0x00000000        0x0 debug.o (symbol from plugin)
  .text          0x00000000        0x0 random_seed.o (symbol from plugin)
- .text          0x00000000        0x0 duer_api.o (symbol from plugin)
- .text          0x00000000        0x0 duerapp_ota.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_memory.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_debug.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dev_info.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_voice.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_session.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ds_log_recorder.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ota_notifier.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ota_unpack.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ota_updater.o (symbol from plugin)
- .text          0x00000000        0x0 duerapp.o (symbol from plugin)
- .text          0x00000000        0x0 duerapp_event.o (symbol from plugin)
- .text          0x00000000        0x0 duerapp_profile_config.o (symbol from plugin)
- .text          0x00000000        0x0 duerapp_media.o (symbol from plugin)
- .text          0x00000000        0x0 duerapp_alert.o (symbol from plugin)
- .text          0x00000000        0x0 baidu_json.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_timestamp.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_sleep.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_random.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_mutex.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_queue_cache.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_connagent.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_engine.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_event_emitter.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_data_cache.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_router.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_alert.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_audio_player.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_local.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_system.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_playback_control.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_speaker_control.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_voice_input.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_voice_output.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_screen.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_device_control.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_miscellaneous.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_net_ntp.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ds_log.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ds_log_ca.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ds_log_dcs.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ds_report.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ds_report_ca.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ds_log_cache.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_bind_device.o (symbol from plugin)
- .text          0x00000000        0x0 baidu_ca_adapter.o (symbol from plugin)
- .text          0x00000000        0x0 baidu_ca_debug_adp.o (symbol from plugin)
- .text          0x00000000        0x0 baidu_ca_memory_adp.o (symbol from plugin)
- .text          0x00000000        0x0 baidu_ca_mutex_adp.o (symbol from plugin)
- .text          0x00000000        0x0 baidu_ca_socket_adp.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_events.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_priority_conf.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_timers.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_random_impl.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_statistics.o (symbol from plugin)
- .text          0x00000000        0x0 net_timer.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ota_downloader.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ota_http_downloader.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ota_package_api.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ota_verification.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_net_transport_wrapper.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_net_transport.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_net_trans_encrypted.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_net_util.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_aes.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ca.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ca_conf.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_dcs_dummy.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_http_client.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_http_client_ops.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ds_log_http.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_system_info.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_ota_decompress.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_coap.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_coap_trace.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_nsdl_adapter.o (symbol from plugin)
- .text          0x00000000        0x0 sn_nsdl.o (symbol from plugin)
- .text          0x00000000        0x0 lightduer_hashcode.o (symbol from plugin)
- .text          0x00000000        0x0 sn_coap_builder.o (symbol from plugin)
- .text          0x00000000        0x0 sn_coap_header_check.o (symbol from plugin)
- .text          0x00000000        0x0 sn_coap_parser.o (symbol from plugin)
- .text          0x00000000        0x0 sn_coap_protocol.o (symbol from plugin)
- .text          0x00000000        0x0 sn_grs.o (symbol from plugin)
- .text          0x00000000        0x0 ns_list.o (symbol from plugin)
  .text          0x00000000        0x0 net_download.o (symbol from plugin)
  .text          0x00000000        0x0 net_audio_buf.o (symbol from plugin)
- .text          0x00000000        0x0 wechat_api.o (symbol from plugin)
- .text          0x00000000        0x0 wechat_server.o (symbol from plugin)
- .text          0x00000000        0x0 wechat_core.o (symbol from plugin)
- .text          0x00000000        0x0 ota_update.o (symbol from plugin)
+ .text          0x00000000        0x0 turing_api.o (symbol from plugin)
+ .text          0x00000000        0x0 turing.o (symbol from plugin)
+ .text          0x00000000        0x0 turing_wechat_api.o (symbol from plugin)
+ .text          0x00000000        0x0 turing_wechat_server.o (symbol from plugin)
+ .text          0x00000000        0x0 turing_iot.o (symbol from plugin)
+ .text          0x00000000        0x0 turing_mqtt.o (symbol from plugin)
+ .text          0x00000000        0x0 turing_airkess.o (symbol from plugin)
  .text          0x00000000        0x0 mpeg-ts-dec.o (symbol from plugin)
  .text          0x00000000        0x0 mpeg-packet.o (symbol from plugin)
  .text          0x00000000        0x0 mpeg-pat.o (symbol from plugin)
@@ -2194,12 +1901,7 @@ Discarded input sections
  .text          0x00000000        0x0 mpeg-crc32.o (symbol from plugin)
  .text          0x00000000        0x0 MultSine_Control_st.o (symbol from plugin)
  .text          0x00000000        0x0 ai_server.o (symbol from plugin)
- .text          0x00000000        0x0 inflate.o (symbol from plugin)
- .text          0x00000000        0x0 inftrees.o (symbol from plugin)
- .text          0x00000000        0x0 zutil.o (symbol from plugin)
- .text          0x00000000        0x0 adler32.o (symbol from plugin)
- .text          0x00000000        0x0 crc32.o (symbol from plugin)
- .text          0x00000000        0x0 inffast.o (symbol from plugin)
+ .text          0x00000000        0x0 profile.o (symbol from plugin)
  .text          0x00000000        0x0 sdfile.o (symbol from plugin)
  .text          0x00000000        0x0 devfs.o (symbol from plugin)
  .text          0x00000000        0x0 fat_compact.o (symbol from plugin)
@@ -2211,10 +1913,6 @@ Discarded input sections
  .text          0x00000000        0x0 fat_Mount.o (symbol from plugin)
  .text          0x00000000        0x0 tff.o (symbol from plugin)
  .text          0x00000000        0x0 ramfs.o (symbol from plugin)
- .text          0x00000000        0x0 algorithm_alt.o (symbol from plugin)
- .text          0x00000000        0x0 rsa.o (symbol from plugin)
- .text          0x00000000        0x0 md5.o (symbol from plugin)
- .text          0x00000000        0x0 sha1.o (symbol from plugin)
  .text          0x00000000        0x0 error.o (symbol from plugin)
  .text          0x00000000        0x0 aes.o (symbol from plugin)
  .text          0x00000000        0x0 ctr_drbg.o (symbol from plugin)
@@ -2222,17 +1920,17 @@ Discarded input sections
  .text          0x00000000        0x0 x509_crt.o (symbol from plugin)
  .text          0x00000000        0x0 entropy.o (symbol from plugin)
  .text          0x00000000        0x0 ssl_tls.o (symbol from plugin)
- .text          0x00000000        0x0 base64.o (symbol from plugin)
  .text          0x00000000        0x0 oid.o (symbol from plugin)
  .text          0x00000000        0x0 md.o (symbol from plugin)
  .text          0x00000000        0x0 debug.o (symbol from plugin)
- .text          0x00000000        0x0 bignum.o (symbol from plugin)
  .text          0x00000000        0x0 asn1parse.o (symbol from plugin)
  .text          0x00000000        0x0 ssl_ciphersuites.o (symbol from plugin)
  .text          0x00000000        0x0 x509.o (symbol from plugin)
  .text          0x00000000        0x0 ssl_srv.o (symbol from plugin)
  .text          0x00000000        0x0 sock_api_net.o (symbol from plugin)
  .text          0x00000000        0x0 entropy_poll.o (symbol from plugin)
+ .text          0x00000000        0x0 md5.o (symbol from plugin)
+ .text          0x00000000        0x0 sha1.o (symbol from plugin)
  .text          0x00000000        0x0 pk.o (symbol from plugin)
  .text          0x00000000        0x0 cipher.o (symbol from plugin)
  .text          0x00000000        0x0 md_wrap.o (symbol from plugin)
@@ -2241,7 +1939,10 @@ Discarded input sections
  .text          0x00000000        0x0 pem.o (symbol from plugin)
  .text          0x00000000        0x0 sha256.o (symbol from plugin)
  .text          0x00000000        0x0 cipher_wrap.o (symbol from plugin)
+ .text          0x00000000        0x0 base64.o (symbol from plugin)
  .text          0x00000000        0x0 timing.o (symbol from plugin)
+ .text          0x00000000        0x0 bignum.o (symbol from plugin)
+ .text          0x00000000        0x0 rsa.o (symbol from plugin)
  .text          0x00000000        0x0 pk_wrap.o (symbol from plugin)
  .text          0x00000000        0x0 gcm.o (symbol from plugin)
  .text          0x00000000        0x0 des.o (symbol from plugin)
@@ -2310,7 +2011,6 @@ LOAD obj\Debug\app\wifi_story_machine\wifi_app_task.o
 LOAD obj\Debug\cpu\AC521x\adc.o
 LOAD obj\Debug\cpu\AC521x\adkey.o
 LOAD obj\Debug\cpu\AC521x\board\board_5213B_wifi_story.o
-LOAD obj\Debug\cpu\AC521x\board\board_GR202.o
 LOAD obj\Debug\cpu\AC521x\board\board_GR202_2M.o
 LOAD obj\Debug\cpu\AC521x\debug.o
 LOAD obj\Debug\cpu\AC521x\iokey.o
@@ -2365,6 +2065,7 @@ LOAD include_lib/liba/AC521x/libturing.a
 LOAD include_lib/liba/AC521x/libmpeg.a
 LOAD include_lib/liba/AC521x/libMultSine_Control.a
 LOAD include_lib/liba/AC521x/ai_server.a
+LOAD include_lib/liba/AC521x/profile.a
 LOAD include_lib/liba/AC521x/zliblite.a
 LOAD include_lib/liba/AC521x/libc.a
 LOAD include_lib/liba/AC521x/libm.a
@@ -2374,7 +2075,7 @@ END GROUP
                 0x00000034                __cpu_id__ = 0x34
                 0x00000000                . = ORIGIN (rom)
 
-.rom_code       0x00000000   0x159e34
+.rom_code       0x00000000   0x13db80
                 0x00000000                _text_rodata_begin = .
                 0x00000000                PROVIDE (text_rodata_begin, .)
  *startup.o(.text)
@@ -2386,239 +2087,199 @@ END GROUP
  *boot_main.o(.text*)
  *boot_main.o(.rodata*)
  *(.text*)
- .text          0x000000a8    0xf7d06 cpu\AC521x\tools\main.or32.o
-                0x00024864                cpu1_main
-                0x000249c8                OS_ClrPending
-                0x000313d2                main
-                0x0006835c                __errno
- .text          0x000f7dae       0x54 include_lib/liba/AC521x/rtos.a(port_asm.o)
-                0x000f7dae                vSoftwareInterruptISR
- .text          0x000f7e02       0x10 include_lib/liba/AC521x/libc.a(lib_a-atoi.o)
-                0x000f7e02                atoi
-                0x000f7e0a                _atoi_r
- .text          0x000f7e12       0x1a include_lib/liba/AC521x/libc.a(lib_a-isblank.o)
-                0x000f7e12                isblank
- .text          0x000f7e2c       0x1a include_lib/liba/AC521x/libc.a(lib_a-memchr.o)
-                0x000f7e2c                memchr
- .text          0x000f7e46       0x3c include_lib/liba/AC521x/libc.a(lib_a-memcmp.o)
-                0x000f7e46                memcmp
- .text          0x000f7e82       0x86 include_lib/liba/AC521x/libc.a(lib_a-memcpy.o)
-                0x000f7e82                memcpy
- .text          0x000f7f08       0x28 include_lib/liba/AC521x/libc.a(lib_a-memmem.o)
-                0x000f7f08                memmem
- .text          0x000f7f30       0x2c include_lib/liba/AC521x/libc.a(lib_a-memmove.o)
-                0x000f7f30                memmove
- .text          0x000f7f5c       0xe2 include_lib/liba/AC521x/libc.a(lib_a-memset.o)
-                0x000f7f5c                memset
- .text          0x000f803e       0x42 include_lib/liba/AC521x/libc.a(lib_a-strcasecmp.o)
-                0x000f803e                strcasecmp
- .text          0x000f8080       0x1a include_lib/liba/AC521x/libc.a(lib_a-strcat.o)
-                0x000f8080                strcat
- .text          0x000f809a       0x16 include_lib/liba/AC521x/libc.a(lib_a-strchr.o)
-                0x000f809a                strchr
- .text          0x000f80b0       0x16 include_lib/liba/AC521x/libc.a(lib_a-strcmp.o)
-                0x000f80b0                strcmp
- .text          0x000f80c6       0x10 include_lib/liba/AC521x/libc.a(lib_a-strcpy.o)
-                0x000f80c6                strcpy
- .text          0x000f80d6       0x2c include_lib/liba/AC521x/libc.a(lib_a-strlcpy.o)
-                0x000f80d6                strlcpy
- .text          0x000f8102        0xe include_lib/liba/AC521x/libc.a(lib_a-strlen.o)
-                0x000f8102                strlen
- .text          0x000f8110       0x4a include_lib/liba/AC521x/libc.a(lib_a-strncasecmp.o)
-                0x000f8110                strncasecmp
- .text          0x000f815a       0x2a include_lib/liba/AC521x/libc.a(lib_a-strncat.o)
-                0x000f815a                strncat
- .text          0x000f8184       0x24 include_lib/liba/AC521x/libc.a(lib_a-strncmp.o)
-                0x000f8184                strncmp
- .text          0x000f81a8       0x2c include_lib/liba/AC521x/libc.a(lib_a-strncpy.o)
-                0x000f81a8                strncpy
- .text          0x000f81d4       0x38 include_lib/liba/AC521x/libc.a(lib_a-strpbrk.o)
-                0x000f81d4                strpbrk
- .text          0x000f820c       0x24 include_lib/liba/AC521x/libc.a(lib_a-strrchr.o)
-                0x000f820c                strrchr
- .text          0x000f8230        0xa include_lib/liba/AC521x/libc.a(lib_a-strsep.o)
-                0x000f8230                strsep
- .text          0x000f823a       0x26 include_lib/liba/AC521x/libc.a(lib_a-strspn.o)
-                0x000f823a                strspn
- .text          0x000f8260       0x2e include_lib/liba/AC521x/libc.a(lib_a-strstr.o)
-                0x000f8260                strstr
- .text          0x000f828e       0x54 include_lib/liba/AC521x/libc.a(lib_a-strtok_r.o)
-                0x000f828e                __strtok_r
-                0x000f82de                strtok_r
- .text          0x000f82e2      0x11e include_lib/liba/AC521x/libc.a(lib_a-strtol.o)
-                0x000f82e2                _strtol_r
-                0x000f83e8                strtol
- .text          0x000f8400       0x24 include_lib/liba/AC521x/libc.a(lib_a-isprint.o)
-                0x000f8400                isgraph
-                0x000f8412                isprint
- .text          0x000f8424       0x12 include_lib/liba/AC521x/libc.a(lib_a-isspace.o)
-                0x000f8424                isspace
- .text          0x000f8436      0x2d8 include_lib/liba/AC521x/libc.a(lib_a-qsort.o)
-                0x000f8436                qsort
- .text          0x000f870e        0x0 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
- .text          0x000f870e        0x0 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
- .text          0x000f870e        0x4 include_lib/liba/AC521x/libm.a(lib_a-s_fabs.o)
-                0x000f870e                fabs
- .text          0x000f8712       0xfe include_lib/liba/AC521x/libm.a(lib_a-s_floor.o)
-                0x000f8712                floor
- .text          0x000f8810      0x29e include_lib/liba/AC521x/libm.a(lib_a-w_pow.o)
-                0x000f8810                pow
- .text          0x000f8aae      0x8c4 include_lib/liba/AC521x/libm.a(lib_a-e_pow.o)
-                0x000f8aae                __ieee754_pow
- .text          0x000f9372      0x13c include_lib/liba/AC521x/libm.a(lib_a-e_sqrt.o)
-                0x000f9372                __ieee754_sqrt
- .text          0x000f94ae       0x10 include_lib/liba/AC521x/libm.a(lib_a-s_finite.o)
-                0x000f94ae                finite
- .text          0x000f94be       0x60 include_lib/liba/AC521x/libm.a(lib_a-s_fpclassify.o)
-                0x000f94be                __fpclassifyd
- .text          0x000f951e        0x0 include_lib/liba/AC521x/libm.a(lib_a-s_lib_ver.o)
- .text          0x000f951e        0x4 include_lib/liba/AC521x/libm.a(lib_a-s_matherr.o)
-                0x000f951e                matherr
- .text          0x000f9522        0xa include_lib/liba/AC521x/libm.a(lib_a-s_nan.o)
-                0x000f9522                nan
- .text          0x000f952c      0x10c include_lib/liba/AC521x/libm.a(lib_a-s_rint.o)
-                0x000f952c                rint
- .text          0x000f9638       0xd6 include_lib/liba/AC521x/libm.a(lib_a-s_scalbn.o)
-                0x000f9638                scalbn
- .text          0x000f970e        0x8 include_lib/liba/AC521x/libm.a(lib_a-s_copysign.o)
-                0x000f970e                copysign
- .text          0x000f9716       0x42 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-bsearch.o)
-                0x000f9716                bsearch
- .text          0x000f9758       0x1e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-tolower.o)
-                0x000f9758                tolower
- .text          0x000f9776      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
-                0x000f9776                __adddf3
- .text          0x000f9a30      0x176 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
-                0x000f9a30                __ledf2
-                0x000f9ac6                __gedf2
-                0x000f9b5e                __unorddf2
-                0x000f9b9e                __eqdf2
-                0x000f9ba0                __ltdf2
-                0x000f9ba2                __nedf2
-                0x000f9ba4                __gtdf2
- .text          0x000f9ba6      0x2c6 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
-                0x000f9ba6                __divdf3
- .text          0x000f9e6c       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
-                0x000f9e6c                __floatsidf
- .text          0x000f9ea8      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
-                0x000f9ea8                __muldf3
- .text          0x000fa10a        0x8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
-                0x000fa10a                __subdf3
- .text          0x000fa112      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
-                0x000fa112                __addsf3
- .text          0x000fa278       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
-                0x000fa278                __lesf2
-                0x000fa2b8                __gesf2
-                0x000fa2f8                __unordsf2
-                0x000fa314                __eqsf2
-                0x000fa316                __ltsf2
-                0x000fa318                __nesf2
-                0x000fa31a                __gtsf2
- .text          0x000fa31c      0x148 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divsf3.o)
-                0x000fa31c                __divsf3
- .text          0x000fa464       0x64 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(extendsfdf2.o)
-                0x000fa464                __extendsfdf2
- .text          0x000fa4c8       0x30 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfdi.o)
-                0x000fa4c8                __fixdfdi
- .text          0x000fa4f8       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
-                0x000fa4f8                __fixdfsi
- .text          0x000fa53a       0x4a C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixsfsi.o)
-                0x000fa53a                __fixsfsi
- .text          0x000fa584       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfdi.o)
-                0x000fa584                __fixunsdfdi
- .text          0x000fa5d4       0x34 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfsi.o)
-                0x000fa5d4                __fixunsdfsi
- .text          0x000fa608       0x54 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunssfdi.o)
-                0x000fa608                __fixunssfdi
- .text          0x000fa65c       0x36 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunssfsi.o)
-                0x000fa65c                __fixunssfsi
- .text          0x000fa692       0x32 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatdidf.o)
-                0x000fa692                __floatdidf
- .text          0x000fa6c4       0x5c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsisf.o)
-                0x000fa6c4                __floatsisf
- .text          0x000fa720       0x28 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatundidf.o)
-                0x000fa720                __floatundidf
- .text          0x000fa748       0x2c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsidf.o)
-                0x000fa748                __floatunsidf
- .text          0x000fa774       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
-                0x000fa774                __floatunsisf
- .text          0x000fa7c4       0x46 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(moddi3.o)
-                0x000fa7c4                __moddi3
- .text          0x000fa80a      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
-                0x000fa80a                __mulsf3
- .text          0x000fa93a       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
-                0x000fa93a                __truncdfsf2
- .text          0x000faa12       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
-                0x000faa12                __udivdi3
- .text          0x000faa22      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
-                0x000faa22                __udivmoddi4
- .text          0x000fac58       0x14 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(umoddi3.o)
-                0x000fac58                __umoddi3
+ .text          0x000000a8    0xe1ea2 cpu\AC521x\tools\main.or32.o
+                0x00023822                cpu1_main
+                0x00023986                OS_ClrPending
+                0x0003033c                main
+ .text          0x000e1f4a       0x54 include_lib/liba/AC521x/rtos.a(port_asm.o)
+                0x000e1f4a                vSoftwareInterruptISR
+ .text          0x000e1f9e       0x10 include_lib/liba/AC521x/libc.a(lib_a-atoi.o)
+                0x000e1f9e                atoi
+                0x000e1fa6                _atoi_r
+ .text          0x000e1fae       0x1a include_lib/liba/AC521x/libc.a(lib_a-isblank.o)
+                0x000e1fae                isblank
+ .text          0x000e1fc8       0x1a include_lib/liba/AC521x/libc.a(lib_a-memchr.o)
+                0x000e1fc8                memchr
+ .text          0x000e1fe2       0x3c include_lib/liba/AC521x/libc.a(lib_a-memcmp.o)
+                0x000e1fe2                memcmp
+ .text          0x000e201e       0x86 include_lib/liba/AC521x/libc.a(lib_a-memcpy.o)
+                0x000e201e                memcpy
+ .text          0x000e20a4       0x28 include_lib/liba/AC521x/libc.a(lib_a-memmem.o)
+                0x000e20a4                memmem
+ .text          0x000e20cc       0x2c include_lib/liba/AC521x/libc.a(lib_a-memmove.o)
+                0x000e20cc                memmove
+ .text          0x000e20f8       0xe2 include_lib/liba/AC521x/libc.a(lib_a-memset.o)
+                0x000e20f8                memset
+ .text          0x000e21da       0x42 include_lib/liba/AC521x/libc.a(lib_a-strcasecmp.o)
+                0x000e21da                strcasecmp
+ .text          0x000e221c       0x1a include_lib/liba/AC521x/libc.a(lib_a-strcat.o)
+                0x000e221c                strcat
+ .text          0x000e2236       0x16 include_lib/liba/AC521x/libc.a(lib_a-strchr.o)
+                0x000e2236                strchr
+ .text          0x000e224c       0x16 include_lib/liba/AC521x/libc.a(lib_a-strcmp.o)
+                0x000e224c                strcmp
+ .text          0x000e2262       0x10 include_lib/liba/AC521x/libc.a(lib_a-strcpy.o)
+                0x000e2262                strcpy
+ .text          0x000e2272       0x2c include_lib/liba/AC521x/libc.a(lib_a-strlcpy.o)
+                0x000e2272                strlcpy
+ .text          0x000e229e        0xe include_lib/liba/AC521x/libc.a(lib_a-strlen.o)
+                0x000e229e                strlen
+ .text          0x000e22ac       0x4a include_lib/liba/AC521x/libc.a(lib_a-strncasecmp.o)
+                0x000e22ac                strncasecmp
+ .text          0x000e22f6       0x2a include_lib/liba/AC521x/libc.a(lib_a-strncat.o)
+                0x000e22f6                strncat
+ .text          0x000e2320       0x24 include_lib/liba/AC521x/libc.a(lib_a-strncmp.o)
+                0x000e2320                strncmp
+ .text          0x000e2344       0x2c include_lib/liba/AC521x/libc.a(lib_a-strncpy.o)
+                0x000e2344                strncpy
+ .text          0x000e2370       0x38 include_lib/liba/AC521x/libc.a(lib_a-strpbrk.o)
+                0x000e2370                strpbrk
+ .text          0x000e23a8       0x24 include_lib/liba/AC521x/libc.a(lib_a-strrchr.o)
+                0x000e23a8                strrchr
+ .text          0x000e23cc        0xa include_lib/liba/AC521x/libc.a(lib_a-strsep.o)
+                0x000e23cc                strsep
+ .text          0x000e23d6       0x26 include_lib/liba/AC521x/libc.a(lib_a-strspn.o)
+                0x000e23d6                strspn
+ .text          0x000e23fc       0x2e include_lib/liba/AC521x/libc.a(lib_a-strstr.o)
+                0x000e23fc                strstr
+ .text          0x000e242a       0x54 include_lib/liba/AC521x/libc.a(lib_a-strtok_r.o)
+                0x000e242a                __strtok_r
+                0x000e247a                strtok_r
+ .text          0x000e247e      0x11e include_lib/liba/AC521x/libc.a(lib_a-strtol.o)
+                0x000e247e                _strtol_r
+                0x000e2584                strtol
+ .text          0x000e259c       0x24 include_lib/liba/AC521x/libc.a(lib_a-isprint.o)
+                0x000e259c                isgraph
+                0x000e25ae                isprint
+ .text          0x000e25c0       0x12 include_lib/liba/AC521x/libc.a(lib_a-isspace.o)
+                0x000e25c0                isspace
+ .text          0x000e25d2      0x2d8 include_lib/liba/AC521x/libc.a(lib_a-qsort.o)
+                0x000e25d2                qsort
+ .text          0x000e28aa        0x0 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
+ .text          0x000e28aa        0x0 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
+ .text          0x000e28aa       0x42 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-bsearch.o)
+                0x000e28aa                bsearch
+ .text          0x000e28ec       0x1e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-tolower.o)
+                0x000e28ec                tolower
+ .text          0x000e290a      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
+                0x000e290a                __adddf3
+ .text          0x000e2bc4      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
+                0x000e2bc4                __addsf3
+ .text          0x000e2d2a      0x176 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
+                0x000e2d2a                __ledf2
+                0x000e2dc0                __gedf2
+                0x000e2e58                __unorddf2
+                0x000e2e98                __eqdf2
+                0x000e2e9a                __ltdf2
+                0x000e2e9c                __nedf2
+                0x000e2e9e                __gtdf2
+ .text          0x000e2ea0       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
+                0x000e2ea0                __lesf2
+                0x000e2ee0                __gesf2
+                0x000e2f20                __unordsf2
+                0x000e2f3c                __eqsf2
+                0x000e2f3e                __ltsf2
+                0x000e2f40                __nesf2
+                0x000e2f42                __gtsf2
+ .text          0x000e2f44      0x2c6 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
+                0x000e2f44                __divdf3
+ .text          0x000e320a      0x148 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divsf3.o)
+                0x000e320a                __divsf3
+ .text          0x000e3352       0x64 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(extendsfdf2.o)
+                0x000e3352                __extendsfdf2
+ .text          0x000e33b6       0x30 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfdi.o)
+                0x000e33b6                __fixdfdi
+ .text          0x000e33e6       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
+                0x000e33e6                __fixdfsi
+ .text          0x000e3428       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfdi.o)
+                0x000e3428                __fixunsdfdi
+ .text          0x000e3478       0x34 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfsi.o)
+                0x000e3478                __fixunsdfsi
+ .text          0x000e34ac       0x36 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunssfsi.o)
+                0x000e34ac                __fixunssfsi
+ .text          0x000e34e2       0x32 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatdidf.o)
+                0x000e34e2                __floatdidf
+ .text          0x000e3514       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
+                0x000e3514                __floatsidf
+ .text          0x000e3550       0x28 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatundidf.o)
+                0x000e3550                __floatundidf
+ .text          0x000e3578       0x2c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsidf.o)
+                0x000e3578                __floatunsidf
+ .text          0x000e35a4       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
+                0x000e35a4                __floatunsisf
+ .text          0x000e35f4       0x46 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(moddi3.o)
+                0x000e35f4                __moddi3
+ .text          0x000e363a      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
+                0x000e363a                __muldf3
+ .text          0x000e389c      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
+                0x000e389c                __mulsf3
+ .text          0x000e39cc        0x8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
+                0x000e39cc                __subdf3
+ .text          0x000e39d4       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
+                0x000e39d4                __truncdfsf2
+ .text          0x000e3aac       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
+                0x000e3aac                __udivdi3
+ .text          0x000e3abc      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
+                0x000e3abc                __udivmoddi4
+ .text          0x000e3cf2       0x14 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(umoddi3.o)
+                0x000e3cf2                __umoddi3
  *(.rodata*)
  .rodata.str1.1
-                0x000fac6c     0x4678 cpu\AC521x\tools\main.or32.o
-                               0x4789 (size before relaxing)
- *fill*         0x000ff2e4        0xc 
- .rodata        0x000ff2f0    0x594c0 cpu\AC521x\tools\main.or32.o
+                0x000e3d06     0x42c5 cpu\AC521x\tools\main.or32.o
+                               0x43dc (size before relaxing)
+ *fill*         0x000e7fcb        0x5 
+ .rodata        0x000e7fd0    0x544d0 cpu\AC521x\tools\main.or32.o
  .rodata.str1.16
-                0x001587b0     0x1280 cpu\AC521x\tools\main.or32.o
-                               0x1272 (size before relaxing)
- .rodata.cst4   0x00159a30        0x4 cpu\AC521x\tools\main.or32.o
- *fill*         0x00159a34        0xc 
- .rodata.cst32  0x00159a40       0xa0 cpu\AC521x\tools\main.or32.o
- .rodata.cst16  0x00159ae0       0x80 cpu\AC521x\tools\main.or32.o
- .rodata.cst8   0x00159b60        0x8 cpu\AC521x\tools\main.or32.o
- .rodata        0x00159b68      0x281 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
-                0x00159ce8                _ctype_
- *fill*         0x00159de9        0x3 
- .rodata        0x00159dec        0x4 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
-                0x00159dec                _global_impure_ptr
+                0x0013c4a0     0x1320 cpu\AC521x\tools\main.or32.o
+                               0x1312 (size before relaxing)
+ .rodata.cst4   0x0013d7c0        0x4 cpu\AC521x\tools\main.or32.o
+ *fill*         0x0013d7c4        0xc 
+ .rodata.cst32  0x0013d7d0       0xa0 cpu\AC521x\tools\main.or32.o
+ .rodata.cst16  0x0013d870       0x80 cpu\AC521x\tools\main.or32.o
+ .rodata.cst8   0x0013d8f0        0x8 cpu\AC521x\tools\main.or32.o
+ .rodata        0x0013d8f8      0x281 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
+                0x0013da78                _ctype_
+ *fill*         0x0013db79        0x3 
+ .rodata        0x0013db7c        0x4 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
+                0x0013db7c                _global_impure_ptr
  .rodata.str1.1
-                0x00159df0        0x0 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
+                0x0013db80        0x0 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
                                   0x2 (size before relaxing)
- .rodata.str1.1
-                0x00159df0        0x4 include_lib/liba/AC521x/libm.a(lib_a-w_pow.o)
- .rodata.str1.1
-                0x00159df4        0x4 include_lib/liba/AC521x/libm.a(lib_a-e_pow.o)
-                                  0x1 (size before relaxing)
- .rodata.cst16  0x00159df4       0x30 include_lib/liba/AC521x/libm.a(lib_a-e_pow.o)
- .rodata.cst16  0x00159e24       0x10 include_lib/liba/AC521x/libm.a(lib_a-s_rint.o)
-                0x00159e34                _text_rodata_end = .
-                0x00159e34                PROVIDE (text_rodata_end, .)
-                0x00159e34                . = ALIGN (0x4)
+                0x0013db80                _text_rodata_end = .
+                0x0013db80                PROVIDE (text_rodata_end, .)
+                0x0013db80                . = ALIGN (0x4)
                 0x01000000                . = ORIGIN (sdram)
 
 .data           0x01000000    0x1e4c0
  *(.speex_enc_lib.text)
  .speex_enc_lib.text
-                0x01000000     0x5608 cpu\AC521x\tools\main.or32.o
+                0x01000000     0x55ee cpu\AC521x\tools\main.or32.o
  *(.amr_enc_lib.text)
  .amr_enc_lib.text
-                0x01005608     0x3cb6 cpu\AC521x\tools\main.or32.o
+                0x010055ee     0x3d0e cpu\AC521x\tools\main.or32.o
  *(.amr_dec_lib.text)
  .amr_dec_lib.text
-                0x010092be     0x40be cpu\AC521x\tools\main.or32.o
+                0x010092fc     0x400c cpu\AC521x\tools\main.or32.o
  *(.mp3_dec_lib.text)
  .mp3_dec_lib.text
-                0x0100d37c     0x343a cpu\AC521x\tools\main.or32.o
+                0x0100d308     0x3448 cpu\AC521x\tools\main.or32.o
  *(.wma_dec_lib.text)
  .wma_dec_lib.text
-                0x010107b6     0x31f0 cpu\AC521x\tools\main.or32.o
+                0x01010750     0x316c cpu\AC521x\tools\main.or32.o
  *(.m4a_dec_lib.text)
  .m4a_dec_lib.text
-                0x010139a6     0x4c9e cpu\AC521x\tools\main.or32.o
-                0x01018644                . = ALIGN (0x4)
+                0x010138bc     0x4cda cpu\AC521x\tools\main.or32.o
+                0x01018598                . = ALIGN (0x4)
+ *fill*         0x01018596        0x2 
  *(.data)
- *fill*         0x01018644        0xc 
- .data          0x01018650     0x5454 cpu\AC521x\tools\main.or32.o
- .data          0x0101daa4        0x4 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
-                0x0101daa4                __ctype_ptr__
- .data          0x0101daa8      0x428 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
-                0x0101daa8                _impure_ptr
- .data          0x0101ded0        0x4 include_lib/liba/AC521x/libm.a(lib_a-s_lib_ver.o)
-                0x0101ded0                __fdlib_version
+ *fill*         0x01018598        0x8 
+ .data          0x010185a0     0x550c cpu\AC521x\tools\main.or32.o
+ .data          0x0101daac        0x4 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
+                0x0101daac                __ctype_ptr__
+ .data          0x0101dab0      0x428 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
+                0x0101dab0                _impure_ptr
                 0x0101dee0                . = ALIGN (0x20)
- *fill*         0x0101ded4        0xc 
+ *fill*         0x0101ded8        0x8 
                 0x0101dee0                . = ALIGN (0x4)
                 0x0101dee0                vfs_ops_begin = .
  *(.vfs_operations)
@@ -2755,9 +2416,9 @@ END GROUP
                 0x0101e0a4                __version_cpu
                 0x0101e0a8                __version_audio
                 0x0101e0ac                __version_sys
-                0x0101e0b0                __version_duer_sdk
-                0x0101e0b4                __version_wechat_sdk
-                0x0101e0b8                __version_wechat_server
+                0x0101e0b0                __version_turing_sdk
+                0x0101e0b4                __version_turing_wechat_sdk
+                0x0101e0b8                __version_turing_wechat_server
                 0x0101e0bc                __version_sdfile
                 0x0101e0c0                __version_devfs
                 0x0101e0c4                __version_fatfs
@@ -3025,7 +2686,7 @@ END GROUP
                 0x0101e480                PROVIDE (ai_sdk_api_begin, .)
  *(.ai_sdk)
  .ai_sdk        0x0101e480       0x28 cpu\AC521x\tools\main.or32.o
-                0x0101e480                duer_sdk_api
+                0x0101e480                turing_sdk_api
                 0x0101e494                wechat_sdk_api
                 0x0101e4a8                _ai_sdk_api_end = .
                 0x0101e4a8                PROVIDE (ai_sdk_api_end, .)
@@ -3053,7 +2714,7 @@ END GROUP
  .pwm_dev       0x0101e4c0       0x20 cpu\AC521x\tools\main.or32.o
                 0x0101e4c0                pwm
 
-.bss            0x0101e4e0    0x719a0
+.bss            0x0101e4e0    0x72ae0
  *(.stack)
  .stack         0x0101e4e0     0x4800 include_lib/liba/AC521x/cpu.a(startup.o)
                 0x0101e8e0                _stack_cpu0
@@ -3061,7 +2722,7 @@ END GROUP
                 0x01022ce0                _stack1_cpu1
                 0x01022ce0                _system_data_begin = .
  *(.bss)
- .bss           0x01022ce0    0x116dc cpu\AC521x\tools\main.or32.o
+ .bss           0x01022ce0    0x1281c cpu\AC521x\tools\main.or32.o
                 0x01022ce8                CurrentTCB
                 0x01022cec                highCurrentTCB
  *(COMMON)
@@ -3069,55 +2730,57 @@ END GROUP
  *(.mem_heap)
  *(.memp_memory_x)
  .memp_memory_x
-                0x010343bc    0x5babf cpu\AC521x\tools\main.or32.o
-                0x0108fe80                . = (((. + 0x1f) / 0x20) * 0x20)
- *fill*         0x0108fe7b        0x5 
-                0x0108fe80                _lcd_dev_buf_addr = .
+                0x010354fc    0x5babf cpu\AC521x\tools\main.or32.o
+                0x01090fc0                . = (((. + 0x1f) / 0x20) * 0x20)
+ *fill*         0x01090fbb        0x5 
+                0x01090fc0                _lcd_dev_buf_addr = .
                 [!provide]                PROVIDE (lcd_dev_buf_addr, .)
  *(.lcd_dev_buf)
-                0x0108fe80                _system_data_end = .
-                0x0108fe80                _HEAP_BEGIN = (((. + 0x1f) / 0x20) * 0x20)
-                0x0108fe80                PROVIDE (HEAP_BEGIN, (((. + 0x1f) / 0x20) * 0x20))
+                0x01090fc0                _system_data_end = .
+                0x01090fc0                _HEAP_BEGIN = (((. + 0x1f) / 0x20) * 0x20)
+                0x01090fc0                PROVIDE (HEAP_BEGIN, (((. + 0x1f) / 0x20) * 0x20))
                 0x011fffe0                _HEAP_END = ((0x1000000 + SDRAM_SIZE) - 0x20)
                 0x011fffe0                PROVIDE (HEAP_END, ((0x1000000 + SDRAM_SIZE) - 0x20))
-                0x00170160                _MALLOC_SIZE = (_HEAP_END - _HEAP_BEGIN)
-                0x00170160                PROVIDE (MALLOC_SIZE, (_HEAP_END - _HEAP_BEGIN))
+                0x0016f020                _MALLOC_SIZE = (_HEAP_END - _HEAP_BEGIN)
+                0x0016f020                PROVIDE (MALLOC_SIZE, (_HEAP_END - _HEAP_BEGIN))
                 0x00f00000                . = ORIGIN (ram0)
 
-.ram0_data      0x00f00000      0x764
+.ram0_data      0x00f00000      0x758
                 0x00f00000                _VM_CODE_START = .
  *(.vm)
- .vm            0x00f00000      0x742 cpu\AC521x\tools\main.or32.o
-                0x00f00742                _VM_CODE_END = .
+ .vm            0x00f00000      0x734 cpu\AC521x\tools\main.or32.o
+                0x00f00734                _VM_CODE_END = .
  *(.flushinv_icache)
  .flushinv_icache
-                0x00f00742       0x22 cpu\AC521x\tools\main.or32.o
+                0x00f00734       0x22 cpu\AC521x\tools\main.or32.o
+                0x00f00758                . = ALIGN (0x4)
+ *fill*         0x00f00756        0x2 
 
-.ram0_bss       0x00f00764      0x29c
+.ram0_bss       0x00f00758      0x288
  *(.sd_var)
- *fill*         0x00f00764       0x1c 
- .sd_var        0x00f00780       0x80 cpu\AC521x\tools\main.or32.o
-                0x00f00780                sd1_cmd_detect
-                0x00f007a0                sd1_host_var
+ *fill*         0x00f00758        0x8 
+ .sd_var        0x00f00760       0x80 cpu\AC521x\tools\main.or32.o
+                0x00f00760                sd1_cmd_detect
+                0x00f00780                sd1_host_var
  *(.sram)
- .sram          0x00f00800      0x200 cpu\AC521x\tools\main.or32.o
+ .sram          0x00f007e0      0x200 cpu\AC521x\tools\main.or32.o
  *(.usb0_fifo)
                 0x00000000                text_begin = ADDR (.rom_code)
-                0x00159e34                text_size = SIZEOF (.rom_code)
+                0x0013db80                text_size = SIZEOF (.rom_code)
                 0x0101e4e0                bss_begin = ADDR (.bss)
-                0x000719a0                bss_size = SIZEOF (.bss)
-                0x0006d1a0                bss_size1 = (_system_data_end - _system_data_begin)
+                0x00072ae0                bss_size = SIZEOF (.bss)
+                0x0006e2e0                bss_size1 = (_system_data_end - _system_data_begin)
                 0x01022ce0                bss_begin1 = _system_data_begin
                 0x01000000                data_begin = LOADADDR (.data)
                 0x01000000                data_addr = ADDR (.data)
                 0x0001e4c0                data_size = SIZEOF (.data)
                 0x01000000                data_vma = ADDR (.data)
-                0x00159e34                data_lma = (text_begin + SIZEOF (.rom_code))
-                0x00f00764                _ram0_bss_vma = ADDR (.ram0_bss)
-                0x0000029c                _ram0_bss_size = SIZEOF (.ram0_bss)
+                0x0013db80                data_lma = (text_begin + SIZEOF (.rom_code))
+                0x00f00758                _ram0_bss_vma = ADDR (.ram0_bss)
+                0x00000288                _ram0_bss_size = SIZEOF (.ram0_bss)
                 0x00f00000                _ram0_data_vma = ADDR (.ram0_data)
-                0x001782f4                _ram0_data_lma = ((text_begin + SIZEOF (.rom_code)) + SIZEOF (.data))
-                0x00000764                _ram0_data_size = SIZEOF (.ram0_data)
+                0x0015c040                _ram0_data_lma = ((text_begin + SIZEOF (.rom_code)) + SIZEOF (.data))
+                0x00000758                _ram0_data_size = SIZEOF (.ram0_data)
 LOAD C:\JL\pi32\pi32v2-lib\libc.a
 LOAD C:\JL\pi32\pi32v2-lib\libcompiler-rt.a
 OUTPUT(cpu\AC521x\tools\main.or32 elf32-pi32v2)
