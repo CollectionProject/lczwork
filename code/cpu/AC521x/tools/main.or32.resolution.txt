@@ -337,6 +337,7 @@ obj\Debug\cpu\AC521x\adkey.o
 -r=obj\Debug\cpu\AC521x\adkey.o,gpio_set_pull_up,l
 -r=obj\Debug\cpu\AC521x\adkey.o,gpio_set_pull_down,l
 -r=obj\Debug\cpu\AC521x\adkey.o,gpio_set_die,l
+-r=obj\Debug\cpu\AC521x\adkey.o,printf,l
 obj\Debug\cpu\AC521x\board\board_5213B_wifi_story.o
 obj\Debug\cpu\AC521x\board\board_GR202_2M.o
 -r=obj\Debug\cpu\AC521x\board\board_GR202_2M.o,key_event_remap,pl

@@ -2075,7 +2075,7 @@ END GROUP
                 0x00000034                __cpu_id__ = 0x34
                 0x00000000                . = ORIGIN (rom)
 
-.rom_code       0x00000000   0x13db80
+.rom_code       0x00000000   0x13dba0
                 0x00000000                _text_rodata_begin = .
                 0x00000000                PROVIDE (text_rodata_begin, .)
  *startup.o(.text)
@@ -2087,167 +2087,167 @@ END GROUP
  *boot_main.o(.text*)
  *boot_main.o(.rodata*)
  *(.text*)
- .text          0x000000a8    0xe1ea2 cpu\AC521x\tools\main.or32.o
-                0x00023822                cpu1_main
-                0x00023986                OS_ClrPending
-                0x0003033c                main
- .text          0x000e1f4a       0x54 include_lib/liba/AC521x/rtos.a(port_asm.o)
-                0x000e1f4a                vSoftwareInterruptISR
- .text          0x000e1f9e       0x10 include_lib/liba/AC521x/libc.a(lib_a-atoi.o)
-                0x000e1f9e                atoi
-                0x000e1fa6                _atoi_r
- .text          0x000e1fae       0x1a include_lib/liba/AC521x/libc.a(lib_a-isblank.o)
-                0x000e1fae                isblank
- .text          0x000e1fc8       0x1a include_lib/liba/AC521x/libc.a(lib_a-memchr.o)
-                0x000e1fc8                memchr
- .text          0x000e1fe2       0x3c include_lib/liba/AC521x/libc.a(lib_a-memcmp.o)
-                0x000e1fe2                memcmp
- .text          0x000e201e       0x86 include_lib/liba/AC521x/libc.a(lib_a-memcpy.o)
-                0x000e201e                memcpy
- .text          0x000e20a4       0x28 include_lib/liba/AC521x/libc.a(lib_a-memmem.o)
-                0x000e20a4                memmem
- .text          0x000e20cc       0x2c include_lib/liba/AC521x/libc.a(lib_a-memmove.o)
-                0x000e20cc                memmove
- .text          0x000e20f8       0xe2 include_lib/liba/AC521x/libc.a(lib_a-memset.o)
-                0x000e20f8                memset
- .text          0x000e21da       0x42 include_lib/liba/AC521x/libc.a(lib_a-strcasecmp.o)
-                0x000e21da                strcasecmp
- .text          0x000e221c       0x1a include_lib/liba/AC521x/libc.a(lib_a-strcat.o)
-                0x000e221c                strcat
- .text          0x000e2236       0x16 include_lib/liba/AC521x/libc.a(lib_a-strchr.o)
-                0x000e2236                strchr
- .text          0x000e224c       0x16 include_lib/liba/AC521x/libc.a(lib_a-strcmp.o)
-                0x000e224c                strcmp
- .text          0x000e2262       0x10 include_lib/liba/AC521x/libc.a(lib_a-strcpy.o)
-                0x000e2262                strcpy
- .text          0x000e2272       0x2c include_lib/liba/AC521x/libc.a(lib_a-strlcpy.o)
-                0x000e2272                strlcpy
- .text          0x000e229e        0xe include_lib/liba/AC521x/libc.a(lib_a-strlen.o)
-                0x000e229e                strlen
- .text          0x000e22ac       0x4a include_lib/liba/AC521x/libc.a(lib_a-strncasecmp.o)
-                0x000e22ac                strncasecmp
- .text          0x000e22f6       0x2a include_lib/liba/AC521x/libc.a(lib_a-strncat.o)
-                0x000e22f6                strncat
- .text          0x000e2320       0x24 include_lib/liba/AC521x/libc.a(lib_a-strncmp.o)
-                0x000e2320                strncmp
- .text          0x000e2344       0x2c include_lib/liba/AC521x/libc.a(lib_a-strncpy.o)
-                0x000e2344                strncpy
- .text          0x000e2370       0x38 include_lib/liba/AC521x/libc.a(lib_a-strpbrk.o)
-                0x000e2370                strpbrk
- .text          0x000e23a8       0x24 include_lib/liba/AC521x/libc.a(lib_a-strrchr.o)
-                0x000e23a8                strrchr
- .text          0x000e23cc        0xa include_lib/liba/AC521x/libc.a(lib_a-strsep.o)
-                0x000e23cc                strsep
- .text          0x000e23d6       0x26 include_lib/liba/AC521x/libc.a(lib_a-strspn.o)
-                0x000e23d6                strspn
- .text          0x000e23fc       0x2e include_lib/liba/AC521x/libc.a(lib_a-strstr.o)
-                0x000e23fc                strstr
- .text          0x000e242a       0x54 include_lib/liba/AC521x/libc.a(lib_a-strtok_r.o)
-                0x000e242a                __strtok_r
-                0x000e247a                strtok_r
- .text          0x000e247e      0x11e include_lib/liba/AC521x/libc.a(lib_a-strtol.o)
-                0x000e247e                _strtol_r
-                0x000e2584                strtol
- .text          0x000e259c       0x24 include_lib/liba/AC521x/libc.a(lib_a-isprint.o)
-                0x000e259c                isgraph
-                0x000e25ae                isprint
- .text          0x000e25c0       0x12 include_lib/liba/AC521x/libc.a(lib_a-isspace.o)
-                0x000e25c0                isspace
- .text          0x000e25d2      0x2d8 include_lib/liba/AC521x/libc.a(lib_a-qsort.o)
-                0x000e25d2                qsort
- .text          0x000e28aa        0x0 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
- .text          0x000e28aa        0x0 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
- .text          0x000e28aa       0x42 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-bsearch.o)
-                0x000e28aa                bsearch
- .text          0x000e28ec       0x1e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-tolower.o)
-                0x000e28ec                tolower
- .text          0x000e290a      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
-                0x000e290a                __adddf3
- .text          0x000e2bc4      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
-                0x000e2bc4                __addsf3
- .text          0x000e2d2a      0x176 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
-                0x000e2d2a                __ledf2
-                0x000e2dc0                __gedf2
-                0x000e2e58                __unorddf2
-                0x000e2e98                __eqdf2
-                0x000e2e9a                __ltdf2
-                0x000e2e9c                __nedf2
-                0x000e2e9e                __gtdf2
- .text          0x000e2ea0       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
-                0x000e2ea0                __lesf2
-                0x000e2ee0                __gesf2
-                0x000e2f20                __unordsf2
-                0x000e2f3c                __eqsf2
-                0x000e2f3e                __ltsf2
-                0x000e2f40                __nesf2
-                0x000e2f42                __gtsf2
- .text          0x000e2f44      0x2c6 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
-                0x000e2f44                __divdf3
- .text          0x000e320a      0x148 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divsf3.o)
-                0x000e320a                __divsf3
- .text          0x000e3352       0x64 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(extendsfdf2.o)
-                0x000e3352                __extendsfdf2
- .text          0x000e33b6       0x30 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfdi.o)
-                0x000e33b6                __fixdfdi
- .text          0x000e33e6       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
-                0x000e33e6                __fixdfsi
- .text          0x000e3428       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfdi.o)
-                0x000e3428                __fixunsdfdi
- .text          0x000e3478       0x34 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfsi.o)
-                0x000e3478                __fixunsdfsi
- .text          0x000e34ac       0x36 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunssfsi.o)
-                0x000e34ac                __fixunssfsi
- .text          0x000e34e2       0x32 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatdidf.o)
-                0x000e34e2                __floatdidf
- .text          0x000e3514       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
-                0x000e3514                __floatsidf
- .text          0x000e3550       0x28 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatundidf.o)
-                0x000e3550                __floatundidf
- .text          0x000e3578       0x2c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsidf.o)
-                0x000e3578                __floatunsidf
- .text          0x000e35a4       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
-                0x000e35a4                __floatunsisf
- .text          0x000e35f4       0x46 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(moddi3.o)
-                0x000e35f4                __moddi3
- .text          0x000e363a      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
-                0x000e363a                __muldf3
- .text          0x000e389c      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
-                0x000e389c                __mulsf3
- .text          0x000e39cc        0x8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
-                0x000e39cc                __subdf3
- .text          0x000e39d4       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
-                0x000e39d4                __truncdfsf2
- .text          0x000e3aac       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
-                0x000e3aac                __udivdi3
- .text          0x000e3abc      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
-                0x000e3abc                __udivmoddi4
- .text          0x000e3cf2       0x14 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(umoddi3.o)
-                0x000e3cf2                __umoddi3
+ .text          0x000000a8    0xe1ea0 cpu\AC521x\tools\main.or32.o
+                0x0002383c                cpu1_main
+                0x000239a0                OS_ClrPending
+                0x00030354                main
+ .text          0x000e1f48       0x54 include_lib/liba/AC521x/rtos.a(port_asm.o)
+                0x000e1f48                vSoftwareInterruptISR
+ .text          0x000e1f9c       0x10 include_lib/liba/AC521x/libc.a(lib_a-atoi.o)
+                0x000e1f9c                atoi
+                0x000e1fa4                _atoi_r
+ .text          0x000e1fac       0x1a include_lib/liba/AC521x/libc.a(lib_a-isblank.o)
+                0x000e1fac                isblank
+ .text          0x000e1fc6       0x1a include_lib/liba/AC521x/libc.a(lib_a-memchr.o)
+                0x000e1fc6                memchr
+ .text          0x000e1fe0       0x3c include_lib/liba/AC521x/libc.a(lib_a-memcmp.o)
+                0x000e1fe0                memcmp
+ .text          0x000e201c       0x86 include_lib/liba/AC521x/libc.a(lib_a-memcpy.o)
+                0x000e201c                memcpy
+ .text          0x000e20a2       0x28 include_lib/liba/AC521x/libc.a(lib_a-memmem.o)
+                0x000e20a2                memmem
+ .text          0x000e20ca       0x2c include_lib/liba/AC521x/libc.a(lib_a-memmove.o)
+                0x000e20ca                memmove
+ .text          0x000e20f6       0xe2 include_lib/liba/AC521x/libc.a(lib_a-memset.o)
+                0x000e20f6                memset
+ .text          0x000e21d8       0x42 include_lib/liba/AC521x/libc.a(lib_a-strcasecmp.o)
+                0x000e21d8                strcasecmp
+ .text          0x000e221a       0x1a include_lib/liba/AC521x/libc.a(lib_a-strcat.o)
+                0x000e221a                strcat
+ .text          0x000e2234       0x16 include_lib/liba/AC521x/libc.a(lib_a-strchr.o)
+                0x000e2234                strchr
+ .text          0x000e224a       0x16 include_lib/liba/AC521x/libc.a(lib_a-strcmp.o)
+                0x000e224a                strcmp
+ .text          0x000e2260       0x10 include_lib/liba/AC521x/libc.a(lib_a-strcpy.o)
+                0x000e2260                strcpy
+ .text          0x000e2270       0x2c include_lib/liba/AC521x/libc.a(lib_a-strlcpy.o)
+                0x000e2270                strlcpy
+ .text          0x000e229c        0xe include_lib/liba/AC521x/libc.a(lib_a-strlen.o)
+                0x000e229c                strlen
+ .text          0x000e22aa       0x4a include_lib/liba/AC521x/libc.a(lib_a-strncasecmp.o)
+                0x000e22aa                strncasecmp
+ .text          0x000e22f4       0x2a include_lib/liba/AC521x/libc.a(lib_a-strncat.o)
+                0x000e22f4                strncat
+ .text          0x000e231e       0x24 include_lib/liba/AC521x/libc.a(lib_a-strncmp.o)
+                0x000e231e                strncmp
+ .text          0x000e2342       0x2c include_lib/liba/AC521x/libc.a(lib_a-strncpy.o)
+                0x000e2342                strncpy
+ .text          0x000e236e       0x38 include_lib/liba/AC521x/libc.a(lib_a-strpbrk.o)
+                0x000e236e                strpbrk
+ .text          0x000e23a6       0x24 include_lib/liba/AC521x/libc.a(lib_a-strrchr.o)
+                0x000e23a6                strrchr
+ .text          0x000e23ca        0xa include_lib/liba/AC521x/libc.a(lib_a-strsep.o)
+                0x000e23ca                strsep
+ .text          0x000e23d4       0x26 include_lib/liba/AC521x/libc.a(lib_a-strspn.o)
+                0x000e23d4                strspn
+ .text          0x000e23fa       0x2e include_lib/liba/AC521x/libc.a(lib_a-strstr.o)
+                0x000e23fa                strstr
+ .text          0x000e2428       0x54 include_lib/liba/AC521x/libc.a(lib_a-strtok_r.o)
+                0x000e2428                __strtok_r
+                0x000e2478                strtok_r
+ .text          0x000e247c      0x11e include_lib/liba/AC521x/libc.a(lib_a-strtol.o)
+                0x000e247c                _strtol_r
+                0x000e2582                strtol
+ .text          0x000e259a       0x24 include_lib/liba/AC521x/libc.a(lib_a-isprint.o)
+                0x000e259a                isgraph
+                0x000e25ac                isprint
+ .text          0x000e25be       0x12 include_lib/liba/AC521x/libc.a(lib_a-isspace.o)
+                0x000e25be                isspace
+ .text          0x000e25d0      0x2d8 include_lib/liba/AC521x/libc.a(lib_a-qsort.o)
+                0x000e25d0                qsort
+ .text          0x000e28a8        0x0 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
+ .text          0x000e28a8        0x0 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
+ .text          0x000e28a8       0x42 C:\JL\pi32\pi32v2-lib\libc.a(lib_a-bsearch.o)
+                0x000e28a8                bsearch
+ .text          0x000e28ea       0x1e C:\JL\pi32\pi32v2-lib\libc.a(lib_a-tolower.o)
+                0x000e28ea                tolower
+ .text          0x000e2908      0x2ba C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(adddf3.o)
+                0x000e2908                __adddf3
+ .text          0x000e2bc2      0x166 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(addsf3.o)
+                0x000e2bc2                __addsf3
+ .text          0x000e2d28      0x176 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparedf2.o)
+                0x000e2d28                __ledf2
+                0x000e2dbe                __gedf2
+                0x000e2e56                __unorddf2
+                0x000e2e96                __eqdf2
+                0x000e2e98                __ltdf2
+                0x000e2e9a                __nedf2
+                0x000e2e9c                __gtdf2
+ .text          0x000e2e9e       0xa4 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(comparesf2.o)
+                0x000e2e9e                __lesf2
+                0x000e2ede                __gesf2
+                0x000e2f1e                __unordsf2
+                0x000e2f3a                __eqsf2
+                0x000e2f3c                __ltsf2
+                0x000e2f3e                __nesf2
+                0x000e2f40                __gtsf2
+ .text          0x000e2f42      0x2c6 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divdf3.o)
+                0x000e2f42                __divdf3
+ .text          0x000e3208      0x148 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(divsf3.o)
+                0x000e3208                __divsf3
+ .text          0x000e3350       0x64 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(extendsfdf2.o)
+                0x000e3350                __extendsfdf2
+ .text          0x000e33b4       0x30 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfdi.o)
+                0x000e33b4                __fixdfdi
+ .text          0x000e33e4       0x42 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixdfsi.o)
+                0x000e33e4                __fixdfsi
+ .text          0x000e3426       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfdi.o)
+                0x000e3426                __fixunsdfdi
+ .text          0x000e3476       0x34 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunsdfsi.o)
+                0x000e3476                __fixunsdfsi
+ .text          0x000e34aa       0x36 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(fixunssfsi.o)
+                0x000e34aa                __fixunssfsi
+ .text          0x000e34e0       0x32 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatdidf.o)
+                0x000e34e0                __floatdidf
+ .text          0x000e3512       0x3c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatsidf.o)
+                0x000e3512                __floatsidf
+ .text          0x000e354e       0x28 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatundidf.o)
+                0x000e354e                __floatundidf
+ .text          0x000e3576       0x2c C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsidf.o)
+                0x000e3576                __floatunsidf
+ .text          0x000e35a2       0x50 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(floatunsisf.o)
+                0x000e35a2                __floatunsisf
+ .text          0x000e35f2       0x46 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(moddi3.o)
+                0x000e35f2                __moddi3
+ .text          0x000e3638      0x262 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(muldf3.o)
+                0x000e3638                __muldf3
+ .text          0x000e389a      0x130 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(mulsf3.o)
+                0x000e389a                __mulsf3
+ .text          0x000e39ca        0x8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(subdf3.o)
+                0x000e39ca                __subdf3
+ .text          0x000e39d2       0xd8 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(truncdfsf2.o)
+                0x000e39d2                __truncdfsf2
+ .text          0x000e3aaa       0x10 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivdi3.o)
+                0x000e3aaa                __udivdi3
+ .text          0x000e3aba      0x236 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(udivmoddi4.o)
+                0x000e3aba                __udivmoddi4
+ .text          0x000e3cf0       0x14 C:\JL\pi32\pi32v2-lib\libcompiler-rt.a(umoddi3.o)
+                0x000e3cf0                __umoddi3
  *(.rodata*)
  .rodata.str1.1
-                0x000e3d06     0x42c5 cpu\AC521x\tools\main.or32.o
-                               0x43dc (size before relaxing)
- *fill*         0x000e7fcb        0x5 
- .rodata        0x000e7fd0    0x544d0 cpu\AC521x\tools\main.or32.o
+                0x000e3d04     0x42d8 cpu\AC521x\tools\main.or32.o
+                               0x43ef (size before relaxing)
+ *fill*         0x000e7fdc        0x4 
+ .rodata        0x000e7fe0    0x544e0 cpu\AC521x\tools\main.or32.o
  .rodata.str1.16
-                0x0013c4a0     0x1320 cpu\AC521x\tools\main.or32.o
+                0x0013c4c0     0x1320 cpu\AC521x\tools\main.or32.o
                                0x1312 (size before relaxing)
- .rodata.cst4   0x0013d7c0        0x4 cpu\AC521x\tools\main.or32.o
- *fill*         0x0013d7c4        0xc 
- .rodata.cst32  0x0013d7d0       0xa0 cpu\AC521x\tools\main.or32.o
- .rodata.cst16  0x0013d870       0x80 cpu\AC521x\tools\main.or32.o
- .rodata.cst8   0x0013d8f0        0x8 cpu\AC521x\tools\main.or32.o
- .rodata        0x0013d8f8      0x281 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
-                0x0013da78                _ctype_
- *fill*         0x0013db79        0x3 
- .rodata        0x0013db7c        0x4 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
-                0x0013db7c                _global_impure_ptr
+ .rodata.cst4   0x0013d7e0        0x4 cpu\AC521x\tools\main.or32.o
+ *fill*         0x0013d7e4        0xc 
+ .rodata.cst32  0x0013d7f0       0xa0 cpu\AC521x\tools\main.or32.o
+ .rodata.cst16  0x0013d890       0x80 cpu\AC521x\tools\main.or32.o
+ .rodata.cst8   0x0013d910        0x8 cpu\AC521x\tools\main.or32.o
+ .rodata        0x0013d918      0x281 include_lib/liba/AC521x/libc.a(lib_a-ctype_.o)
+                0x0013da98                _ctype_
+ *fill*         0x0013db99        0x3 
+ .rodata        0x0013db9c        0x4 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
+                0x0013db9c                _global_impure_ptr
  .rodata.str1.1
-                0x0013db80        0x0 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
+                0x0013dba0        0x0 include_lib/liba/AC521x/libc.a(lib_a-impure.o)
                                   0x2 (size before relaxing)
-                0x0013db80                _text_rodata_end = .
-                0x0013db80                PROVIDE (text_rodata_end, .)
-                0x0013db80                . = ALIGN (0x4)
+                0x0013dba0                _text_rodata_end = .
+                0x0013dba0                PROVIDE (text_rodata_end, .)
+                0x0013dba0                . = ALIGN (0x4)
                 0x01000000                . = ORIGIN (sdram)
 
 .data           0x01000000    0x1e4c0
@@ -2766,7 +2766,7 @@ END GROUP
  .sram          0x00f007e0      0x200 cpu\AC521x\tools\main.or32.o
  *(.usb0_fifo)
                 0x00000000                text_begin = ADDR (.rom_code)
-                0x0013db80                text_size = SIZEOF (.rom_code)
+                0x0013dba0                text_size = SIZEOF (.rom_code)
                 0x0101e4e0                bss_begin = ADDR (.bss)
                 0x00072ae0                bss_size = SIZEOF (.bss)
                 0x0006e2e0                bss_size1 = (_system_data_end - _system_data_begin)
@@ -2775,11 +2775,11 @@ END GROUP
                 0x01000000                data_addr = ADDR (.data)
                 0x0001e4c0                data_size = SIZEOF (.data)
                 0x01000000                data_vma = ADDR (.data)
-                0x0013db80                data_lma = (text_begin + SIZEOF (.rom_code))
+                0x0013dba0                data_lma = (text_begin + SIZEOF (.rom_code))
                 0x00f00758                _ram0_bss_vma = ADDR (.ram0_bss)
                 0x00000288                _ram0_bss_size = SIZEOF (.ram0_bss)
                 0x00f00000                _ram0_data_vma = ADDR (.ram0_data)
-                0x0015c040                _ram0_data_lma = ((text_begin + SIZEOF (.rom_code)) + SIZEOF (.data))
+                0x0015c060                _ram0_data_lma = ((text_begin + SIZEOF (.rom_code)) + SIZEOF (.data))
                 0x00000758                _ram0_data_size = SIZEOF (.ram0_data)
 LOAD C:\JL\pi32\pi32v2-lib\libc.a
 LOAD C:\JL\pi32\pi32v2-lib\libcompiler-rt.a

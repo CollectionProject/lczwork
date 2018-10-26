@@ -39,23 +39,22 @@ static int adkey_init(struct key_driver *key, void *arg)
     return 0;
 }
 
+
 static u16 adkey_get_value(struct key_driver *key)
 {
     int i;
     struct adkey_value_table *table = &__this->table;
 
-    /* printf("adkey: %x\n", adkey_scan.value); */
-
-    for (i = 0; i < ADKEY_MAX_NUM; i++) {
+     if(adkey_scan.value > table->ad_value[0])
+         return NO_KEY;
+     for (i = 1; i < ADKEY_MAX_NUM; i++) {
         if (adkey_scan.value >= table->ad_value[i]) {
-            return table->key_value[i];
+          break;
         }
-        if (table->ad_value[i] == 0) {
-            break;
-        }
-    }
+     }
+  //  printf("key_value[%d]: %x\n",i, table->key_value[i]);
+    return table->key_value[i];
 
-    return NO_KEY;
 }
 
 static const struct key_driver_ops adkey_driver_ops = {
