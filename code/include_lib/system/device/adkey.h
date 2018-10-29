@@ -8,7 +8,7 @@
 
 struct adkey_value_table {
     u16 ad_value[ADKEY_MAX_NUM];
-    u8  key_value[ADKEY_MAX_NUM+1];
+    u8  key_value[ADKEY_MAX_NUM];
 };
 
 struct adkey_platform_data {

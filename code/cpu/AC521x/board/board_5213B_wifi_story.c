@@ -317,31 +317,29 @@ USB_PLATFORM_DATA_END()
 
 
 #ifdef CONFIG_ADKEY_ENABLE
-#define ADKEY_UPLOAD_R  22
 /*-------------ADKEY GROUP 1----------------*/
 #define ADC0_33   (0x3FF)
-#define ADC0_08   (0x3ff * 220 /(ADKEY_UPLOAD_R +220))   //3A2
-#define ADC0_07   (0x3ff * 100 /(ADKEY_UPLOAD_R +100))
-#define ADC0_06   (0x3ff * 51 / (ADKEY_UPLOAD_R +51))
-#define ADC0_05   (0x3ff * 33 / (ADKEY_UPLOAD_R +33))
-#define ADC0_04   (0x3ff * 24 / (ADKEY_UPLOAD_R +24))
-#define ADC0_03   (0x3ff * 15 / (ADKEY_UPLOAD_R +25))
-#define ADC0_02   (0x3ff * 10 / (ADKEY_UPLOAD_R +10))
-#define ADC0_01   (0x3ff * 3 /  (ADKEY_UPLOAD_R +3))
+#define ADC0_08   (0x3ff * 220 / (220 + 22))
+#define ADC0_07   (0x3ff * 100 / (100 + 22))
+#define ADC0_06   (0x3ff * 51 / (51 + 22))
+#define ADC0_05   (0x3ff * 33 / (33 + 22))
+#define ADC0_04   (0x3ff * 24 / (24 + 22))
+#define ADC0_03   (0x3ff * 15 / (15 + 22))
+#define ADC0_02   (0x3ff * 10 / (10 + 22))
+#define ADC0_01   (0x3ff * 3 / (3 + 22))
 #define ADC0_00   (0)
 
-
-#define AD_NOKEY      	((ADC0_33 + ADC0_08)/2)
-#define ADKEY_V_1 		((ADC0_07 + ADC0_08)/2)
-#define ADKEY_V_2 		((ADC0_06 + ADC0_07)/2)
-#define ADKEY_V_3 		((ADC0_05 + ADC0_06)/2)
-#define ADKEY_V_4 		((ADC0_04 + ADC0_05)/2)
-#define ADKEY_V_5 		((ADC0_03 + ADC0_04)/2)//up 0.7
-#define ADKEY_V_6 		((ADC0_02 + ADC0_03)/2)//down 0.4
-#define ADKEY_V_7 		((ADC0_01 + ADC0_02)/2)//ok 0.2
-#define ADKEY_V_8 		((ADC0_00 + ADC0_01)/2)//menu/mode 0.1
-
-
+#define ADKEY_V_0      	((ADC0_33 + ADC0_33)/2)
+#define ADKEY_V_1 		((ADC0_33 + ADC0_33)/2)
+#define ADKEY_V_2 		((ADC0_07 + ADC0_08)/2)
+#define ADKEY_V_3 		((ADC0_06 + ADC0_07)/2)
+#define ADKEY_V_4 		((ADC0_05 + ADC0_06)/2)
+#define ADKEY_V_5 		((ADC0_04 + ADC0_05)/2)
+#define ADKEY_V_6 		((ADC0_03 + ADC0_04)/2)//up 0.7
+#define ADKEY_V_7 		((ADC0_02 + ADC0_03)/2)//down 0.4
+#define ADKEY_V_8 		((ADC0_01 + ADC0_02)/2)//ok 0.2
+#define ADKEY_V_9 		((ADC0_00 + ADC0_01)/2)//menu/mode 0.1
+#define ADKEY_V_10 		(ADC0_00)
 
 //五个按键：OK ,  MEN/MODE, POWER,  UP,  DOWN
 ADKEY_PLATFORM_DATA_BEGIN(adkey_data)
@@ -349,8 +347,7 @@ ADKEY_PLATFORM_DATA_BEGIN(adkey_data)
 	.ad_channel = 12,
 	.table 	= {
 		.ad_value = {
-			AD_NOKEY,//不能改
-
+			ADKEY_V_0,
 			ADKEY_V_1,
 			ADKEY_V_2,
 			ADKEY_V_3,
@@ -359,20 +356,22 @@ ADKEY_PLATFORM_DATA_BEGIN(adkey_data)
 			ADKEY_V_6,
 			ADKEY_V_7,
 			ADKEY_V_8,
+			ADKEY_V_9,
+			ADKEY_V_10,
 		},
 		.key_value = {
-			NO_KEY,   //不能改
+			NO_KEY,  /*0  不可改*/
 
 			NO_KEY,   /*1*/
-			KEY_F1,   /*2*/
-			KEY_MODE,   /*3*/
-			KEY_ENC,   /*4*/
-
-			KEY_UP,   /*5*/
-			KEY_DOWN,  /*6*/
-			NO_KEY,  /*7*/
-			NO_KEY,   /*8*/
-			KEY_OK,   /*9*/
+			NO_KEY,   /*2*/
+			KEY_F1,   /*3*/            ///微信互聊
+			KEY_MODE, /*4*/            ///配网
+			KEY_ENC,  /*5*/            ///语音识别
+			NO_KEY,   /*6*/
+			NO_KEY,   /*7*/
+			KEY_DOWN,  /*8*/            ///减音量      上一曲
+			KEY_OK,   /*9*/             ///暂停
+			KEY_UP,   /*10*/            ///加音量      下一曲
 		},
 	},
 ADKEY_PLATFORM_DATA_END()
